@@ -1,0 +1,124 @@
+.mus-list {
+	margin-bottom: 72px;
+}
+
+.mui-music {
+	border-bottom: 0 none;
+	border-top: 0 none;
+	bottom: 0;
+	display: table;
+	height: 64px;
+	padding: 0;
+	table-layout: fixed;
+	width: 100%;
+	position: fixed;
+	right: 0;
+	z-index: 10;
+	left: 0;
+	background: #353c46 none repeat scroll 0 0;
+}
+
+.mus-progess {
+	animation: rotate 30s infinite linear;
+	position: absolute;
+	left: 30px;
+}
+
+.mus-progess-end {
+	animation-play-state: paused;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg)
+	}
+	to {
+		transform: rotate(360deg)
+	}
+}
+
+.mus-start,
+.mus-pause {
+	display: block;
+	position: absolute;
+	top: 16px;
+	left: 48px;
+	width: 32px;
+	height: 32px;
+	background-size: 32px 32px;
+}
+
+.mus-prev,
+.mus-next {
+	display: block;
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	background-size: 22px 22px;
+	top: 22px;
+}
+
+.mus-start {
+	background-image: url(../img/start.png);
+}
+
+.mus-pause {
+	background-image: url(../img/pause.png);
+}
+
+.mus-prev {
+	left: 5px;
+	background-image: url(../img/prev.png);
+}
+
+.mus-next {
+	left: 96px;
+	background-image: url(../img/next.png);
+}
+
+.mus-single,
+.mus-loop {
+	display: block;
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	background-size: 22px 22px;
+	top: 22px;
+	right: 10px;
+}
+
+.mus-single {
+	background-image: url(../img/single.png);
+}
+
+.mus-loop {
+	background-image: url(../img/loop.png);
+}
+
+.mus-progressbar {
+	margin-top: 10px;
+}
+
+.mus-desc {
+	padding: 10px 0 0;
+	color: #fff;
+}
+
+.mus-title,
+.mus-author {
+	padding: 10px 0;
+}
+
+.mus-title {
+	font-size: 14px;
+}
+
+.mus-author {
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.mui-bar~.mui-content .mui-fullscreen {
+				top: 44px;
+				height: auto;
+			}

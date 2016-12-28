@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (2.4.0):
+    - CocoaLumberjack/Default (= 2.4.0)
+    - CocoaLumberjack/Extensions (= 2.4.0)
+  - CocoaLumberjack/Core (2.4.0)
+  - CocoaLumberjack/Default (2.4.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.4.0):
+    - CocoaLumberjack/Default
+  - GCDWebServer (3.3.3):
+    - GCDWebServer/Core (= 3.3.3)
+  - GCDWebServer/CocoaLumberjack (3.3.3):
+    - CocoaLumberjack (~> 2)
+    - GCDWebServer/Core
+  - GCDWebServer/Core (3.3.3)
+  - GCDWebServer/WebDAV (3.3.3):
+    - GCDWebServer/WebDAV/CocoaLumberjack (= 3.3.3)
+    - GCDWebServer/WebDAV/Core (= 3.3.3)
+  - GCDWebServer/WebDAV/CocoaLumberjack (3.3.3):
+    - GCDWebServer/CocoaLumberjack
+    - GCDWebServer/WebDAV/Core
+  - GCDWebServer/WebDAV/Core (3.3.3):
+    - GCDWebServer/Core
+  - GCDWebServer/WebUploader (3.3.3):
+    - GCDWebServer/WebUploader/CocoaLumberjack (= 3.3.3)
+    - GCDWebServer/WebUploader/Core (= 3.3.3)
+  - GCDWebServer/WebUploader/CocoaLumberjack (3.3.3):
+    - GCDWebServer/CocoaLumberjack
+    - GCDWebServer/WebUploader/Core
+  - GCDWebServer/WebUploader/Core (3.3.3):
+    - GCDWebServer/Core
+  - MJExtension (3.0.13)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - GCDWebServer (~> 3.3.3)
+  - GCDWebServer/WebDAV (~> 3.3.3)
+  - GCDWebServer/WebUploader (~> 3.3.3)
+  - MJExtension (~> 3.0.13)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: aa9dcab71bdf9eaf2a63bbd9ddc87863efe45457
+  GCDWebServer: 1c39a1f0763e4eb492bee021e4270fce097d3555
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+
+PODFILE CHECKSUM: 2d50ed11dcb33197123ae29173fe49ec5ef9bce8
+
+COCOAPODS: 1.1.1
