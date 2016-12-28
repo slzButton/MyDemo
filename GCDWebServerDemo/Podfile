@@ -1,0 +1,26 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'GCDWebServerDemo' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for GCDWebServerDemo
+
+pod 'GCDWebServer', '~> 3.3.3'
+pod 'MJExtension', '~> 3.0.13'
+pod 'AFNetworking', '~> 3.1.0'
+pod "GCDWebServer/WebDAV", "~> 3.3.3”
+pod "GCDWebServer/WebUploader", "~> 3.3.3”
+
+  target 'GCDWebServerDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'GCDWebServerDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
