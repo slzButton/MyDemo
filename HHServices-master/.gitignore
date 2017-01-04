@@ -1,0 +1,16 @@
+**/xcuserdata/**
+*.xcuserdatad
+*.xcuserstate
+*.xcbkptlist
+*.pbxuser
+*.xcbaseline
+*.xccheckout
+*.hmap
+*.ipa
+build/
+Pods
+Podfile.lock
+Samples/*/*.xcworkspace
+.idea
+notes
+.DS_Store

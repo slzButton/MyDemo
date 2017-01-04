@@ -30,8 +30,6 @@
      label.numberOfLines = 0;
      
      
-     
-     
 }
 
 /*

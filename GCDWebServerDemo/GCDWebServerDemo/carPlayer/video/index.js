@@ -4,7 +4,7 @@ Mock.mock('http://phone.cn', {
   "online": [
     {
     "name": "我也不知道是啥",
-    "url": "http://192.168.4.244:8080/1.avi"
+    "url": "http://192.168.4.244:8080/1.mp4"
     }
   ]
 });

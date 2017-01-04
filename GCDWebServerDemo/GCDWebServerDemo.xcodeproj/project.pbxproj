@@ -17,7 +17,6 @@
 		A463AE031E135DB300AA7164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A463AE011E135DB300AA7164 /* LaunchScreen.storyboard */; };
 		A463AE0E1E135DB400AA7164 /* GCDWebServerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A463AE0D1E135DB400AA7164 /* GCDWebServerDemoTests.m */; };
 		A463AE191E135DB400AA7164 /* GCDWebServerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A463AE181E135DB400AA7164 /* GCDWebServerDemoUITests.m */; };
-		A463AE291E135DD200AA7164 /* 1.flv in Resources */ = {isa = PBXBuildFile; fileRef = A463AE261E135DD200AA7164 /* 1.flv */; };
 		A463AE2A1E135DD200AA7164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A463AE281E135DD200AA7164 /* AppDelegate.m */; };
 		A463AE381E135DE000AA7164 /* TYDownLoadDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A463AE2D1E135DE000AA7164 /* TYDownLoadDataManager.m */; };
 		A463AE391E135DE000AA7164 /* TYDownLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A463AE301E135DE000AA7164 /* TYDownLoadModel.m */; };
@@ -27,6 +26,8 @@
 		A463AE3D1E135DE000AA7164 /* yangcong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A463AE371E135DE000AA7164 /* yangcong.mp3 */; };
 		A463AE3F1E135DE900AA7164 /* carPlayer in Resources */ = {isa = PBXBuildFile; fileRef = A463AE3E1E135DE900AA7164 /* carPlayer */; };
 		A463AE421E135DF700AA7164 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A463AE411E135DF700AA7164 /* MainViewController.m */; };
+		A463AE441E139C0D00AA7164 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A463AE431E139C0D00AA7164 /* CoreLocation.framework */; };
+		A463AE5E1E13C61E00AA7164 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A463AE5C1E13C61E00AA7164 /* 1.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +66,6 @@
 		A463AE141E135DB400AA7164 /* GCDWebServerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDWebServerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A463AE181E135DB400AA7164 /* GCDWebServerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDemoUITests.m; sourceTree = "<group>"; };
 		A463AE1A1E135DB400AA7164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A463AE261E135DD200AA7164 /* 1.flv */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.flv; sourceTree = "<group>"; };
 		A463AE271E135DD200AA7164 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A463AE281E135DD200AA7164 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A463AE2C1E135DE000AA7164 /* TYDownLoadDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDownLoadDataManager.h; sourceTree = "<group>"; };
@@ -83,6 +83,8 @@
 		A463AE3E1E135DE900AA7164 /* carPlayer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = carPlayer; sourceTree = "<group>"; };
 		A463AE401E135DF700AA7164 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		A463AE411E135DF700AA7164 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A463AE431E139C0D00AA7164 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A463AE5C1E13C61E00AA7164 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
 		BE8A1D78626EE6021CAAA74B /* Pods-GCDWebServerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDWebServerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCDWebServerDemoTests/Pods-GCDWebServerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		BF4961EFEB9D421C4E3B8371 /* libPods-GCDWebServerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCDWebServerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BB3527A743BDAB4FF8111A /* libPods-GCDWebServerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCDWebServerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A463AE441E139C0D00AA7164 /* CoreLocation.framework in Frameworks */,
 				8111B51C19B06824C034E86F /* libPods-GCDWebServerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,6 +137,7 @@
 		4214CFA11C71D1A171BC44BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A463AE431E139C0D00AA7164 /* CoreLocation.framework */,
 				BF4961EFEB9D421C4E3B8371 /* libPods-GCDWebServerDemo.a */,
 				3AEFC4FAF865AA7D2A0AF01C /* libPods-GCDWebServerDemoTests.a */,
 				E8BB3527A743BDAB4FF8111A /* libPods-GCDWebServerDemoUITests.a */,
@@ -166,8 +170,8 @@
 		A463ADF21E135DB300AA7164 /* GCDWebServerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A463AE5C1E13C61E00AA7164 /* 1.mp4 */,
 				A463AE3E1E135DE900AA7164 /* carPlayer */,
-				A463AE261E135DD200AA7164 /* 1.flv */,
 				A463AE2B1E135DE000AA7164 /* TYDownloadManager */,
 				A463AE351E135DE000AA7164 /* WebSever.h */,
 				A463AE361E135DE000AA7164 /* WebSever.m */,
@@ -345,7 +349,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A463AE291E135DD200AA7164 /* 1.flv in Resources */,
+				A463AE5E1E13C61E00AA7164 /* 1.mp4 in Resources */,
 				A463AE031E135DB300AA7164 /* LaunchScreen.storyboard in Resources */,
 				A463AE3D1E135DE000AA7164 /* yangcong.mp3 in Resources */,
 				A463AE001E135DB300AA7164 /* Assets.xcassets in Resources */,
@@ -673,6 +677,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8PBPW792K7;
 				INFOPLIST_FILE = GCDWebServerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = slzbutton.MyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -686,6 +691,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8PBPW792K7;
 				INFOPLIST_FILE = GCDWebServerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = slzbutton.MyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

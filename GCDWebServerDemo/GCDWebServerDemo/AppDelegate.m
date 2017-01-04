@@ -75,6 +75,7 @@ static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    NSLog(@"%@",NSHomeDirectory());
     
     // Get the path to the website directory
     NSString* websitePath = [[NSBundle mainBundle] pathForResource:@"carPlayer" ofType:nil];
@@ -104,41 +105,12 @@ static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
                                }
                                
                            }];
-    
-//    [self.webServer addHandlerForMethod:@"GET"
-//                              pathRegex:@"/.*\.flv"
-//                           requestClass:[GCDWebServerRequest class]
-//                           processBlock:^GCDWebServerResponse *(__kindof GCDWebServerRequest *request) {
-//                               if ([[NSBundle mainBundle] pathForResource:request.path ofType:nil]) {
-//                                   return [GCDWebServerFileResponse responseWithFile:[[NSBundle mainBundle] pathForResource:request.path ofType:nil]];
-//                               }else{
-//                                   return [GCDWebServerFileResponse response];
-//                               }
-//                           }];
-    
     [self.webServer addHandlerForMethod:@"GET"
-                              pathRegex:@"/.*\.avi"
+                              pathRegex:@"/.*\.mp4"
                            requestClass:[GCDWebServerRequest class]
                            asyncProcessBlock:^(__kindof GCDWebServerRequest *request, GCDWebServerCompletionBlock completionBlock) {
-                               NSLog(@"%@",AFContentTypeForPathExtension([request.path pathExtension]));
-                               AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-                               NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:[manager.requestSerializer requestWithMethod:request.method URLString:[NSString stringWithFormat:@"http://192.168.2.128%@",request.path] parameters:nil error:nil] uploadProgress:^(NSProgress * _Nonnull uploadProgress) {
-                                   
-                               } downloadProgress:^(NSProgress * _Nonnull downloadProgress) {
-                                   NSLog(@"进度===%@",downloadProgress.userInfo);
-                               } completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
-                                   NSLog(@"%@",responseObject);
-                               }];
-                               [manager setDataTaskDidReceiveDataBlock:^(NSURLSession * _Nonnull session, NSURLSessionDataTask * _Nonnull dataTask, NSData * _Nonnull data) {
-                                   if (data) {
-                                       completionBlock([GCDWebServerStreamedResponse responseWithContentType:AFContentTypeForPathExtension([request.path pathExtension]) streamBlock:^NSData *(NSError *__autoreleasing *error) {
-                                           return data;
-                                       }]);
-                                   }
-                               }];
-                               
-                               [dataTask resume];
-                               
+                               GCDWebServerStreamedResponse *response = [GCDWebServerStreamedResponse response];
+                               [response setValue:nil forAdditionalHeader:nil];
                            }];
     
     // Add an override handler to redirect "/" URL to "/index.html"
@@ -166,7 +138,7 @@ static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
                                        }
                                            break;
                                        case 1:{
-                                           [responeDictionary setObject:@[@{@"name":@"我也不知道是啥",@"url":[NSString stringWithFormat:@"%@%@",tempSelf.webServer.serverURL,@"/1.avi"]}]
+                                           [responeDictionary setObject:@[@{@"name":@"我也不知道是啥",@"url":[NSString stringWithFormat:@"%@%@",tempSelf.webServer.serverURL,@"/1.mp4"]}]
                                                                  forKey:@"online"];
                                        }
                                            break;
@@ -208,11 +180,6 @@ static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
     
     
     
-    
-    
-    
-    
-    
     // Start server on port 8080
     [self.webServer startWithOptions:@{GCDWebServerOption_Port:@(8080),GCDWebServerOption_AutomaticallySuspendInBackground:@(NO)} error:nil];
     NSLog(@"webServer Visit %@ in your web browser", self.webServer.serverURL);
@@ -232,14 +199,14 @@ static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
     self.locationManager.distanceFilter=1.0f;//(10米)
     //距离筛选器设为无(实时更新)
     self.locationManager.distanceFilter = kCLDistanceFilterNone;
-    //开启实时更新位置
-    [self.locationManager startUpdatingLocation];
     //设置代理
     self.locationManager.delegate=self;
     self.locationManager.pausesLocationUpdatesAutomatically = NO;
     self.locationManager.allowsBackgroundLocationUpdates = YES;
     //Heading朝向，主要用于检测当前GPS方向角
     [self.locationManager startUpdatingHeading];
+    //开启实时更新位置
+    [self.locationManager startUpdatingLocation];
     
     MainViewController *mainVC = [MainViewController new];
     mainVC.ip = self.webServer.serverURL.absoluteString;
