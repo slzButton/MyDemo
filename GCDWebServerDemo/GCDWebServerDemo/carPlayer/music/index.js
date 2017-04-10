@@ -52,11 +52,11 @@ var interval = setInterval(function() {
 Mock.mock('http://phone.cn', {
 	"online": [{
 		"name": "你猜猜",
-		"url": "http://192.168.4.244:8080/version"
+		"url": "http://192.168.5.184:8080/version"
 	}],
 	"locality": [{
 		"name": "yangcong",
-		"url": "http://192.168.4.244:8080/yangcong.mp3"
+		"url": "http://192.168.5.184:8080/yangcong.mp3"
 	}]
 });
 var musics = [];

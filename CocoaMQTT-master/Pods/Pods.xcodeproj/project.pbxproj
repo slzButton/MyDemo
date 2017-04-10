@@ -1,0 +1,1217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0073700BD95C80650DEF47D982A48E92 /* CocoaAsyncSocket-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79280D99191BB9B29B277A1CD3005F66 /* CocoaAsyncSocket-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05A1E94117525B590B86AE21825CBB0A /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FBCFC29B1B6F24EB4425229BDD77C3 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ABC941EBD3625AB7F185EA31D9F97CA /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAA2B2CDDDC2224D96628B0FC8DA166 /* MSWeakTimer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0FA4FF7533182D63896B6C9DF594C0E7 /* MSWeakTimer-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA17E117B2D750DBFA0961044D04AEE /* MSWeakTimer-OSX-dummy.m */; };
+		12941FD8AB9D77A4643D7A00BCB44D79 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D02049E99AF7C09A5B9108F4BA8 /* CFNetwork.framework */; };
+		25D73025237AC966F42A09EB735CB465 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C279A7D1CFDB8ED26320DD446FFB3D /* Security.framework */; };
+		2667485168A97A38337B575809F3DAF3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C462C23AF5A0B59767714EBD54A87F6A /* Cocoa.framework */; };
+		297F72F9C559DA2238B88DAEDAACFCDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD5D351FA0CD6E9346E91340264F933 /* Foundation.framework */; };
+		3A49E4BF30415F117A4B7DDF8E3F5013 /* Pods-CocoaMQTT OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43672AD88469E121686A6830B22C39DA /* Pods-CocoaMQTT OSX-dummy.m */; };
+		48944E9877F23D9A2F0D5C13F4BD657E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4071DC8307708622BAEC175AB345ADBE /* Security.framework */; };
+		4C80BB9AD35E72B8CB9240FCB8DD0979 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = F5FBCFC29B1B6F24EB4425229BDD77C3 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FBF5F880C3269FCF0649B149930173A /* Pods-CocoaMQTT iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F937624D7551B2F07E4A34AD9FA313D6 /* Pods-CocoaMQTT iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51F338C17DAD5BACD6AC3AE408AB339A /* Pods-CocoaMQTT iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885C4350A964C2F559140EBD376F628 /* Pods-CocoaMQTT iOS-dummy.m */; };
+		56EDD624CF1E9FE0B8E756458C98B904 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7C6DB1574A77CE9B63635F1F01AD3B /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5902CF6623A33CC53096131C0952FEDA /* MSWeakTimer-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D86176C61E2635DCB424AC27D722F16 /* MSWeakTimer-iOS-dummy.m */; };
+		64422279581FF8A9A5F2BC3C6D1352C9 /* MSWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = BA602AB6677422889EC100C02CE9A75D /* MSWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		649371AAA76B8B72786CD80A3F01B03C /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B1196EDED5B9A8A42939792AA8C6A3A9 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6533ADC88CF735219939A7720D166416 /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAA2B2CDDDC2224D96628B0FC8DA166 /* MSWeakTimer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		67C26E84618B86E30CC2F9BAE7AEA6CF /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C3914F2B3F3B28B99548FC68C42BFB0D /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BEF7C2958262900AF1DC2A58BCD2E7A /* MSWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = BA602AB6677422889EC100C02CE9A75D /* MSWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7455860C6B1FAFC4B2EDA4680A349638 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C462C23AF5A0B59767714EBD54A87F6A /* Cocoa.framework */; };
+		79B10AC94062AB512BEE12561B2DC4DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD5D351FA0CD6E9346E91340264F933 /* Foundation.framework */; };
+		8067DE31BE04761FA1333027BE810CE1 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C3914F2B3F3B28B99548FC68C42BFB0D /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D83B4C93AE150DD8B63187157A048F6 /* MSWeakTimer-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5190AB18901801DE1178E30FCCC61AA7 /* MSWeakTimer-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A3442315099F0555117FCDFF06839B /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7C6DB1574A77CE9B63635F1F01AD3B /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		97852EC93310BF2B959EDA8075188E9F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C462C23AF5A0B59767714EBD54A87F6A /* Cocoa.framework */; };
+		A5CE20495BA0FC54CF48712B0DBD9EEE /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F165B7A7482AE21F737B9ABBB173C5 /* CoreServices.framework */; };
+		B207F55A6CEC65847998C4789661CC91 /* CocoaAsyncSocket-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6DADC8A51BD4C8F9184D22960FB61A /* CocoaAsyncSocket-OSX-dummy.m */; };
+		BD6506E99C0BA0E5BBA5EFE01C66D64D /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B1196EDED5B9A8A42939792AA8C6A3A9 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C3E9194D101198A9019E811D254105A6 /* CocoaAsyncSocket-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D180C3714FCAEA68B73570A6BDA1173 /* CocoaAsyncSocket-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C78A066FC745ACBEE6F2534C28678793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD5D351FA0CD6E9346E91340264F933 /* Foundation.framework */; };
+		C943218858AA11B3B1B64AEB9C307BB4 /* MSWeakTimer-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A081F4739A95A3768C320419AB2183A /* MSWeakTimer-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBB3C1AA316149582A7B5778445E43EB /* Pods-CocoaMQTT OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF77432B71BC944A3F7D54D7AF02E3E /* Pods-CocoaMQTT OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB0E4D50B02BE36DFCB2D4C4751F42A3 /* CocoaAsyncSocket-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72756967313B8DCACAB493F3D04E6EBF /* CocoaAsyncSocket-iOS-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55063CF7CAAC168DA0627DD36C455066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7371836FC14D1F354C269D0DBAE81582;
+			remoteInfo = "MSWeakTimer-iOS";
+		};
+		782702544A5C1D5E86BDC00C8362F789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63537CAA79781398C056311B7CD0D2AB;
+			remoteInfo = "CocoaAsyncSocket-iOS";
+		};
+		862E7FD67BBBF4840231ED58E75EAA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22F216AC2BE04CD84BE0C3803CE137DD;
+			remoteInfo = "MSWeakTimer-OSX";
+		};
+		FE50523E9EE46240A8FD25835251F590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7ABD981F3F60727F0CB9DFD0CFE5271;
+			remoteInfo = "CocoaAsyncSocket-OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FF347C310E47EC8C978DCA5D2DF023 /* CocoaAsyncSocket-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "CocoaAsyncSocket-OSX.modulemap"; sourceTree = "<group>"; };
+		08E740DE9FCA0E2E3CAE499DAFD3B8F3 /* MSWeakTimer-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSWeakTimer-OSX-prefix.pch"; sourceTree = "<group>"; };
+		0A081F4739A95A3768C320419AB2183A /* MSWeakTimer-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSWeakTimer-OSX-umbrella.h"; sourceTree = "<group>"; };
+		0C50B8F6D5D0D1DB5598D3E74D92EDFA /* MSWeakTimer-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MSWeakTimer-OSX.xcconfig"; sourceTree = "<group>"; };
+		0D86176C61E2635DCB424AC27D722F16 /* MSWeakTimer-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MSWeakTimer-iOS-dummy.m"; path = "../MSWeakTimer-iOS/MSWeakTimer-iOS-dummy.m"; sourceTree = "<group>"; };
+		0DF1DFA07290874708B0D14367AE3346 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F11239FCEF3A30E06F25D39F9525B7 /* CocoaAsyncSocket-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CocoaAsyncSocket-iOS.xcconfig"; path = "../CocoaAsyncSocket-iOS/CocoaAsyncSocket-iOS.xcconfig"; sourceTree = "<group>"; };
+		15000CEB7208E435CA4F0DE2FA6CBF65 /* MSWeakTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSWeakTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1802EB9C4E509105BEF9154B9EB2AD4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF77432B71BC944A3F7D54D7AF02E3E /* Pods-CocoaMQTT OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaMQTT OSX-umbrella.h"; sourceTree = "<group>"; };
+		281969F496C4F46E29A1786C510613F2 /* Pods-CocoaMQTT iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocoaMQTT iOS.modulemap"; sourceTree = "<group>"; };
+		29264C8AE9C7A357FD94F9074732BA08 /* Pods-CocoaMQTT iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaMQTT iOS-resources.sh"; sourceTree = "<group>"; };
+		2FF64973E1C0CE235C285F4806467872 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../MSWeakTimer-iOS/Info.plist"; sourceTree = "<group>"; };
+		340D6FDBFD40B3791A7D4E12E67BC35E /* MSWeakTimer-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MSWeakTimer-iOS-prefix.pch"; path = "../MSWeakTimer-iOS/MSWeakTimer-iOS-prefix.pch"; sourceTree = "<group>"; };
+		3CB6FED43D100B870F3DBA12B8C388D3 /* CocoaAsyncSocket-OSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CocoaAsyncSocket-OSX.xcconfig"; sourceTree = "<group>"; };
+		3CF0EDE8293364F8442C3E8BC516DFE6 /* MSWeakTimer-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "MSWeakTimer-iOS.modulemap"; path = "../MSWeakTimer-iOS/MSWeakTimer-iOS.modulemap"; sourceTree = "<group>"; };
+		4071DC8307708622BAEC175AB345ADBE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		43672AD88469E121686A6830B22C39DA /* Pods-CocoaMQTT OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaMQTT OSX-dummy.m"; sourceTree = "<group>"; };
+		45D8E137F3332F83FA41FA33CCE7D9A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../CocoaAsyncSocket-iOS/Info.plist"; sourceTree = "<group>"; };
+		489CE19F87399AF4E26243A12503FFD5 /* Pods-CocoaMQTT OSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaMQTT OSX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		492F2096781908F5721E4DABCEE79341 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F165B7A7482AE21F737B9ABBB173C5 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		4F386293323DA0F48A6B7E4EDA2720CA /* CocoaAsyncSocket-OSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-OSX-prefix.pch"; sourceTree = "<group>"; };
+		5190AB18901801DE1178E30FCCC61AA7 /* MSWeakTimer-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MSWeakTimer-iOS-umbrella.h"; path = "../MSWeakTimer-iOS/MSWeakTimer-iOS-umbrella.h"; sourceTree = "<group>"; };
+		5885C4350A964C2F559140EBD376F628 /* Pods-CocoaMQTT iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaMQTT iOS-dummy.m"; sourceTree = "<group>"; };
+		5DAA2B2CDDDC2224D96628B0FC8DA166 /* MSWeakTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
+		698C6B5340E59F79C3CD69817393892E /* Pods_CocoaMQTT_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaMQTT_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72756967313B8DCACAB493F3D04E6EBF /* CocoaAsyncSocket-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CocoaAsyncSocket-iOS-dummy.m"; path = "../CocoaAsyncSocket-iOS/CocoaAsyncSocket-iOS-dummy.m"; sourceTree = "<group>"; };
+		77B98626949125547304AF31D89B2740 /* Pods-CocoaMQTT iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaMQTT iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79280D99191BB9B29B277A1CD3005F66 /* CocoaAsyncSocket-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CocoaAsyncSocket-iOS-umbrella.h"; path = "../CocoaAsyncSocket-iOS/CocoaAsyncSocket-iOS-umbrella.h"; sourceTree = "<group>"; };
+		79CF7D02049E99AF7C09A5B9108F4BA8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		891EF749AB48A52A085EC81991FF0301 /* CocoaAsyncSocket-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CocoaAsyncSocket-iOS-prefix.pch"; path = "../CocoaAsyncSocket-iOS/CocoaAsyncSocket-iOS-prefix.pch"; sourceTree = "<group>"; };
+		8D180C3714FCAEA68B73570A6BDA1173 /* CocoaAsyncSocket-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-OSX-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9405F81FACC7AE57004F87ACAF1D7F5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957D3865367E19CD904DEA0B17A0BBF4 /* Pods-CocoaMQTT OSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaMQTT OSX-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A6DADC8A51BD4C8F9184D22960FB61A /* CocoaAsyncSocket-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-OSX-dummy.m"; sourceTree = "<group>"; };
+		9E0F6DB6A24E1E04B5565BB4BD438530 /* MSWeakTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSWeakTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51B1F8DFF2D1BB5FC0800875A820B11 /* Pods-CocoaMQTT OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CocoaMQTT OSX.modulemap"; sourceTree = "<group>"; };
+		A6D12F7956AC205E7D7133F909CE9E0B /* CocoaAsyncSocket-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "CocoaAsyncSocket-iOS.modulemap"; path = "../CocoaAsyncSocket-iOS/CocoaAsyncSocket-iOS.modulemap"; sourceTree = "<group>"; };
+		A884E8649CA079ADE5891B33208AD5EF /* Pods-CocoaMQTT OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaMQTT OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		AAA17E117B2D750DBFA0961044D04AEE /* MSWeakTimer-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSWeakTimer-OSX-dummy.m"; sourceTree = "<group>"; };
+		B1196EDED5B9A8A42939792AA8C6A3A9 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		BA602AB6677422889EC100C02CE9A75D /* MSWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
+		BBE833E030C04578B9DDF87E0F7EF16A /* MSWeakTimer-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "MSWeakTimer-OSX.modulemap"; sourceTree = "<group>"; };
+		C3914F2B3F3B28B99548FC68C42BFB0D /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		C462C23AF5A0B59767714EBD54A87F6A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C5948C49CAC036BE32881E9984AC0694 /* Pods-CocoaMQTT iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaMQTT iOS.release.xcconfig"; sourceTree = "<group>"; };
+		CC7C6DB1574A77CE9B63635F1F01AD3B /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		CD3015A880D573FC6570AABA9BEB06A0 /* MSWeakTimer-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "MSWeakTimer-iOS.xcconfig"; path = "../MSWeakTimer-iOS/MSWeakTimer-iOS.xcconfig"; sourceTree = "<group>"; };
+		D0D070B117349AEFB02C732AFA2447FB /* Pods-CocoaMQTT OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaMQTT OSX.release.xcconfig"; sourceTree = "<group>"; };
+		D1CD62769E801029DE6BFFCC4E05D14B /* Pods_CocoaMQTT_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaMQTT_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E754DECF62CFFD165816AD96B1D389 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66B7B104A3D129B1C8FDFF694E1E14B /* Pods-CocoaMQTT iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaMQTT iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D6C279A7D1CFDB8ED26320DD446FFB3D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		F175B851727B4CBFC6E7D46CA0B535BA /* Pods-CocoaMQTT OSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaMQTT OSX-resources.sh"; sourceTree = "<group>"; };
+		F40CDDD1DB9A4502F98FEB735C34FB21 /* Pods-CocoaMQTT iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaMQTT iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5FBCFC29B1B6F24EB4425229BDD77C3 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		F937624D7551B2F07E4A34AD9FA313D6 /* Pods-CocoaMQTT iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaMQTT iOS-umbrella.h"; sourceTree = "<group>"; };
+		FA50C4A3B297CF94CD73FFED928C84D3 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD5D351FA0CD6E9346E91340264F933 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3692FCAF179359516A36ACC2EAAEE0D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2667485168A97A38337B575809F3DAF3 /* Cocoa.framework in Frameworks */,
+				A5CE20495BA0FC54CF48712B0DBD9EEE /* CoreServices.framework in Frameworks */,
+				25D73025237AC966F42A09EB735CB465 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CADFBF97AD84F7B8B49C1DA42B87C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79B10AC94062AB512BEE12561B2DC4DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C120DBF2B3039CCC151B71E32B52CCE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7455860C6B1FAFC4B2EDA4680A349638 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC73295780EA432C7B388EE50281B880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C78A066FC745ACBEE6F2534C28678793 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE8886243C08B2B6200DCE16DF3B5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97852EC93310BF2B959EDA8075188E9F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73FFE2D97B7F5476C8999B17801DD95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12941FD8AB9D77A4643D7A00BCB44D79 /* CFNetwork.framework in Frameworks */,
+				297F72F9C559DA2238B88DAEDAACFCDB /* Foundation.framework in Frameworks */,
+				48944E9877F23D9A2F0D5C13F4BD657E /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02EFF168A94FBE658FE4A6908E52C2DB /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				C3914F2B3F3B28B99548FC68C42BFB0D /* GCDAsyncSocket.h */,
+				B1196EDED5B9A8A42939792AA8C6A3A9 /* GCDAsyncSocket.m */,
+				F5FBCFC29B1B6F24EB4425229BDD77C3 /* GCDAsyncUdpSocket.h */,
+				CC7C6DB1574A77CE9B63635F1F01AD3B /* GCDAsyncUdpSocket.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		259364399306E93D52E0C8F6985C3A6E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97EFF81E6D76975A57A42E8454277E9C /* Pods-CocoaMQTT iOS */,
+				59385EE508FB1F8497EA69B678DE5BC3 /* Pods-CocoaMQTT OSX */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		544E509C035632C6EB7FD6AC7DD713FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDDFAE6FCBF8D119FFBF3C027534EEFF /* iOS */,
+				828586FB4C877E4B19993B1FA82F1727 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59385EE508FB1F8497EA69B678DE5BC3 /* Pods-CocoaMQTT OSX */ = {
+			isa = PBXGroup;
+			children = (
+				0DF1DFA07290874708B0D14367AE3346 /* Info.plist */,
+				A51B1F8DFF2D1BB5FC0800875A820B11 /* Pods-CocoaMQTT OSX.modulemap */,
+				489CE19F87399AF4E26243A12503FFD5 /* Pods-CocoaMQTT OSX-acknowledgements.markdown */,
+				957D3865367E19CD904DEA0B17A0BBF4 /* Pods-CocoaMQTT OSX-acknowledgements.plist */,
+				43672AD88469E121686A6830B22C39DA /* Pods-CocoaMQTT OSX-dummy.m */,
+				F175B851727B4CBFC6E7D46CA0B535BA /* Pods-CocoaMQTT OSX-resources.sh */,
+				1FF77432B71BC944A3F7D54D7AF02E3E /* Pods-CocoaMQTT OSX-umbrella.h */,
+				A884E8649CA079ADE5891B33208AD5EF /* Pods-CocoaMQTT OSX.debug.xcconfig */,
+				D0D070B117349AEFB02C732AFA2447FB /* Pods-CocoaMQTT OSX.release.xcconfig */,
+			);
+			name = "Pods-CocoaMQTT OSX";
+			path = "Target Support Files/Pods-CocoaMQTT OSX";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				544E509C035632C6EB7FD6AC7DD713FA /* Frameworks */,
+				E4F6DD59B881923A8279A5CA96346D8F /* Pods */,
+				87250D8539986E539E85127FC9C11D92 /* Products */,
+				259364399306E93D52E0C8F6985C3A6E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		828586FB4C877E4B19993B1FA82F1727 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C462C23AF5A0B59767714EBD54A87F6A /* Cocoa.framework */,
+				49F165B7A7482AE21F737B9ABBB173C5 /* CoreServices.framework */,
+				D6C279A7D1CFDB8ED26320DD446FFB3D /* Security.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		87250D8539986E539E85127FC9C11D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA50C4A3B297CF94CD73FFED928C84D3 /* CocoaAsyncSocket.framework */,
+				D1E754DECF62CFFD165816AD96B1D389 /* CocoaAsyncSocket.framework */,
+				9E0F6DB6A24E1E04B5565BB4BD438530 /* MSWeakTimer.framework */,
+				15000CEB7208E435CA4F0DE2FA6CBF65 /* MSWeakTimer.framework */,
+				D1CD62769E801029DE6BFFCC4E05D14B /* Pods_CocoaMQTT_iOS.framework */,
+				698C6B5340E59F79C3CD69817393892E /* Pods_CocoaMQTT_OSX.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95AA4AB0A18516ABA462337EA4238F12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1802EB9C4E509105BEF9154B9EB2AD4D /* Info.plist */,
+				2FF64973E1C0CE235C285F4806467872 /* Info.plist */,
+				3CF0EDE8293364F8442C3E8BC516DFE6 /* MSWeakTimer-iOS.modulemap */,
+				CD3015A880D573FC6570AABA9BEB06A0 /* MSWeakTimer-iOS.xcconfig */,
+				0D86176C61E2635DCB424AC27D722F16 /* MSWeakTimer-iOS-dummy.m */,
+				340D6FDBFD40B3791A7D4E12E67BC35E /* MSWeakTimer-iOS-prefix.pch */,
+				5190AB18901801DE1178E30FCCC61AA7 /* MSWeakTimer-iOS-umbrella.h */,
+				BBE833E030C04578B9DDF87E0F7EF16A /* MSWeakTimer-OSX.modulemap */,
+				0C50B8F6D5D0D1DB5598D3E74D92EDFA /* MSWeakTimer-OSX.xcconfig */,
+				AAA17E117B2D750DBFA0961044D04AEE /* MSWeakTimer-OSX-dummy.m */,
+				08E740DE9FCA0E2E3CAE499DAFD3B8F3 /* MSWeakTimer-OSX-prefix.pch */,
+				0A081F4739A95A3768C320419AB2183A /* MSWeakTimer-OSX-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MSWeakTimer-OSX";
+			sourceTree = "<group>";
+		};
+		97EFF81E6D76975A57A42E8454277E9C /* Pods-CocoaMQTT iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9405F81FACC7AE57004F87ACAF1D7F5D /* Info.plist */,
+				281969F496C4F46E29A1786C510613F2 /* Pods-CocoaMQTT iOS.modulemap */,
+				77B98626949125547304AF31D89B2740 /* Pods-CocoaMQTT iOS-acknowledgements.markdown */,
+				F40CDDD1DB9A4502F98FEB735C34FB21 /* Pods-CocoaMQTT iOS-acknowledgements.plist */,
+				5885C4350A964C2F559140EBD376F628 /* Pods-CocoaMQTT iOS-dummy.m */,
+				29264C8AE9C7A357FD94F9074732BA08 /* Pods-CocoaMQTT iOS-resources.sh */,
+				F937624D7551B2F07E4A34AD9FA313D6 /* Pods-CocoaMQTT iOS-umbrella.h */,
+				D66B7B104A3D129B1C8FDFF694E1E14B /* Pods-CocoaMQTT iOS.debug.xcconfig */,
+				C5948C49CAC036BE32881E9984AC0694 /* Pods-CocoaMQTT iOS.release.xcconfig */,
+			);
+			name = "Pods-CocoaMQTT iOS";
+			path = "Target Support Files/Pods-CocoaMQTT iOS";
+			sourceTree = "<group>";
+		};
+		9B8EE81CC58C5202947BFFC0DCCC1245 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				02EFF168A94FBE658FE4A6908E52C2DB /* GCD */,
+				AD27104F27D436D00C53F70D5B15C7C5 /* Support Files */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		AD27104F27D436D00C53F70D5B15C7C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D12F7956AC205E7D7133F909CE9E0B /* CocoaAsyncSocket-iOS.modulemap */,
+				10F11239FCEF3A30E06F25D39F9525B7 /* CocoaAsyncSocket-iOS.xcconfig */,
+				72756967313B8DCACAB493F3D04E6EBF /* CocoaAsyncSocket-iOS-dummy.m */,
+				891EF749AB48A52A085EC81991FF0301 /* CocoaAsyncSocket-iOS-prefix.pch */,
+				79280D99191BB9B29B277A1CD3005F66 /* CocoaAsyncSocket-iOS-umbrella.h */,
+				00FF347C310E47EC8C978DCA5D2DF023 /* CocoaAsyncSocket-OSX.modulemap */,
+				3CB6FED43D100B870F3DBA12B8C388D3 /* CocoaAsyncSocket-OSX.xcconfig */,
+				9A6DADC8A51BD4C8F9184D22960FB61A /* CocoaAsyncSocket-OSX-dummy.m */,
+				4F386293323DA0F48A6B7E4EDA2720CA /* CocoaAsyncSocket-OSX-prefix.pch */,
+				8D180C3714FCAEA68B73570A6BDA1173 /* CocoaAsyncSocket-OSX-umbrella.h */,
+				492F2096781908F5721E4DABCEE79341 /* Info.plist */,
+				45D8E137F3332F83FA41FA33CCE7D9A3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket-OSX";
+			sourceTree = "<group>";
+		};
+		B6A6B866A61FDD0291211409F0D3458F /* MSWeakTimer */ = {
+			isa = PBXGroup;
+			children = (
+				BA602AB6677422889EC100C02CE9A75D /* MSWeakTimer.h */,
+				5DAA2B2CDDDC2224D96628B0FC8DA166 /* MSWeakTimer.m */,
+				95AA4AB0A18516ABA462337EA4238F12 /* Support Files */,
+			);
+			path = MSWeakTimer;
+			sourceTree = "<group>";
+		};
+		DDDFAE6FCBF8D119FFBF3C027534EEFF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				79CF7D02049E99AF7C09A5B9108F4BA8 /* CFNetwork.framework */,
+				FBD5D351FA0CD6E9346E91340264F933 /* Foundation.framework */,
+				4071DC8307708622BAEC175AB345ADBE /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4F6DD59B881923A8279A5CA96346D8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B8EE81CC58C5202947BFFC0DCCC1245 /* CocoaAsyncSocket */,
+				B6A6B866A61FDD0291211409F0D3458F /* MSWeakTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B538E9C7A9276C037F3A6319E7309E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB3C1AA316149582A7B5778445E43EB /* Pods-CocoaMQTT OSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D81006140F4E883278B9FB633F9D988 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E9194D101198A9019E811D254105A6 /* CocoaAsyncSocket-OSX-umbrella.h in Headers */,
+				67C26E84618B86E30CC2F9BAE7AEA6CF /* GCDAsyncSocket.h in Headers */,
+				05A1E94117525B590B86AE21825CBB0A /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA22E376DFDF0115A1164FABECEAE458 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D83B4C93AE150DD8B63187157A048F6 /* MSWeakTimer-iOS-umbrella.h in Headers */,
+				6BEF7C2958262900AF1DC2A58BCD2E7A /* MSWeakTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB686029674EFA241FC3B11E0D72362C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C943218858AA11B3B1B64AEB9C307BB4 /* MSWeakTimer-OSX-umbrella.h in Headers */,
+				64422279581FF8A9A5F2BC3C6D1352C9 /* MSWeakTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC341B9E224A84264DCA610F9F97E920 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0073700BD95C80650DEF47D982A48E92 /* CocoaAsyncSocket-iOS-umbrella.h in Headers */,
+				8067DE31BE04761FA1333027BE810CE1 /* GCDAsyncSocket.h in Headers */,
+				4C80BB9AD35E72B8CB9240FCB8DD0979 /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C1397F45A71546D4FF1D502388E2F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBF5F880C3269FCF0649B149930173A /* Pods-CocoaMQTT iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22F216AC2BE04CD84BE0C3803CE137DD /* MSWeakTimer-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A3485F0A4FD2C295AE202551DB336FF /* Build configuration list for PBXNativeTarget "MSWeakTimer-OSX" */;
+			buildPhases = (
+				E52FF14C5A8749E3403534F111CD536E /* Sources */,
+				C120DBF2B3039CCC151B71E32B52CCE6 /* Frameworks */,
+				CB686029674EFA241FC3B11E0D72362C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MSWeakTimer-OSX";
+			productName = "MSWeakTimer-OSX";
+			productReference = 9E0F6DB6A24E1E04B5565BB4BD438530 /* MSWeakTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3CDB0B3D46AEF63762CBF8BAF38354C7 /* Pods-CocoaMQTT OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92FE0A791C039E3E800CEEAB85042B44 /* Build configuration list for PBXNativeTarget "Pods-CocoaMQTT OSX" */;
+			buildPhases = (
+				62AAB1408EADA23411D1C2F80F8995CB /* Sources */,
+				CCE8886243C08B2B6200DCE16DF3B5EE /* Frameworks */,
+				1B538E9C7A9276C037F3A6319E7309E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2955E0508E326654E8C74966F4E211E5 /* PBXTargetDependency */,
+				C604004C0C0D4A2127B8C3DFF360DBE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-CocoaMQTT OSX";
+			productName = "Pods-CocoaMQTT OSX";
+			productReference = 698C6B5340E59F79C3CD69817393892E /* Pods_CocoaMQTT_OSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		400E226ECE45FF7E902DD58E8F00980A /* Pods-CocoaMQTT iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AF3067BDF550FF0C7B7ED4F1DB260A /* Build configuration list for PBXNativeTarget "Pods-CocoaMQTT iOS" */;
+			buildPhases = (
+				418D3F23E802E33B2A9126CA4A8B878F /* Sources */,
+				69CADFBF97AD84F7B8B49C1DA42B87C9 /* Frameworks */,
+				F0C1397F45A71546D4FF1D502388E2F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44D35AF7C5DFF586D08E02EF75D95838 /* PBXTargetDependency */,
+				D81417D63448CAE9D77500E49284C2D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-CocoaMQTT iOS";
+			productName = "Pods-CocoaMQTT iOS";
+			productReference = D1CD62769E801029DE6BFFCC4E05D14B /* Pods_CocoaMQTT_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63537CAA79781398C056311B7CD0D2AB /* CocoaAsyncSocket-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D72119DD487BAA7FA80B9F0B4AAE17D /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket-iOS" */;
+			buildPhases = (
+				106A554E57A819FC8D6E107DEBB165DC /* Sources */,
+				E73FFE2D97B7F5476C8999B17801DD95 /* Frameworks */,
+				EC341B9E224A84264DCA610F9F97E920 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaAsyncSocket-iOS";
+			productName = "CocoaAsyncSocket-iOS";
+			productReference = D1E754DECF62CFFD165816AD96B1D389 /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7371836FC14D1F354C269D0DBAE81582 /* MSWeakTimer-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12FAE2F0C6908B8C29492D02F655951 /* Build configuration list for PBXNativeTarget "MSWeakTimer-iOS" */;
+			buildPhases = (
+				5069D61656C3C4CF84D7F5988A95C018 /* Sources */,
+				CC73295780EA432C7B388EE50281B880 /* Frameworks */,
+				AA22E376DFDF0115A1164FABECEAE458 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MSWeakTimer-iOS";
+			productName = "MSWeakTimer-iOS";
+			productReference = 15000CEB7208E435CA4F0DE2FA6CBF65 /* MSWeakTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7ABD981F3F60727F0CB9DFD0CFE5271 /* CocoaAsyncSocket-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2C98FC1BAB2FE778275BF1040177C6 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket-OSX" */;
+			buildPhases = (
+				680FDDC590AA96A9A11663BA96934AE2 /* Sources */,
+				3692FCAF179359516A36ACC2EAAEE0D1 /* Frameworks */,
+				7D81006140F4E883278B9FB633F9D988 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaAsyncSocket-OSX";
+			productName = "CocoaAsyncSocket-OSX";
+			productReference = FA50C4A3B297CF94CD73FFED928C84D3 /* CocoaAsyncSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 87250D8539986E539E85127FC9C11D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63537CAA79781398C056311B7CD0D2AB /* CocoaAsyncSocket-iOS */,
+				F7ABD981F3F60727F0CB9DFD0CFE5271 /* CocoaAsyncSocket-OSX */,
+				7371836FC14D1F354C269D0DBAE81582 /* MSWeakTimer-iOS */,
+				22F216AC2BE04CD84BE0C3803CE137DD /* MSWeakTimer-OSX */,
+				400E226ECE45FF7E902DD58E8F00980A /* Pods-CocoaMQTT iOS */,
+				3CDB0B3D46AEF63762CBF8BAF38354C7 /* Pods-CocoaMQTT OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		106A554E57A819FC8D6E107DEBB165DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0E4D50B02BE36DFCB2D4C4751F42A3 /* CocoaAsyncSocket-iOS-dummy.m in Sources */,
+				649371AAA76B8B72786CD80A3F01B03C /* GCDAsyncSocket.m in Sources */,
+				56EDD624CF1E9FE0B8E756458C98B904 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418D3F23E802E33B2A9126CA4A8B878F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F338C17DAD5BACD6AC3AE408AB339A /* Pods-CocoaMQTT iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5069D61656C3C4CF84D7F5988A95C018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5902CF6623A33CC53096131C0952FEDA /* MSWeakTimer-iOS-dummy.m in Sources */,
+				0ABC941EBD3625AB7F185EA31D9F97CA /* MSWeakTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AAB1408EADA23411D1C2F80F8995CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A49E4BF30415F117A4B7DDF8E3F5013 /* Pods-CocoaMQTT OSX-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		680FDDC590AA96A9A11663BA96934AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B207F55A6CEC65847998C4789661CC91 /* CocoaAsyncSocket-OSX-dummy.m in Sources */,
+				BD6506E99C0BA0E5BBA5EFE01C66D64D /* GCDAsyncSocket.m in Sources */,
+				96A3442315099F0555117FCDFF06839B /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52FF14C5A8749E3403534F111CD536E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA4FF7533182D63896B6C9DF594C0E7 /* MSWeakTimer-OSX-dummy.m in Sources */,
+				6533ADC88CF735219939A7720D166416 /* MSWeakTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2955E0508E326654E8C74966F4E211E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaAsyncSocket-OSX";
+			target = F7ABD981F3F60727F0CB9DFD0CFE5271 /* CocoaAsyncSocket-OSX */;
+			targetProxy = FE50523E9EE46240A8FD25835251F590 /* PBXContainerItemProxy */;
+		};
+		44D35AF7C5DFF586D08E02EF75D95838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CocoaAsyncSocket-iOS";
+			target = 63537CAA79781398C056311B7CD0D2AB /* CocoaAsyncSocket-iOS */;
+			targetProxy = 782702544A5C1D5E86BDC00C8362F789 /* PBXContainerItemProxy */;
+		};
+		C604004C0C0D4A2127B8C3DFF360DBE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MSWeakTimer-OSX";
+			target = 22F216AC2BE04CD84BE0C3803CE137DD /* MSWeakTimer-OSX */;
+			targetProxy = 862E7FD67BBBF4840231ED58E75EAA2E /* PBXContainerItemProxy */;
+		};
+		D81417D63448CAE9D77500E49284C2D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MSWeakTimer-iOS";
+			target = 7371836FC14D1F354C269D0DBAE81582 /* MSWeakTimer-iOS */;
+			targetProxy = 55063CF7CAAC168DA0627DD36C455066 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AEEA43ECCD4CC264AF1FB14C473CCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5948C49CAC036BE32881E9984AC0694 /* Pods-CocoaMQTT iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaMQTT iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaMQTT iOS/Pods-CocoaMQTT iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoaMQTT_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46389357B90BDCF1DAD7A25639ACA67C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46686D21E66509D5E83957BA5BBA18B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB6FED43D100B870F3DBA12B8C388D3 /* CocoaAsyncSocket-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-OSX/CocoaAsyncSocket-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-OSX/CocoaAsyncSocket-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5424761DC4B097C57D05B880BC026261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A884E8649CA079ADE5891B33208AD5EF /* Pods-CocoaMQTT OSX.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaMQTT OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaMQTT OSX/Pods-CocoaMQTT OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoaMQTT_OSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68B39B179438B1A882BEDABD4618C10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C50B8F6D5D0D1DB5598D3E74D92EDFA /* MSWeakTimer-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MSWeakTimer-OSX/MSWeakTimer-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWeakTimer-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/MSWeakTimer-OSX/MSWeakTimer-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MSWeakTimer;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E132D8F990E874A84E03158B706D2A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D070B117349AEFB02C732AFA2447FB /* Pods-CocoaMQTT OSX.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaMQTT OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaMQTT OSX/Pods-CocoaMQTT OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoaMQTT_OSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		708A00541A47237F661888D1F57F4784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F11239FCEF3A30E06F25D39F9525B7 /* CocoaAsyncSocket-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS/CocoaAsyncSocket-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS/CocoaAsyncSocket-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75CE1EFA5E4B57B65D2CA753D45025AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F11239FCEF3A30E06F25D39F9525B7 /* CocoaAsyncSocket-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-iOS/CocoaAsyncSocket-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-iOS/CocoaAsyncSocket-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		868FDE77C012FA9299C2780FD1B437C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3015A880D573FC6570AABA9BEB06A0 /* MSWeakTimer-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MSWeakTimer-iOS/MSWeakTimer-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWeakTimer-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSWeakTimer-iOS/MSWeakTimer-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MSWeakTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8889876FB09E5347D2DF30BA2EE9C8B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A7C5E6B365AAC5157B167427FC99D5B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CB6FED43D100B870F3DBA12B8C388D3 /* CocoaAsyncSocket-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket-OSX/CocoaAsyncSocket-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket-OSX/CocoaAsyncSocket-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7708FCF48FFD2D05AFED00B5FBA5CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66B7B104A3D129B1C8FDFF694E1E14B /* Pods-CocoaMQTT iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CocoaMQTT iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CocoaMQTT iOS/Pods-CocoaMQTT iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CocoaMQTT_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC8F63666D1EF495ADCF4DDFAF5D6668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C50B8F6D5D0D1DB5598D3E74D92EDFA /* MSWeakTimer-OSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MSWeakTimer-OSX/MSWeakTimer-OSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWeakTimer-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MODULEMAP_FILE = "Target Support Files/MSWeakTimer-OSX/MSWeakTimer-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MSWeakTimer;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0A6B63B3823B604515C2F23A1D5C930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD3015A880D573FC6570AABA9BEB06A0 /* MSWeakTimer-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MSWeakTimer-iOS/MSWeakTimer-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSWeakTimer-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MSWeakTimer-iOS/MSWeakTimer-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MSWeakTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B2C98FC1BAB2FE778275BF1040177C6 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C5E6B365AAC5157B167427FC99D5B9 /* Debug */,
+				46686D21E66509D5E83957BA5BBA18B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8889876FB09E5347D2DF30BA2EE9C8B5 /* Debug */,
+				46389357B90BDCF1DAD7A25639ACA67C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AF3067BDF550FF0C7B7ED4F1DB260A /* Build configuration list for PBXNativeTarget "Pods-CocoaMQTT iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7708FCF48FFD2D05AFED00B5FBA5CA8 /* Debug */,
+				2AEEA43ECCD4CC264AF1FB14C473CCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D72119DD487BAA7FA80B9F0B4AAE17D /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708A00541A47237F661888D1F57F4784 /* Debug */,
+				75CE1EFA5E4B57B65D2CA753D45025AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A3485F0A4FD2C295AE202551DB336FF /* Build configuration list for PBXNativeTarget "MSWeakTimer-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B39B179438B1A882BEDABD4618C10D /* Debug */,
+				CC8F63666D1EF495ADCF4DDFAF5D6668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92FE0A791C039E3E800CEEAB85042B44 /* Build configuration list for PBXNativeTarget "Pods-CocoaMQTT OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5424761DC4B097C57D05B880BC026261 /* Debug */,
+				6E132D8F990E874A84E03158B706D2A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12FAE2F0C6908B8C29492D02F655951 /* Build configuration list for PBXNativeTarget "MSWeakTimer-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0A6B63B3823B604515C2F23A1D5C930 /* Debug */,
+				868FDE77C012FA9299C2780FD1B437C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

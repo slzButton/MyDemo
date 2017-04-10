@@ -26,12 +26,6 @@
 #import <MJExtension.h>
 
 
-
-
-
-
-
-
 static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
     NSString *UTI = (__bridge_transfer NSString *)UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, (__bridge CFStringRef)extension, NULL);
     NSString *contentType = (__bridge_transfer NSString *)UTTypeCopyPreferredTagWithClass((__bridge CFStringRef)UTI, kUTTagClassMIMEType);
@@ -101,10 +95,10 @@ static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
                                if ([[NSBundle mainBundle] pathForResource:request.path ofType:nil]) {
                                    return [GCDWebServerFileResponse responseWithFile:[[NSBundle mainBundle] pathForResource:request.path ofType:nil]];
                                }else{
-                                   return [GCDWebServerFileResponse response];
+                                   return [GCDWebServerErrorResponse responseWithClientError:kGCDWebServerHTTPStatusCode_NotFound message:@"没有"];
                                }
-                               
                            }];
+    
     [self.webServer addHandlerForMethod:@"GET"
                               pathRegex:@"/.*\.mp4"
                            requestClass:[GCDWebServerRequest class]
@@ -118,8 +112,7 @@ static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
                                    path:@"/"
                            requestClass:[GCDWebServerRequest class]
                            processBlock:^GCDWebServerResponse *(GCDWebServerRequest* request) {
-                               return [GCDWebServerResponse responseWithRedirect:[NSURL URLWithString:@"index.html" relativeToURL:request.URL]
-                                                                       permanent:YES];
+                               return [GCDWebServerResponse responseWithRedirect:[NSURL URLWithString:@"index.html" relativeToURL:request.URL] permanent:YES];
                            }];
     
     //POST
@@ -138,11 +131,9 @@ static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
                                        }
                                            break;
                                        case 1:{
-                                           [responeDictionary setObject:@[@{@"name":@"我也不知道是啥",@"url":[NSString stringWithFormat:@"%@%@",tempSelf.webServer.serverURL,@"/1.mp4"]}]
-                                                                 forKey:@"online"];
+                                           [responeDictionary setObject:@[@{@"name":@"我也不知道是啥",@"url":[NSString stringWithFormat:@"%@%@",tempSelf.webServer.serverURL,@"/1.mp4"]}] forKey:@"online"];
                                        }
                                            break;
-                                           
                                        default:
                                            break;
                                    }
@@ -150,35 +141,47 @@ static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
                                return [GCDWebServerDataResponse responseWithJSONObject:responeDictionary.mj_JSONObject];
                            }];
     
-    
-    [self.webServer addHandlerForMethod:@"GET" path:@"/version" requestClass:[GCDWebServerRequest class] asyncProcessBlock:^(__kindof GCDWebServerRequest *request, GCDWebServerCompletionBlock completionBlock) {
-        NSMutableData *data = [NSMutableData data];
-        NSString *downloadURL = @"http://61.182.143.240/mp3hot.9ku.com/hot/2014/10-27/653147.mp3";
+    [self.webServer addHandlerForMethod:@"GET" pathRegex:@"/.*\.m4a" requestClass:[GCDWebServerRequest class] asyncProcessBlock:^(__kindof GCDWebServerRequest *request, GCDWebServerCompletionBlock completionBlock) {
+        NSString *downloadURL1 = @"192.168.4.248:8080/mp3/yangcong1.m4a";
         GCDWebServerStreamedResponse *respone = [GCDWebServerStreamedResponse responseWithContentType:AFContentTypeForPathExtension([request.path pathExtension]) asyncStreamBlock:^(GCDWebServerBodyReaderCompletionBlock completionBlock) {
-            TYDownloadModel *model = [[TYDownLoadDataManager manager] downLoadingModelForURLString:downloadURL];
-            if (!model) {
-                model = [[TYDownloadModel alloc]initWithURLString:downloadURL];
-            }
             
+            TYDownloadModel *model = [[TYDownLoadDataManager manager] downLoadingModelForURLString:downloadURL1];
+            if (!model) {
+                model = [[TYDownloadModel alloc]initWithURLString:downloadURL1];
+            }
             [[TYDownLoadDataManager manager] startWithDownloadModel:model progress:^(TYDownloadProgress *progress) {
-//                [data appendData:progress.didReceiveData];
-                completionBlock(progress.didReceiveData,nil);
+                
             } state:^(TYDownloadState state, NSString *const filePath, NSError *error) {
                 if (state == TYDownloadStateCompleted) {
                     NSData *data = [NSData dataWithContentsOfFile:filePath];
-                    [[NSFileManager defaultManager]removeItemAtPath:filePath error:nil];
+                    NSString *downloadURL2 = @"192.168.4.248:8080/mp3/yangcong2.m4a";
+                    TYDownloadModel *model = [[TYDownLoadDataManager manager] downLoadingModelForURLString:downloadURL2];
+                    if (!model) {
+                        model = [[TYDownloadModel alloc]initWithURLString:downloadURL2];
+                    }
+                    [[TYDownLoadDataManager manager] startWithDownloadModel:model progress:^(TYDownloadProgress *progress) {
+                        
+                    } state:^(TYDownloadState state, NSString *const filePath, NSError *error) {
+                        if (state == TYDownloadStateCompleted) {
+                            NSData *data = [NSData dataWithContentsOfFile:filePath];
+                            completionBlock(data,nil);
+                        }
+                        if (state == TYDownloadStateFailed) {
+                            
+                        }
+                    }];
+                    completionBlock(data,nil);
                 }
                 if (state == TYDownloadStateFailed) {
                     
                 }
+                
             }];
         }];
         
         completionBlock(respone);
         
     }];
-    
-    
     
     // Start server on port 8080
     [self.webServer startWithOptions:@{GCDWebServerOption_Port:@(8080),GCDWebServerOption_AutomaticallySuspendInBackground:@(NO)} error:nil];

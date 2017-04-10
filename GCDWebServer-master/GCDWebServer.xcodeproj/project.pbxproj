@@ -1433,9 +1433,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8PBPW792K7;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = slzbutton.MyDemo;
 				PRODUCT_NAME = GCDWebServer;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1447,9 +1449,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8PBPW792K7;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = slzbutton.MyDemo;
 				PRODUCT_NAME = GCDWebServer;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
