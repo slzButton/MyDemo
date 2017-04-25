@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Weex HTML5</title>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<meta name="viewport" content="width=750, user-scalable=no">
+<style>
+  html, body, #weex {
+    width: 100%;
+    height: 100%;
+  }
+</style>
+<script src="./dist/browser.js"></script>
+</head>
+<body>
+<div id="weex"></div>
+<!-- entry -->
+<script>
+/**
+ * init weex instance depending on the url params.
+ * There are three ways to load weex bundles, depends on the
+ * parameter 'loader' in the url:
+ *
+ *   + xhr:   use XMLHttpRequest. Parameter 'page' should be
+ *   the bundle's url.
+ *   + jsonp: use jsonp. Parameter 'page' should be the request
+ *   url and jsonpCallback should be specified during calling
+ *   weex.init.
+ *   + source: use the transformed code itself. 'page' should
+ *   be the transformed weex bundle.
+ *
+ * @param {String}  bundle  It has different meaning depends on
+ *   the type of loader.
+ */
+(function () {
+  function getUrlParam (key) {
+    var reg = new RegExp('[?|&]' + key + '=([^&]+)')
+    var match = location.search.match(reg)
+    return match && match[1]
+  }
+
+  var loader = getUrlParam('loader') || 'xhr'
+  var page = getUrlParam('page') || 'examples/build/index.js'
+
+  // jsonp callback name should be specified or be the default
+  // value 'weexJsonpCallback' if the 'jsonp' loader is used.
+  var JSONP_CALLBACK_NAME = 'weexJsonpCallback'
+
+  window.weex.init({
+    jsonpCallback: JSONP_CALLBACK_NAME,
+    appId: location.href,
+    loader: loader,
+    source: page,
+    rootId: 'weex',
+    // downgrade: ['root']  // 'root', 'list', 'scroller'
+  })
+})();
+</script>
+</body>
+</html>
