@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9p-og-9Sw">
+                                <rect key="frame" x="56" y="192" width="600" height="30"/>
+                                <state key="normal" title="http://127.0.0.1:8080/1/1.do"/>
+                                <connections>
+                                    <action selector="loaclhost_1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YHs-ZY-csv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ag3-Ry-G5H">
+                                <rect key="frame" x="56" y="270" width="600" height="30"/>
+                                <state key="normal" title="http://127.0.0.1:8080/login.do"/>
+                                <connections>
+                                    <action selector="localhost_login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lTx-OE-XqG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFc-bo-49X">
+                                <rect key="frame" x="56" y="118" width="600" height="30"/>
+                                <state key="normal" title="http://127.0.0.1:8080/"/>
+                                <connections>
+                                    <action selector="localhost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ttd-yC-kjV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="di1-gF-X1m">
+                                <rect key="frame" x="56" y="336" width="600" height="30"/>
+                                <state key="normal" title="http://127.0.0.1:8080/img.jpg"/>
+                                <connections>
+                                    <action selector="imgBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N5v-Se-jIM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ag3-Ry-G5H" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="34K-8t-aLi"/>
+                            <constraint firstItem="v9p-og-9Sw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="4Lf-ge-Vkt"/>
+                            <constraint firstItem="v9p-og-9Sw" firstAttribute="top" secondItem="ZFc-bo-49X" secondAttribute="bottom" constant="44" id="4QT-2U-2ti"/>
+                            <constraint firstItem="di1-gF-X1m" firstAttribute="top" secondItem="Ag3-Ry-G5H" secondAttribute="bottom" constant="36" id="4WT-uY-8JK"/>
+                            <constraint firstItem="ZFc-bo-49X" firstAttribute="leading" secondItem="v9p-og-9Sw" secondAttribute="leading" id="A9p-um-BQD"/>
+                            <constraint firstItem="di1-gF-X1m" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="UG1-h8-y0V"/>
+                            <constraint firstItem="Ag3-Ry-G5H" firstAttribute="top" secondItem="v9p-og-9Sw" secondAttribute="bottom" constant="48" id="iu6-Mu-QaM"/>
+                            <constraint firstItem="ZFc-bo-49X" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="98" id="jG9-D8-EHq"/>
+                            <constraint firstItem="ZFc-bo-49X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="36" id="nKU-g2-24t"/>
+                            <constraint firstItem="di1-gF-X1m" firstAttribute="leading" secondItem="Ag3-Ry-G5H" secondAttribute="leading" id="np5-S0-6a4"/>
+                            <constraint firstItem="ZFc-bo-49X" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="oa9-8H-U85"/>
+                            <constraint firstItem="ZFc-bo-49X" firstAttribute="leading" secondItem="Ag3-Ry-G5H" secondAttribute="leading" id="pIc-wP-LMn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loaclhost_1" destination="v9p-og-9Sw" id="Gjr-OP-kVb"/>
+                        <outlet property="localhost" destination="ZFc-bo-49X" id="Zh7-f1-6M8"/>
+                        <outlet property="localhost_login" destination="Ag3-Ry-G5H" id="UrC-IF-ckq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

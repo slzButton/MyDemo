@@ -38,7 +38,7 @@
     self.instance.onCreate = ^(UIView *view) {
         [weakSelf.weexView removeFromSuperview];
         weakSelf.weexView = view;
-        weakSelf.weexView.backgroundColor = [UIColor whiteColor];
+        weakSelf.weexView.backgroundColor = [UIColor redColor];
         [weakSelf.view addSubview:weakSelf.weexView];
     };
     // 设置weexInstance出错时的回调

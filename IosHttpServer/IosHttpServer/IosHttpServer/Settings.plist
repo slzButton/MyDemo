@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HTTPServerConfigure</key>
+	<dict>
+		<key>说明</key>
+		<string>这边配置扩展http服务端口(默认8080)和action路径(action路径至少要配置一个&quot;/&quot;)</string>
+		<key>HTTP_SERVER_PORT</key>
+		<real>8080</real>
+		<key>HTTP_SERVER_ACTION</key>
+		<array>
+			<string>/</string>
+            <string>/login.do</string>
+            <string>/1/1.do</string>
+            <string>/img.jpg</string>
+		</array>
+	</dict>
+</dict>
+</plist>

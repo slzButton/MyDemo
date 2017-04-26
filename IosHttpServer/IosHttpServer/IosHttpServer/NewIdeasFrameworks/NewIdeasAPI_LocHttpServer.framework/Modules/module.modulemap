@@ -1,0 +1,6 @@
+framework module NewIdeasAPI_LocHttpServer {
+  umbrella header "NewIdeasAPI_LocHttpServer.h"
+
+  export *
+  module * { export * }
+}

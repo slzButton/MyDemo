@@ -1,0 +1,6 @@
+framework module NewIdeasAPI_Base {
+  umbrella header "NewIdeasAPI_Base.h"
+
+  export *
+  module * { export * }
+}
