@@ -1,0 +1,22 @@
+PODS:
+  - MJExtension (3.0.13)
+  - MQTTClient (0.8.5):
+    - MQTTClient/Core (= 0.8.5)
+  - MQTTClient/Core (0.8.5):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.8.5):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.8.5)
+
+DEPENDENCIES:
+  - MJExtension
+  - MQTTClient
+
+SPEC CHECKSUMS:
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MQTTClient: fca939bcd74aa70af2d8ee35f3e44f258f4e9888
+
+PODFILE CHECKSUM: fa3e60949a77610e86ab966aa20b6a56db91b798
+
+COCOAPODS: 1.1.1
