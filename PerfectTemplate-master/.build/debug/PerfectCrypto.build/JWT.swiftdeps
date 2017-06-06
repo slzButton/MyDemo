@@ -1,0 +1,694 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JWT"
+- "JWTVerifier"
+- "JWTCreator"
+- "=="
+provides-nominal:
+- "V13PerfectCrypto3JWT"
+- "OV13PerfectCrypto3JWT3Alg"
+- "OV13PerfectCrypto3JWT5Error"
+- "V13PerfectCrypto11JWTVerifier"
+- "V13PerfectCrypto10JWTCreator"
+provides-member:
+- ["V13PerfectCrypto3JWT", ""]
+- ["OV13PerfectCrypto3JWT3Alg", ""]
+- ["OV13PerfectCrypto3JWT5Error", ""]
+- ["V13PerfectCrypto11JWTVerifier", ""]
+- ["V13PerfectCrypto10JWTCreator", ""]
+- ["OV13PerfectCrypto3JWT3Alg", "init"]
+- ["OV13PerfectCrypto3JWT3Alg", "digest"]
+- ["OV13PerfectCrypto3JWT3Alg", "string"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Dictionary"
+- "Digest"
+- "Encoding"
+- "FloatLiteralType"
+- !private "HMACKey"
+- "IntegerLiteralType"
+- "JWT"
+- "JWTCreator"
+- "JWTVerifier"
+- "Key"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "UInt8"
+- !private "dot"
+- !private "jwtEncoding"
+- !private "~="
+depends-member:
+- ["OV13PerfectCrypto3JWT3Alg", "=="]
+- ["OV13PerfectCrypto3JWT3Alg", "Digest"]
+- ["OV13PerfectCrypto3JWT3Alg", "String"]
+- ["OV13PerfectCrypto3JWT3Alg", "_toAnyHashable"]
+- ["OV13PerfectCrypto3JWT3Alg", "deinit"]
+- ["OV13PerfectCrypto3JWT3Alg", "digest"]
+- ["OV13PerfectCrypto3JWT3Alg", "es256"]
+- ["OV13PerfectCrypto3JWT3Alg", "es384"]
+- ["OV13PerfectCrypto3JWT3Alg", "es512"]
+- ["OV13PerfectCrypto3JWT3Alg", "hashValue"]
+- ["OV13PerfectCrypto3JWT3Alg", "hs256"]
+- ["OV13PerfectCrypto3JWT3Alg", "hs384"]
+- ["OV13PerfectCrypto3JWT3Alg", "hs512"]
+- ["OV13PerfectCrypto3JWT3Alg", "init"]
+- ["OV13PerfectCrypto3JWT3Alg", "none"]
+- ["OV13PerfectCrypto3JWT3Alg", "rs256"]
+- ["OV13PerfectCrypto3JWT3Alg", "rs384"]
+- ["OV13PerfectCrypto3JWT3Alg", "rs512"]
+- ["OV13PerfectCrypto3JWT3Alg", "string"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "jsonDecode"]
+- !private ["Ps9AnyObject", "utf8"]
+- !private ["Sa", "count"]
+- !private ["Sa", "decode"]
+- !private ["Sa", "encode"]
+- !private ["Sa", "flatMap"]
+- !private ["Sa", "init"]
+- !private ["Sa", "sign"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "verify"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "decode"]
+- !private ["Ps23BidirectionalCollection", "encode"]
+- !private ["Ps23BidirectionalCollection", "flatMap"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "sign"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps23BidirectionalCollection", "verify"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "decode"]
+- !private ["Ps7CVarArg", "encode"]
+- !private ["Ps7CVarArg", "flatMap"]
+- !private ["Ps7CVarArg", "forEach"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "jsonDecode"]
+- !private ["Ps7CVarArg", "jsonEncodedString"]
+- !private ["Ps7CVarArg", "sign"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "utf8"]
+- !private ["Ps7CVarArg", "verify"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "decode"]
+- !private ["Ps10Collection", "encode"]
+- !private ["Ps10Collection", "flatMap"]
+- !private ["Ps10Collection", "forEach"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "jsonEncodedString"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "sign"]
+- !private ["Ps10Collection", "split"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Collection", "verify"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "jsonDecode"]
+- !private ["Ps10Comparable", "utf8"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "decode"]
+- !private ["Ps28CustomDebugStringConvertible", "encode"]
+- !private ["Ps28CustomDebugStringConvertible", "flatMap"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonDecode"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonEncodedString"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "sha256"]
+- !private ["Ps28CustomDebugStringConvertible", "sha384"]
+- !private ["Ps28CustomDebugStringConvertible", "sha512"]
+- !private ["Ps28CustomDebugStringConvertible", "sign"]
+- !private ["Ps28CustomDebugStringConvertible", "split"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "utf8"]
+- !private ["Ps28CustomDebugStringConvertible", "verify"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "jsonDecode"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "map"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "split"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "utf8"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "decode"]
+- !private ["Ps17CustomReflectable", "encode"]
+- !private ["Ps17CustomReflectable", "flatMap"]
+- !private ["Ps17CustomReflectable", "forEach"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "jsonDecode"]
+- !private ["Ps17CustomReflectable", "jsonEncodedString"]
+- !private ["Ps17CustomReflectable", "map"]
+- !private ["Ps17CustomReflectable", "sha256"]
+- !private ["Ps17CustomReflectable", "sha384"]
+- !private ["Ps17CustomReflectable", "sha512"]
+- !private ["Ps17CustomReflectable", "sign"]
+- !private ["Ps17CustomReflectable", "split"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "utf8"]
+- !private ["Ps17CustomReflectable", "verify"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "decode"]
+- !private ["Ps23CustomStringConvertible", "encode"]
+- !private ["Ps23CustomStringConvertible", "flatMap"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "jsonDecode"]
+- !private ["Ps23CustomStringConvertible", "jsonEncodedString"]
+- !private ["Ps23CustomStringConvertible", "map"]
+- !private ["Ps23CustomStringConvertible", "sign"]
+- !private ["Ps23CustomStringConvertible", "split"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- !private ["Ps23CustomStringConvertible", "verify"]
+- !private ["Vs10Dictionary", "forEach"]
+- !private ["Vs10Dictionary", "jsonEncodedString"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["O13PerfectCrypto6Digest", "sha256"]
+- !private ["O13PerfectCrypto6Digest", "sha384"]
+- !private ["O13PerfectCrypto6Digest", "sha512"]
+- ["O13PerfectCrypto8Encoding", "base64url"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "base64url"]
+- !private ["Ps9Equatable", "digest"]
+- ["Ps9Equatable", "es256"]
+- ["Ps9Equatable", "es384"]
+- ["Ps9Equatable", "es512"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "hs256"]
+- ["Ps9Equatable", "hs384"]
+- ["Ps9Equatable", "hs512"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "jsonDecode"]
+- ["Ps9Equatable", "none"]
+- ["Ps9Equatable", "rs256"]
+- ["Ps9Equatable", "rs384"]
+- ["Ps9Equatable", "rs512"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "utf8"]
+- ["Ps9Equatable", ""]
+- ["OV13PerfectCrypto3JWT5Error", "String"]
+- ["OV13PerfectCrypto3JWT5Error", "_code"]
+- ["OV13PerfectCrypto3JWT5Error", "_domain"]
+- ["OV13PerfectCrypto3JWT5Error", "_getEmbeddedNSError"]
+- ["OV13PerfectCrypto3JWT5Error", "_userInfo"]
+- ["OV13PerfectCrypto3JWT5Error", "deinit"]
+- ["OV13PerfectCrypto3JWT5Error", "signingError"]
+- ["OV13PerfectCrypto3JWT5Error", "verificationError"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- !private ["Ps5Error", "signingError"]
+- !private ["Ps5Error", "verificationError"]
+- ["Ps5Error", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "decode"]
+- !private ["Ps25ExpressibleByArrayLiteral", "encode"]
+- !private ["Ps25ExpressibleByArrayLiteral", "flatMap"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "sign"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps25ExpressibleByArrayLiteral", "verify"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "forEach"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "jsonEncodedString"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "jsonDecode"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "utf8"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "sha256"]
+- !private ["Ps23ExpressibleByNilLiteral", "sha384"]
+- !private ["Ps23ExpressibleByNilLiteral", "sha512"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "jsonDecode"]
+- !private ["Ps26ExpressibleByStringLiteral", "utf8"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "jsonDecode"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "utf8"]
+- !private ["C13PerfectCrypto7HMACKey", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "base64url"]
+- !private ["Ps8Hashable", "digest"]
+- ["Ps8Hashable", "es256"]
+- ["Ps8Hashable", "es384"]
+- ["Ps8Hashable", "es512"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "hs256"]
+- ["Ps8Hashable", "hs384"]
+- ["Ps8Hashable", "hs512"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "jsonDecode"]
+- ["Ps8Hashable", "none"]
+- ["Ps8Hashable", "rs256"]
+- ["Ps8Hashable", "rs384"]
+- ["Ps8Hashable", "rs512"]
+- !private ["Ps8Hashable", "string"]
+- !private ["Ps8Hashable", "utf8"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["Ps17IntegerArithmetic", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- !private ["P10PerfectLib15JSONConvertible", "count"]
+- !private ["P10PerfectLib15JSONConvertible", "decode"]
+- !private ["P10PerfectLib15JSONConvertible", "encode"]
+- !private ["P10PerfectLib15JSONConvertible", "flatMap"]
+- !private ["P10PerfectLib15JSONConvertible", "forEach"]
+- !private ["P10PerfectLib15JSONConvertible", "hashValue"]
+- !private ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "jsonDecode"]
+- !private ["P10PerfectLib15JSONConvertible", "jsonEncodedString"]
+- !private ["P10PerfectLib15JSONConvertible", "sha256"]
+- !private ["P10PerfectLib15JSONConvertible", "sha384"]
+- !private ["P10PerfectLib15JSONConvertible", "sha512"]
+- !private ["P10PerfectLib15JSONConvertible", "sign"]
+- !private ["P10PerfectLib15JSONConvertible", "subscript"]
+- !private ["P10PerfectLib15JSONConvertible", "utf8"]
+- !private ["P10PerfectLib15JSONConvertible", "verify"]
+- ["V13PerfectCrypto3JWT", "Alg"]
+- ["V13PerfectCrypto3JWT", "Error"]
+- ["V13PerfectCrypto3JWT", "String"]
+- ["V13PerfectCrypto3JWT", "Swift"]
+- ["V13PerfectCrypto3JWT", "init"]
+- !private ["V13PerfectCrypto10JWTCreator", "Array"]
+- !private ["V13PerfectCrypto10JWTCreator", "HMACKey"]
+- ["V13PerfectCrypto10JWTCreator", "JWT"]
+- ["V13PerfectCrypto10JWTCreator", "Key"]
+- ["V13PerfectCrypto10JWTCreator", "String"]
+- ["V13PerfectCrypto10JWTCreator", "UInt8"]
+- !private ["V13PerfectCrypto10JWTCreator", "dot"]
+- ["V13PerfectCrypto10JWTCreator", "init"]
+- !private ["V13PerfectCrypto10JWTCreator", "jwtEncoding"]
+- ["V13PerfectCrypto10JWTCreator", "payloadBytes"]
+- ["V13PerfectCrypto10JWTCreator", "sign"]
+- ["V13PerfectCrypto11JWTVerifier", "Bool"]
+- !private ["V13PerfectCrypto11JWTVerifier", "HMACKey"]
+- ["V13PerfectCrypto11JWTVerifier", "JWT"]
+- ["V13PerfectCrypto11JWTVerifier", "Key"]
+- ["V13PerfectCrypto11JWTVerifier", "String"]
+- ["V13PerfectCrypto11JWTVerifier", "UInt8"]
+- !private ["V13PerfectCrypto11JWTVerifier", "dot"]
+- ["V13PerfectCrypto11JWTVerifier", "header"]
+- ["V13PerfectCrypto11JWTVerifier", "headerBytes"]
+- ["V13PerfectCrypto11JWTVerifier", "init"]
+- !private ["V13PerfectCrypto11JWTVerifier", "jwtEncoding"]
+- ["V13PerfectCrypto11JWTVerifier", "payload"]
+- ["V13PerfectCrypto11JWTVerifier", "payloadBytes"]
+- ["V13PerfectCrypto11JWTVerifier", "signatureBytes"]
+- ["V13PerfectCrypto11JWTVerifier", "verify"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "jsonDecode"]
+- !private ["Ps25LosslessStringConvertible", "utf8"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "jsonDecode"]
+- !private ["Ps10MirrorPath", "utf8"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "decode"]
+- !private ["Ps17MutableCollection", "encode"]
+- !private ["Ps17MutableCollection", "flatMap"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "sign"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Ps17MutableCollection", "verify"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "jsonDecode"]
+- !private ["PSo8NSCoding", "utf8"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "jsonDecode"]
+- !private ["PSo9NSCopying", "utf8"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "jsonDecode"]
+- !private ["PSo16NSMutableCopying", "utf8"]
+- !private ["CSo8NSObject", "jsonDecode"]
+- !private ["CSo8NSObject", "utf8"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "jsonDecode"]
+- !private ["PSo16NSObjectProtocol", "utf8"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "jsonDecode"]
+- !private ["PSo14NSSecureCoding", "utf8"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "jsonDecode"]
+- !private ["CSo8NSString", "utf8"]
+- ["P13PerfectCrypto5Octal", "init"]
+- !private ["Sq", "sha256"]
+- !private ["Sq", "sha384"]
+- !private ["Sq", "sha512"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "decode"]
+- !private ["Ps22RandomAccessCollection", "encode"]
+- !private ["Ps22RandomAccessCollection", "flatMap"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "sign"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps22RandomAccessCollection", "verify"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "decode"]
+- !private ["Ps26RangeReplaceableCollection", "encode"]
+- !private ["Ps26RangeReplaceableCollection", "flatMap"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "sign"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "verify"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "decode"]
+- !private ["Ps8Sequence", "encode"]
+- !private ["Ps8Sequence", "flatMap"]
+- !private ["Ps8Sequence", "forEach"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "jsonEncodedString"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "sign"]
+- !private ["Ps8Sequence", "split"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "verify"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "jsonDecode"]
+- !private ["SS", "utf8"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "jsonDecode"]
+- !private ["Ps16TextOutputStream", "utf8"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "jsonDecode"]
+- !private ["Ps20TextOutputStreamable", "utf8"]
+- !private ["Vs5UInt8", "deinit"]
+- ["Vs5UInt8", "init"]
+- !private ["VSS8UTF8View", "map"]
+- !private ["VSS8UTF8View", "split"]
+- ["Ps15UnsignedInteger", "init"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- !private ["Ps14_ArrayProtocol", "decode"]
+- !private ["Ps14_ArrayProtocol", "encode"]
+- !private ["Ps14_ArrayProtocol", "flatMap"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "sign"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps14_ArrayProtocol", "verify"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "decode"]
+- !private ["Ps23_BidirectionalIndexable", "encode"]
+- !private ["Ps23_BidirectionalIndexable", "flatMap"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "sign"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "verify"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "decode"]
+- !private ["Ps24_DestructorSafeContainer", "encode"]
+- !private ["Ps24_DestructorSafeContainer", "flatMap"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "sign"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps24_DestructorSafeContainer", "verify"]
+- ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "jsonDecode"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "utf8"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "jsonDecode"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "utf8"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "jsonDecode"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "utf8"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "jsonDecode"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "utf8"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "jsonDecode"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "utf8"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "jsonDecode"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "utf8"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "base64url"]
+- !private ["Ps9_Hashable", "digest"]
+- ["Ps9_Hashable", "es256"]
+- ["Ps9_Hashable", "es384"]
+- ["Ps9_Hashable", "es512"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "hs256"]
+- ["Ps9_Hashable", "hs384"]
+- ["Ps9_Hashable", "hs512"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "jsonDecode"]
+- ["Ps9_Hashable", "none"]
+- ["Ps9_Hashable", "rs256"]
+- ["Ps9_Hashable", "rs384"]
+- ["Ps9_Hashable", "rs512"]
+- !private ["Ps9_Hashable", "string"]
+- !private ["Ps9_Hashable", "utf8"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "decode"]
+- !private ["Ps10_Indexable", "encode"]
+- !private ["Ps10_Indexable", "flatMap"]
+- !private ["Ps10_Indexable", "forEach"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "jsonEncodedString"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "sign"]
+- !private ["Ps10_Indexable", "split"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps10_Indexable", "verify"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "decode"]
+- !private ["Ps14_IndexableBase", "encode"]
+- !private ["Ps14_IndexableBase", "flatMap"]
+- !private ["Ps14_IndexableBase", "forEach"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "jsonEncodedString"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "sign"]
+- !private ["Ps14_IndexableBase", "split"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps14_IndexableBase", "verify"]
+- !private ["Ps8_Integer", "hashValue"]
+- ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "decode"]
+- !private ["Ps17_MutableIndexable", "encode"]
+- !private ["Ps17_MutableIndexable", "flatMap"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "sign"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps17_MutableIndexable", "verify"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "decode"]
+- !private ["Ps21_ObjectiveCBridgeable", "encode"]
+- !private ["Ps21_ObjectiveCBridgeable", "flatMap"]
+- !private ["Ps21_ObjectiveCBridgeable", "forEach"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "jsonDecode"]
+- !private ["Ps21_ObjectiveCBridgeable", "jsonEncodedString"]
+- !private ["Ps21_ObjectiveCBridgeable", "sha256"]
+- !private ["Ps21_ObjectiveCBridgeable", "sha384"]
+- !private ["Ps21_ObjectiveCBridgeable", "sha512"]
+- !private ["Ps21_ObjectiveCBridgeable", "sign"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "utf8"]
+- !private ["Ps21_ObjectiveCBridgeable", "verify"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "decode"]
+- !private ["Ps22_RandomAccessIndexable", "encode"]
+- !private ["Ps22_RandomAccessIndexable", "flatMap"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "sign"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "verify"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "decode"]
+- !private ["Ps26_RangeReplaceableIndexable", "encode"]
+- !private ["Ps26_RangeReplaceableIndexable", "flatMap"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "sign"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "verify"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+- ["Ps11_Strideable", "init"]
+- ["Ps14_StringElement", "init"]
+depends-nominal:
+- "OV13PerfectCrypto3JWT3Alg"
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- "Ps17BitwiseOperations"
+- !private "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "O13PerfectCrypto6Digest"
+- "O13PerfectCrypto8Encoding"
+- "Ps9Equatable"
+- "OV13PerfectCrypto3JWT5Error"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "C13PerfectCrypto7HMACKey"
+- "Ps8Hashable"
+- !private "Si"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- !private "P10PerfectLib15JSONConvertible"
+- "V13PerfectCrypto3JWT"
+- "V13PerfectCrypto10JWTCreator"
+- "V13PerfectCrypto11JWTVerifier"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "P13PerfectCrypto5Octal"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Vs5UInt8"
+- !private "VSS8UTF8View"
+- "Ps15UnsignedInteger"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- "Ps14_StringElement"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectLib.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+interface-hash: "7156d0ac70cca58129bd7bd33e58e446"

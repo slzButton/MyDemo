@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "b1bc66906b4cfd0e7c11d07f6ab19117"
+build_time: [549950497, 886387000]
+inputs:
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HPACK.swift": [549950478, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP11Request.swift": [549950478, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP11Response.swift": [549950478, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2.swift": [549950478, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPContentCompression.swift": [549950478, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServer.swift": [549950478, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServerEx.swift": [549950478, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": [549950478, 0]

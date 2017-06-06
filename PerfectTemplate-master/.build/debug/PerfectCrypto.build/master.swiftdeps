@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "bd7c253c23f8f69428d38b88a08bb93b"
+build_time: [549950494, 643057000]
+inputs:
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/Algorithms.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/ByteIO.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/Extensions.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/JWT.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/Keys.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/OpenSSLInternal.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto.swift": [549950479, 0]

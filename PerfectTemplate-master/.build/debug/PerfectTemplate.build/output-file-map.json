@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectTemplate.build/master.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/Sources/main.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectTemplate.build/main.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectTemplate.build/main.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectTemplate.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectTemplate.build/main.swiftdeps"
+  }
+}

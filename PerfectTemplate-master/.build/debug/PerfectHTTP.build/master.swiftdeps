@@ -1,0 +1,13 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "bed990826aa1255734ab9a1831036e11"
+build_time: [549950496, 638033000]
+inputs:
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPFilter.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPHeaders.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPMethod.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPRequest.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPResponse.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/MimeReader.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/MimeType.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/Routing.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/StaticFileHandler.swift": [549950479, 0]

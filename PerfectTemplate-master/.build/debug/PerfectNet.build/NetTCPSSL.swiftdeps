@@ -1,0 +1,1366 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "VerifyCACallbackFunc"
+- "OpenSSLVerifyMode"
+- "TLSMethod"
+- "NetTCPSSL"
+- "=="
+provides-nominal:
+- "V10PerfectNet17OpenSSLVerifyMode"
+- "O10PerfectNet9TLSMethod"
+- "C10PerfectNet9NetTCPSSL"
+- "CC10PerfectNet9NetTCPSSL4X509"
+provides-member:
+- ["V10PerfectNet17OpenSSLVerifyMode", ""]
+- ["O10PerfectNet9TLSMethod", ""]
+- ["C10PerfectNet9NetTCPSSL", ""]
+- ["CC10PerfectNet9NetTCPSSL4X509", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "+="
+- !private "..<"
+- "=="
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- !private "BIO_free"
+- !private "BIO_new"
+- !private "BIO_new_file"
+- !private "BIO_puts"
+- !private "BIO_s_mem"
+- "Bool"
+- "BooleanLiteralType"
+- "COpenSSL"
+- "CastingPrecedence"
+- !private "DH_free"
+- "Double"
+- !private "ERR_error_string_n"
+- !private "ERR_get_error"
+- "ERR_load_crypto_strings"
+- !private "ERR_reason_error_string"
+- !private "EVP_PKEY_free"
+- "Int"
+- "Int32"
+- "Int8"
+- !private "NetEvent"
+- "NetTCP"
+- "NetTCPSSL"
+- !private "OPENSSL_VERSION_NUMBER"
+- !private "OPENSSL_VERSION_TEXT"
+- !private "OpaquePointer"
+- "OpenSSLVerifyMode"
+- "OptionSet"
+- !private "PEM_read_bio_DHparams"
+- !private "PEM_read_bio_PrivateKey"
+- !private "PEM_read_bio_X509"
+- "PerfectCrypto"
+- "ReferenceBuffer"
+- "SSL"
+- !private "SSL_CTRL_MODE"
+- !private "SSL_CTRL_OPTIONS"
+- !private "SSL_CTRL_SET_ECDH_AUTO"
+- !private "SSL_CTRL_SET_TMP_DH"
+- "SSL_CTX"
+- !private "SSL_CTX_check_private_key"
+- !private "SSL_CTX_ctrl"
+- !private "SSL_CTX_free"
+- !private "SSL_CTX_get_client_CA_list"
+- !private "SSL_CTX_load_verify_locations"
+- !private "SSL_CTX_new"
+- !private "SSL_CTX_set_cipher_list"
+- !private "SSL_CTX_set_client_CA_list"
+- !private "SSL_CTX_set_default_passwd_cb"
+- !private "SSL_CTX_set_default_passwd_cb_userdata"
+- !private "SSL_CTX_set_default_verify_paths"
+- !private "SSL_CTX_set_verify"
+- !private "SSL_CTX_use_PrivateKey"
+- !private "SSL_CTX_use_PrivateKey_file"
+- !private "SSL_CTX_use_certificate"
+- !private "SSL_CTX_use_certificate_chain_file"
+- !private "SSL_CTX_use_certificate_file"
+- !private "SSL_ERROR_SYSCALL"
+- !private "SSL_ERROR_WANT_READ"
+- !private "SSL_ERROR_WANT_WRITE"
+- !private "SSL_FILETYPE_PEM"
+- !private "SSL_MODE_AUTO_RETRY"
+- !private "SSL_OP_ALL"
+- "SSL_VERIFY_CLIENT_ONCE"
+- "SSL_VERIFY_FAIL_IF_NO_PEER_CERT"
+- "SSL_VERIFY_NONE"
+- "SSL_VERIFY_PEER"
+- !private "SSL_accept"
+- !private "SSL_connect"
+- !private "SSL_free"
+- !private "SSL_get_cipher_list"
+- !private "SSL_get_error"
+- !private "SSL_get_peer_certificate"
+- "SSL_library_init"
+- !private "SSL_load_client_CA_file"
+- "SSL_load_error_strings"
+- !private "SSL_new"
+- !private "SSL_read"
+- !private "SSL_set_accept_state"
+- !private "SSL_set_cipher_list"
+- !private "SSL_set_connect_state"
+- !private "SSL_set_fd"
+- !private "SSL_shutdown"
+- !private "SSL_write"
+- "String"
+- "StringLiteralType"
+- "TLSMethod"
+- !private "TLSv1_1_method"
+- !private "TLSv1_2_method"
+- !private "TLSv1_method"
+- "UInt"
+- "UInt8"
+- !private "UnicodeScalarType"
+- !private "Unmanaged"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawPointer"
+- !private "UnsafeRawPointer"
+- "VerifyCACallbackFunc"
+- "X509_STORE_CTX"
+- !private "X509_free"
+- !private "X509_get_pubkey"
+- !private "free"
+- !private "i2d_PUBKEY"
+- !private "invalidSocket"
+- !private "memmove"
+- !private "passwordCallbackFunc"
+- !private "print"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "BIO_free"]
+- !private ["Ps9AnyObject", "BIO_new"]
+- !private ["Ps9AnyObject", "BIO_new_file"]
+- !private ["Ps9AnyObject", "BIO_puts"]
+- !private ["Ps9AnyObject", "BIO_s_mem"]
+- !private ["Ps9AnyObject", "DH_free"]
+- !private ["Ps9AnyObject", "ERR_error_string_n"]
+- !private ["Ps9AnyObject", "ERR_get_error"]
+- ["Ps9AnyObject", "ERR_load_crypto_strings"]
+- !private ["Ps9AnyObject", "ERR_reason_error_string"]
+- !private ["Ps9AnyObject", "EVP_PKEY_free"]
+- !private ["Ps9AnyObject", "Filter"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "Int32"]
+- !private ["Ps9AnyObject", "NetEvent"]
+- !private ["Ps9AnyObject", "NetTCPSSL"]
+- !private ["Ps9AnyObject", "OPENSSL_VERSION_NUMBER"]
+- !private ["Ps9AnyObject", "OPENSSL_VERSION_TEXT"]
+- !private ["Ps9AnyObject", "PEM_read_bio_DHparams"]
+- !private ["Ps9AnyObject", "PEM_read_bio_PrivateKey"]
+- !private ["Ps9AnyObject", "PEM_read_bio_X509"]
+- ["Ps9AnyObject", "PerfectCrypto"]
+- !private ["Ps9AnyObject", "SSL_CTRL_MODE"]
+- !private ["Ps9AnyObject", "SSL_CTRL_OPTIONS"]
+- !private ["Ps9AnyObject", "SSL_CTRL_SET_ECDH_AUTO"]
+- !private ["Ps9AnyObject", "SSL_CTRL_SET_TMP_DH"]
+- !private ["Ps9AnyObject", "SSL_CTX_check_private_key"]
+- !private ["Ps9AnyObject", "SSL_CTX_ctrl"]
+- !private ["Ps9AnyObject", "SSL_CTX_free"]
+- !private ["Ps9AnyObject", "SSL_CTX_get_client_CA_list"]
+- !private ["Ps9AnyObject", "SSL_CTX_load_verify_locations"]
+- !private ["Ps9AnyObject", "SSL_CTX_new"]
+- !private ["Ps9AnyObject", "SSL_CTX_set_cipher_list"]
+- !private ["Ps9AnyObject", "SSL_CTX_set_client_CA_list"]
+- !private ["Ps9AnyObject", "SSL_CTX_set_default_passwd_cb"]
+- !private ["Ps9AnyObject", "SSL_CTX_set_default_passwd_cb_userdata"]
+- !private ["Ps9AnyObject", "SSL_CTX_set_default_verify_paths"]
+- !private ["Ps9AnyObject", "SSL_CTX_set_verify"]
+- !private ["Ps9AnyObject", "SSL_CTX_use_PrivateKey"]
+- !private ["Ps9AnyObject", "SSL_CTX_use_PrivateKey_file"]
+- !private ["Ps9AnyObject", "SSL_CTX_use_certificate"]
+- !private ["Ps9AnyObject", "SSL_CTX_use_certificate_chain_file"]
+- !private ["Ps9AnyObject", "SSL_CTX_use_certificate_file"]
+- !private ["Ps9AnyObject", "SSL_ERROR_SYSCALL"]
+- !private ["Ps9AnyObject", "SSL_ERROR_WANT_READ"]
+- !private ["Ps9AnyObject", "SSL_ERROR_WANT_WRITE"]
+- !private ["Ps9AnyObject", "SSL_FILETYPE_PEM"]
+- !private ["Ps9AnyObject", "SSL_MODE_AUTO_RETRY"]
+- !private ["Ps9AnyObject", "SSL_OP_ALL"]
+- !private ["Ps9AnyObject", "SSL_accept"]
+- !private ["Ps9AnyObject", "SSL_connect"]
+- !private ["Ps9AnyObject", "SSL_free"]
+- !private ["Ps9AnyObject", "SSL_get_cipher_list"]
+- !private ["Ps9AnyObject", "SSL_get_error"]
+- !private ["Ps9AnyObject", "SSL_get_peer_certificate"]
+- ["Ps9AnyObject", "SSL_library_init"]
+- !private ["Ps9AnyObject", "SSL_load_client_CA_file"]
+- ["Ps9AnyObject", "SSL_load_error_strings"]
+- !private ["Ps9AnyObject", "SSL_new"]
+- !private ["Ps9AnyObject", "SSL_read"]
+- !private ["Ps9AnyObject", "SSL_set_accept_state"]
+- !private ["Ps9AnyObject", "SSL_set_cipher_list"]
+- !private ["Ps9AnyObject", "SSL_set_connect_state"]
+- !private ["Ps9AnyObject", "SSL_set_fd"]
+- !private ["Ps9AnyObject", "SSL_shutdown"]
+- !private ["Ps9AnyObject", "SSL_write"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "TLSv1_1_method"]
+- !private ["Ps9AnyObject", "TLSv1_2_method"]
+- !private ["Ps9AnyObject", "TLSv1_method"]
+- !private ["Ps9AnyObject", "UInt"]
+- !private ["Ps9AnyObject", "UInt8"]
+- !private ["Ps9AnyObject", "Unmanaged"]
+- !private ["Ps9AnyObject", "UnsafeMutablePointer"]
+- !private ["Ps9AnyObject", "UnsafeMutableRawPointer"]
+- !private ["Ps9AnyObject", "UnsafeRawPointer"]
+- !private ["Ps9AnyObject", "X509"]
+- !private ["Ps9AnyObject", "X509_free"]
+- !private ["Ps9AnyObject", "X509_get_pubkey"]
+- !private ["Ps9AnyObject", "accept"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "beginSSL"]
+- !private ["Ps9AnyObject", "close"]
+- !private ["Ps9AnyObject", "errorCode"]
+- !private ["Ps9AnyObject", "errorStr"]
+- !private ["Ps9AnyObject", "fd"]
+- !private ["Ps9AnyObject", "finishAccept"]
+- !private ["Ps9AnyObject", "forEachAccept"]
+- !private ["Ps9AnyObject", "free"]
+- !private ["Ps9AnyObject", "i2d_PUBKEY"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initOnce"]
+- !private ["Ps9AnyObject", "initSocket"]
+- !private ["Ps9AnyObject", "initializedCallback"]
+- !private ["Ps9AnyObject", "invalidSocket"]
+- !private ["Ps9AnyObject", "isEAgain"]
+- !private ["Ps9AnyObject", "isEmpty"]
+- !private ["Ps9AnyObject", "keyFilePassword"]
+- !private ["Ps9AnyObject", "memmove"]
+- !private ["Ps9AnyObject", "noTimeout"]
+- !private ["Ps9AnyObject", "passwordCallback"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "ptr"]
+- !private ["Ps9AnyObject", "readBytesFully"]
+- !private ["Ps9AnyObject", "readBytesFullyIncomplete"]
+- !private ["Ps9AnyObject", "recv"]
+- !private ["Ps9AnyObject", "send"]
+- !private ["Ps9AnyObject", "sharedSSLCtx"]
+- !private ["Ps9AnyObject", "ssl"]
+- !private ["Ps9AnyObject", "sslCtx"]
+- !private ["Ps9AnyObject", "tlsMethod"]
+- !private ["Ps9AnyObject", "usingSSL"]
+- !private ["Ps9AnyObject", "utf8"]
+- !private ["Ps9AnyObject", "write"]
+- !private ["Ps9AnyObject", "writeIncomplete"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "joined"]
+- !private ["Ps23BidirectionalCollection", "reserveCapacity"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps17BitwiseOperations", "init"]
+- ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "allocate"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "deallocate"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEmpty"]
+- !private ["Ps7CVarArg", "joined"]
+- !private ["Ps7CVarArg", "pointee"]
+- !private ["Ps7CVarArg", "reserveCapacity"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "utf8"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "joined"]
+- !private ["Ps10Collection", "reserveCapacity"]
+- !private ["Ps10Comparable", "advanced"]
+- !private ["Ps10Comparable", "allocate"]
+- !private ["Ps10Comparable", "deallocate"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "isEmpty"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["Ps10Comparable", "subscript"]
+- !private ["Ps10Comparable", "utf8"]
+- !private ["Ps28CustomDebugStringConvertible", "advanced"]
+- !private ["Ps28CustomDebugStringConvertible", "allocate"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "deallocate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- !private ["Ps28CustomDebugStringConvertible", "joined"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "reserveCapacity"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "utf8"]
+- ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "advanced"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "allocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "count"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "deallocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isEmpty"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "utf8"]
+- ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "advanced"]
+- !private ["Ps17CustomReflectable", "allocate"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "deallocate"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "isEmpty"]
+- !private ["Ps17CustomReflectable", "joined"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- !private ["Ps17CustomReflectable", "reserveCapacity"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "utf8"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEmpty"]
+- !private ["Ps23CustomStringConvertible", "joined"]
+- !private ["Ps23CustomStringConvertible", "reserveCapacity"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- ["Ps9Equatable", "OpenSSLVerifyMode"]
+- ["Ps9Equatable", "SSL_VERIFY_CLIENT_ONCE"]
+- ["Ps9Equatable", "SSL_VERIFY_FAIL_IF_NO_PEER_CERT"]
+- ["Ps9Equatable", "SSL_VERIFY_NONE"]
+- ["Ps9Equatable", "SSL_VERIFY_PEER"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "advanced"]
+- !private ["Ps9Equatable", "allocate"]
+- ["Ps9Equatable", "contains"]
+- !private ["Ps9Equatable", "deallocate"]
+- ["Ps9Equatable", "formIntersection"]
+- ["Ps9Equatable", "formSymmetricDifference"]
+- ["Ps9Equatable", "formUnion"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "insert"]
+- ["Ps9Equatable", "intersection"]
+- ["Ps9Equatable", "isDisjoint"]
+- ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "isSubset"]
+- ["Ps9Equatable", "isSuperset"]
+- !private ["Ps9Equatable", "pointee"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "remove"]
+- ["Ps9Equatable", "sslVerifyClientOnce"]
+- ["Ps9Equatable", "sslVerifyFailIfNoPeerCert"]
+- ["Ps9Equatable", "sslVerifyPeer"]
+- !private ["Ps9Equatable", "subscript"]
+- ["Ps9Equatable", "subtract"]
+- ["Ps9Equatable", "subtracting"]
+- ["Ps9Equatable", "symmetricDifference"]
+- ["Ps9Equatable", "tlsV1"]
+- ["Ps9Equatable", "tlsV1_1"]
+- ["Ps9Equatable", "tlsV1_2"]
+- ["Ps9Equatable", "union"]
+- ["Ps9Equatable", "update"]
+- !private ["Ps9Equatable", "utf8"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "OpenSSLVerifyMode"]
+- ["Ps25ExpressibleByArrayLiteral", "SSL_VERIFY_CLIENT_ONCE"]
+- ["Ps25ExpressibleByArrayLiteral", "SSL_VERIFY_FAIL_IF_NO_PEER_CERT"]
+- ["Ps25ExpressibleByArrayLiteral", "SSL_VERIFY_NONE"]
+- ["Ps25ExpressibleByArrayLiteral", "SSL_VERIFY_PEER"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- ["Ps25ExpressibleByArrayLiteral", "contains"]
+- ["Ps25ExpressibleByArrayLiteral", "formIntersection"]
+- ["Ps25ExpressibleByArrayLiteral", "formSymmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "formUnion"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "insert"]
+- ["Ps25ExpressibleByArrayLiteral", "intersection"]
+- ["Ps25ExpressibleByArrayLiteral", "isDisjoint"]
+- ["Ps25ExpressibleByArrayLiteral", "isEmpty"]
+- ["Ps25ExpressibleByArrayLiteral", "isSubset"]
+- ["Ps25ExpressibleByArrayLiteral", "isSuperset"]
+- !private ["Ps25ExpressibleByArrayLiteral", "joined"]
+- ["Ps25ExpressibleByArrayLiteral", "rawValue"]
+- ["Ps25ExpressibleByArrayLiteral", "remove"]
+- !private ["Ps25ExpressibleByArrayLiteral", "reserveCapacity"]
+- ["Ps25ExpressibleByArrayLiteral", "sslVerifyClientOnce"]
+- ["Ps25ExpressibleByArrayLiteral", "sslVerifyFailIfNoPeerCert"]
+- ["Ps25ExpressibleByArrayLiteral", "sslVerifyPeer"]
+- ["Ps25ExpressibleByArrayLiteral", "subtract"]
+- ["Ps25ExpressibleByArrayLiteral", "subtracting"]
+- ["Ps25ExpressibleByArrayLiteral", "symmetricDifference"]
+- ["Ps25ExpressibleByArrayLiteral", "union"]
+- ["Ps25ExpressibleByArrayLiteral", "update"]
+- ["Ps25ExpressibleByArrayLiteral", ""]
+- ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "utf8"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "advanced"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "isEmpty"]
+- !private ["Ps26ExpressibleByStringLiteral", "utf8"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "utf8"]
+- !private ["OC10PerfectNet8NetEvent6Filter", "read"]
+- !private ["OC10PerfectNet8NetEvent6Filter", "timer"]
+- !private ["OC10PerfectNet8NetEvent6Filter", "write"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "advanced"]
+- !private ["Ps8Hashable", "allocate"]
+- !private ["Ps8Hashable", "deallocate"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEmpty"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Ps8Hashable", "subscript"]
+- ["Ps8Hashable", "tlsV1"]
+- ["Ps8Hashable", "tlsV1_1"]
+- ["Ps8Hashable", "tlsV1_2"]
+- !private ["Ps8Hashable", "utf8"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Si", "init"]
+- !private ["Vs5Int32", "init"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- !private ["P10PerfectLib15JSONConvertible", "advanced"]
+- !private ["P10PerfectLib15JSONConvertible", "append"]
+- !private ["P10PerfectLib15JSONConvertible", "hashValue"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- !private ["P10PerfectLib15JSONConvertible", "isEmpty"]
+- !private ["P10PerfectLib15JSONConvertible", "joined"]
+- !private ["P10PerfectLib15JSONConvertible", "reserveCapacity"]
+- !private ["P10PerfectLib15JSONConvertible", "utf8"]
+- ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "isEmpty"]
+- !private ["Ps25LosslessStringConvertible", "utf8"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "isEmpty"]
+- !private ["Ps10MirrorPath", "utf8"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps17MutableCollection", "joined"]
+- !private ["Ps17MutableCollection", "reserveCapacity"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEmpty"]
+- !private ["PSo8NSCoding", "utf8"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEmpty"]
+- !private ["PSo9NSCopying", "utf8"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "isEmpty"]
+- !private ["PSo16NSMutableCopying", "utf8"]
+- !private ["CSo8NSObject", "isEmpty"]
+- !private ["CSo8NSObject", "utf8"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEmpty"]
+- !private ["PSo16NSObjectProtocol", "utf8"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEmpty"]
+- !private ["PSo14NSSecureCoding", "utf8"]
+- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "isEmpty"]
+- !private ["CSo8NSString", "utf8"]
+- !private ["C10PerfectNet3Net", "BIO_free"]
+- !private ["C10PerfectNet3Net", "BIO_new"]
+- !private ["C10PerfectNet3Net", "BIO_new_file"]
+- !private ["C10PerfectNet3Net", "BIO_puts"]
+- !private ["C10PerfectNet3Net", "BIO_s_mem"]
+- ["C10PerfectNet3Net", "Bool"]
+- ["C10PerfectNet3Net", "COpenSSL"]
+- !private ["C10PerfectNet3Net", "DH_free"]
+- ["C10PerfectNet3Net", "Double"]
+- !private ["C10PerfectNet3Net", "ERR_error_string_n"]
+- !private ["C10PerfectNet3Net", "ERR_get_error"]
+- ["C10PerfectNet3Net", "ERR_load_crypto_strings"]
+- !private ["C10PerfectNet3Net", "ERR_reason_error_string"]
+- !private ["C10PerfectNet3Net", "EVP_PKEY_free"]
+- ["C10PerfectNet3Net", "Int"]
+- ["C10PerfectNet3Net", "Int32"]
+- ["C10PerfectNet3Net", "Int8"]
+- !private ["C10PerfectNet3Net", "NetEvent"]
+- ["C10PerfectNet3Net", "NetTCP"]
+- ["C10PerfectNet3Net", "NetTCPSSL"]
+- !private ["C10PerfectNet3Net", "OPENSSL_VERSION_NUMBER"]
+- !private ["C10PerfectNet3Net", "OPENSSL_VERSION_TEXT"]
+- !private ["C10PerfectNet3Net", "OpaquePointer"]
+- ["C10PerfectNet3Net", "OpenSSLVerifyMode"]
+- !private ["C10PerfectNet3Net", "PEM_read_bio_DHparams"]
+- !private ["C10PerfectNet3Net", "PEM_read_bio_PrivateKey"]
+- !private ["C10PerfectNet3Net", "PEM_read_bio_X509"]
+- ["C10PerfectNet3Net", "PerfectCrypto"]
+- ["C10PerfectNet3Net", "ReferenceBuffer"]
+- ["C10PerfectNet3Net", "SSL"]
+- !private ["C10PerfectNet3Net", "SSL_CTRL_MODE"]
+- !private ["C10PerfectNet3Net", "SSL_CTRL_OPTIONS"]
+- !private ["C10PerfectNet3Net", "SSL_CTRL_SET_ECDH_AUTO"]
+- !private ["C10PerfectNet3Net", "SSL_CTRL_SET_TMP_DH"]
+- ["C10PerfectNet3Net", "SSL_CTX"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_check_private_key"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_ctrl"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_free"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_get_client_CA_list"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_load_verify_locations"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_new"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_set_cipher_list"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_set_client_CA_list"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_set_default_passwd_cb"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_set_default_passwd_cb_userdata"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_set_default_verify_paths"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_set_verify"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_use_PrivateKey"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_use_PrivateKey_file"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_use_certificate"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_use_certificate_chain_file"]
+- !private ["C10PerfectNet3Net", "SSL_CTX_use_certificate_file"]
+- !private ["C10PerfectNet3Net", "SSL_ERROR_SYSCALL"]
+- !private ["C10PerfectNet3Net", "SSL_ERROR_WANT_READ"]
+- !private ["C10PerfectNet3Net", "SSL_ERROR_WANT_WRITE"]
+- !private ["C10PerfectNet3Net", "SSL_FILETYPE_PEM"]
+- !private ["C10PerfectNet3Net", "SSL_MODE_AUTO_RETRY"]
+- !private ["C10PerfectNet3Net", "SSL_OP_ALL"]
+- !private ["C10PerfectNet3Net", "SSL_accept"]
+- !private ["C10PerfectNet3Net", "SSL_connect"]
+- !private ["C10PerfectNet3Net", "SSL_free"]
+- !private ["C10PerfectNet3Net", "SSL_get_cipher_list"]
+- !private ["C10PerfectNet3Net", "SSL_get_error"]
+- !private ["C10PerfectNet3Net", "SSL_get_peer_certificate"]
+- ["C10PerfectNet3Net", "SSL_library_init"]
+- !private ["C10PerfectNet3Net", "SSL_load_client_CA_file"]
+- ["C10PerfectNet3Net", "SSL_load_error_strings"]
+- !private ["C10PerfectNet3Net", "SSL_new"]
+- !private ["C10PerfectNet3Net", "SSL_read"]
+- !private ["C10PerfectNet3Net", "SSL_set_accept_state"]
+- !private ["C10PerfectNet3Net", "SSL_set_cipher_list"]
+- !private ["C10PerfectNet3Net", "SSL_set_connect_state"]
+- !private ["C10PerfectNet3Net", "SSL_set_fd"]
+- !private ["C10PerfectNet3Net", "SSL_shutdown"]
+- !private ["C10PerfectNet3Net", "SSL_write"]
+- ["C10PerfectNet3Net", "String"]
+- ["C10PerfectNet3Net", "TLSMethod"]
+- !private ["C10PerfectNet3Net", "TLSv1_1_method"]
+- !private ["C10PerfectNet3Net", "TLSv1_2_method"]
+- !private ["C10PerfectNet3Net", "TLSv1_method"]
+- ["C10PerfectNet3Net", "UInt"]
+- ["C10PerfectNet3Net", "UInt8"]
+- !private ["C10PerfectNet3Net", "Unmanaged"]
+- ["C10PerfectNet3Net", "UnsafeMutablePointer"]
+- ["C10PerfectNet3Net", "UnsafeMutableRawPointer"]
+- !private ["C10PerfectNet3Net", "UnsafeRawPointer"]
+- ["C10PerfectNet3Net", "VerifyCACallbackFunc"]
+- ["C10PerfectNet3Net", "X509"]
+- !private ["C10PerfectNet3Net", "X509_free"]
+- !private ["C10PerfectNet3Net", "X509_get_pubkey"]
+- ["C10PerfectNet3Net", "accept"]
+- ["C10PerfectNet3Net", "beginSSL"]
+- ["C10PerfectNet3Net", "checkPrivateKey"]
+- ["C10PerfectNet3Net", "cipherList"]
+- ["C10PerfectNet3Net", "close"]
+- ["C10PerfectNet3Net", "endSSL"]
+- ["C10PerfectNet3Net", "errorCode"]
+- ["C10PerfectNet3Net", "errorStr"]
+- !private ["C10PerfectNet3Net", "fd"]
+- ["C10PerfectNet3Net", "finishAccept"]
+- ["C10PerfectNet3Net", "forEachAccept"]
+- !private ["C10PerfectNet3Net", "free"]
+- !private ["C10PerfectNet3Net", "i2d_PUBKEY"]
+- ["C10PerfectNet3Net", "init"]
+- ["C10PerfectNet3Net", "initOnce"]
+- ["C10PerfectNet3Net", "initSocket"]
+- ["C10PerfectNet3Net", "initializedCallback"]
+- !private ["C10PerfectNet3Net", "invalidSocket"]
+- ["C10PerfectNet3Net", "isEAgain"]
+- ["C10PerfectNet3Net", "keyFilePassword"]
+- ["C10PerfectNet3Net", "makeFromFd"]
+- !private ["C10PerfectNet3Net", "memmove"]
+- ["C10PerfectNet3Net", "opensslVersionNumber"]
+- ["C10PerfectNet3Net", "opensslVersionText"]
+- ["C10PerfectNet3Net", "passwordCallback"]
+- !private ["C10PerfectNet3Net", "passwordCallbackFunc"]
+- ["C10PerfectNet3Net", "peerCertificate"]
+- !private ["C10PerfectNet3Net", "print"]
+- !private ["C10PerfectNet3Net", "readBytesFully"]
+- ["C10PerfectNet3Net", "readBytesFullyIncomplete"]
+- ["C10PerfectNet3Net", "reasonErrorStr"]
+- ["C10PerfectNet3Net", "recv"]
+- ["C10PerfectNet3Net", "send"]
+- ["C10PerfectNet3Net", "setAcceptState"]
+- ["C10PerfectNet3Net", "setClientCA"]
+- ["C10PerfectNet3Net", "setConnectState"]
+- ["C10PerfectNet3Net", "setDefaultVerifyPaths"]
+- ["C10PerfectNet3Net", "setTmpDH"]
+- ["C10PerfectNet3Net", "setVerifyLocations"]
+- ["C10PerfectNet3Net", "sharedSSLCtx"]
+- ["C10PerfectNet3Net", "shutdown"]
+- ["C10PerfectNet3Net", "ssl"]
+- ["C10PerfectNet3Net", "sslCtx"]
+- ["C10PerfectNet3Net", "sslErrorCode"]
+- ["C10PerfectNet3Net", "subscribeCAVerify"]
+- ["C10PerfectNet3Net", "tlsMethod"]
+- ["C10PerfectNet3Net", "useCertificateChain"]
+- ["C10PerfectNet3Net", "useCertificateChainFile"]
+- ["C10PerfectNet3Net", "useCertificateFile"]
+- ["C10PerfectNet3Net", "usePrivateKey"]
+- ["C10PerfectNet3Net", "usePrivateKeyFile"]
+- ["C10PerfectNet3Net", "usingSSL"]
+- !private ["C10PerfectNet3Net", "write"]
+- ["C10PerfectNet3Net", "writeIncomplete"]
+- !private ["C10PerfectNet8NetEvent", "Filter"]
+- !private ["C10PerfectNet8NetEvent", "add"]
+- !private ["C10PerfectNet8NetEvent", "noTimeout"]
+- !private ["C10PerfectNet6NetTCP", "BIO_free"]
+- !private ["C10PerfectNet6NetTCP", "BIO_new"]
+- !private ["C10PerfectNet6NetTCP", "BIO_new_file"]
+- !private ["C10PerfectNet6NetTCP", "BIO_puts"]
+- !private ["C10PerfectNet6NetTCP", "BIO_s_mem"]
+- ["C10PerfectNet6NetTCP", "Bool"]
+- ["C10PerfectNet6NetTCP", "COpenSSL"]
+- !private ["C10PerfectNet6NetTCP", "DH_free"]
+- ["C10PerfectNet6NetTCP", "Double"]
+- !private ["C10PerfectNet6NetTCP", "ERR_error_string_n"]
+- !private ["C10PerfectNet6NetTCP", "ERR_get_error"]
+- ["C10PerfectNet6NetTCP", "ERR_load_crypto_strings"]
+- !private ["C10PerfectNet6NetTCP", "ERR_reason_error_string"]
+- !private ["C10PerfectNet6NetTCP", "EVP_PKEY_free"]
+- ["C10PerfectNet6NetTCP", "Int"]
+- ["C10PerfectNet6NetTCP", "Int32"]
+- ["C10PerfectNet6NetTCP", "Int8"]
+- !private ["C10PerfectNet6NetTCP", "NetEvent"]
+- ["C10PerfectNet6NetTCP", "NetTCP"]
+- ["C10PerfectNet6NetTCP", "NetTCPSSL"]
+- !private ["C10PerfectNet6NetTCP", "OPENSSL_VERSION_NUMBER"]
+- !private ["C10PerfectNet6NetTCP", "OPENSSL_VERSION_TEXT"]
+- !private ["C10PerfectNet6NetTCP", "OpaquePointer"]
+- ["C10PerfectNet6NetTCP", "OpenSSLVerifyMode"]
+- !private ["C10PerfectNet6NetTCP", "PEM_read_bio_DHparams"]
+- !private ["C10PerfectNet6NetTCP", "PEM_read_bio_PrivateKey"]
+- !private ["C10PerfectNet6NetTCP", "PEM_read_bio_X509"]
+- ["C10PerfectNet6NetTCP", "PerfectCrypto"]
+- ["C10PerfectNet6NetTCP", "ReferenceBuffer"]
+- ["C10PerfectNet6NetTCP", "SSL"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTRL_MODE"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTRL_OPTIONS"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTRL_SET_ECDH_AUTO"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTRL_SET_TMP_DH"]
+- ["C10PerfectNet6NetTCP", "SSL_CTX"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_check_private_key"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_ctrl"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_free"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_get_client_CA_list"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_load_verify_locations"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_new"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_set_cipher_list"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_set_client_CA_list"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_set_default_passwd_cb"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_set_default_passwd_cb_userdata"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_set_default_verify_paths"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_set_verify"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_use_PrivateKey"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_use_PrivateKey_file"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_use_certificate"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_use_certificate_chain_file"]
+- !private ["C10PerfectNet6NetTCP", "SSL_CTX_use_certificate_file"]
+- !private ["C10PerfectNet6NetTCP", "SSL_ERROR_SYSCALL"]
+- !private ["C10PerfectNet6NetTCP", "SSL_ERROR_WANT_READ"]
+- !private ["C10PerfectNet6NetTCP", "SSL_ERROR_WANT_WRITE"]
+- !private ["C10PerfectNet6NetTCP", "SSL_FILETYPE_PEM"]
+- !private ["C10PerfectNet6NetTCP", "SSL_MODE_AUTO_RETRY"]
+- !private ["C10PerfectNet6NetTCP", "SSL_OP_ALL"]
+- !private ["C10PerfectNet6NetTCP", "SSL_accept"]
+- !private ["C10PerfectNet6NetTCP", "SSL_connect"]
+- !private ["C10PerfectNet6NetTCP", "SSL_free"]
+- !private ["C10PerfectNet6NetTCP", "SSL_get_cipher_list"]
+- !private ["C10PerfectNet6NetTCP", "SSL_get_error"]
+- !private ["C10PerfectNet6NetTCP", "SSL_get_peer_certificate"]
+- ["C10PerfectNet6NetTCP", "SSL_library_init"]
+- !private ["C10PerfectNet6NetTCP", "SSL_load_client_CA_file"]
+- ["C10PerfectNet6NetTCP", "SSL_load_error_strings"]
+- !private ["C10PerfectNet6NetTCP", "SSL_new"]
+- !private ["C10PerfectNet6NetTCP", "SSL_read"]
+- !private ["C10PerfectNet6NetTCP", "SSL_set_accept_state"]
+- !private ["C10PerfectNet6NetTCP", "SSL_set_cipher_list"]
+- !private ["C10PerfectNet6NetTCP", "SSL_set_connect_state"]
+- !private ["C10PerfectNet6NetTCP", "SSL_set_fd"]
+- !private ["C10PerfectNet6NetTCP", "SSL_shutdown"]
+- !private ["C10PerfectNet6NetTCP", "SSL_write"]
+- ["C10PerfectNet6NetTCP", "String"]
+- ["C10PerfectNet6NetTCP", "TLSMethod"]
+- !private ["C10PerfectNet6NetTCP", "TLSv1_1_method"]
+- !private ["C10PerfectNet6NetTCP", "TLSv1_2_method"]
+- !private ["C10PerfectNet6NetTCP", "TLSv1_method"]
+- ["C10PerfectNet6NetTCP", "UInt"]
+- ["C10PerfectNet6NetTCP", "UInt8"]
+- !private ["C10PerfectNet6NetTCP", "Unmanaged"]
+- ["C10PerfectNet6NetTCP", "UnsafeMutablePointer"]
+- ["C10PerfectNet6NetTCP", "UnsafeMutableRawPointer"]
+- !private ["C10PerfectNet6NetTCP", "UnsafeRawPointer"]
+- ["C10PerfectNet6NetTCP", "VerifyCACallbackFunc"]
+- ["C10PerfectNet6NetTCP", "X509"]
+- !private ["C10PerfectNet6NetTCP", "X509_free"]
+- !private ["C10PerfectNet6NetTCP", "X509_get_pubkey"]
+- ["C10PerfectNet6NetTCP", "accept"]
+- ["C10PerfectNet6NetTCP", "beginSSL"]
+- ["C10PerfectNet6NetTCP", "checkPrivateKey"]
+- ["C10PerfectNet6NetTCP", "cipherList"]
+- ["C10PerfectNet6NetTCP", "close"]
+- ["C10PerfectNet6NetTCP", "endSSL"]
+- ["C10PerfectNet6NetTCP", "errorCode"]
+- ["C10PerfectNet6NetTCP", "errorStr"]
+- !private ["C10PerfectNet6NetTCP", "fd"]
+- ["C10PerfectNet6NetTCP", "finishAccept"]
+- ["C10PerfectNet6NetTCP", "forEachAccept"]
+- !private ["C10PerfectNet6NetTCP", "free"]
+- !private ["C10PerfectNet6NetTCP", "i2d_PUBKEY"]
+- ["C10PerfectNet6NetTCP", "init"]
+- ["C10PerfectNet6NetTCP", "initOnce"]
+- ["C10PerfectNet6NetTCP", "initSocket"]
+- ["C10PerfectNet6NetTCP", "initializedCallback"]
+- !private ["C10PerfectNet6NetTCP", "invalidSocket"]
+- ["C10PerfectNet6NetTCP", "isEAgain"]
+- ["C10PerfectNet6NetTCP", "keyFilePassword"]
+- ["C10PerfectNet6NetTCP", "makeFromFd"]
+- !private ["C10PerfectNet6NetTCP", "memmove"]
+- ["C10PerfectNet6NetTCP", "opensslVersionNumber"]
+- ["C10PerfectNet6NetTCP", "opensslVersionText"]
+- ["C10PerfectNet6NetTCP", "passwordCallback"]
+- !private ["C10PerfectNet6NetTCP", "passwordCallbackFunc"]
+- ["C10PerfectNet6NetTCP", "peerCertificate"]
+- !private ["C10PerfectNet6NetTCP", "print"]
+- !private ["C10PerfectNet6NetTCP", "readBytesFully"]
+- ["C10PerfectNet6NetTCP", "readBytesFullyIncomplete"]
+- ["C10PerfectNet6NetTCP", "reasonErrorStr"]
+- ["C10PerfectNet6NetTCP", "recv"]
+- ["C10PerfectNet6NetTCP", "send"]
+- ["C10PerfectNet6NetTCP", "setAcceptState"]
+- ["C10PerfectNet6NetTCP", "setClientCA"]
+- ["C10PerfectNet6NetTCP", "setConnectState"]
+- ["C10PerfectNet6NetTCP", "setDefaultVerifyPaths"]
+- ["C10PerfectNet6NetTCP", "setTmpDH"]
+- ["C10PerfectNet6NetTCP", "setVerifyLocations"]
+- ["C10PerfectNet6NetTCP", "sharedSSLCtx"]
+- ["C10PerfectNet6NetTCP", "shutdown"]
+- ["C10PerfectNet6NetTCP", "ssl"]
+- ["C10PerfectNet6NetTCP", "sslCtx"]
+- ["C10PerfectNet6NetTCP", "sslErrorCode"]
+- ["C10PerfectNet6NetTCP", "subscribeCAVerify"]
+- ["C10PerfectNet6NetTCP", "tlsMethod"]
+- ["C10PerfectNet6NetTCP", "useCertificateChain"]
+- ["C10PerfectNet6NetTCP", "useCertificateChainFile"]
+- ["C10PerfectNet6NetTCP", "useCertificateFile"]
+- ["C10PerfectNet6NetTCP", "usePrivateKey"]
+- ["C10PerfectNet6NetTCP", "usePrivateKeyFile"]
+- ["C10PerfectNet6NetTCP", "usingSSL"]
+- !private ["C10PerfectNet6NetTCP", "write"]
+- ["C10PerfectNet6NetTCP", "writeIncomplete"]
+- ["C10PerfectNet6NetTCP", ""]
+- !private ["C10PerfectNet9NetTCPSSL", "BIO_free"]
+- !private ["C10PerfectNet9NetTCPSSL", "BIO_new"]
+- !private ["C10PerfectNet9NetTCPSSL", "BIO_new_file"]
+- !private ["C10PerfectNet9NetTCPSSL", "BIO_puts"]
+- !private ["C10PerfectNet9NetTCPSSL", "BIO_s_mem"]
+- ["C10PerfectNet9NetTCPSSL", "Bool"]
+- ["C10PerfectNet9NetTCPSSL", "COpenSSL"]
+- !private ["C10PerfectNet9NetTCPSSL", "DH_free"]
+- ["C10PerfectNet9NetTCPSSL", "Double"]
+- !private ["C10PerfectNet9NetTCPSSL", "ERR_error_string_n"]
+- !private ["C10PerfectNet9NetTCPSSL", "ERR_get_error"]
+- ["C10PerfectNet9NetTCPSSL", "ERR_load_crypto_strings"]
+- !private ["C10PerfectNet9NetTCPSSL", "ERR_reason_error_string"]
+- !private ["C10PerfectNet9NetTCPSSL", "EVP_PKEY_free"]
+- ["C10PerfectNet9NetTCPSSL", "Int"]
+- ["C10PerfectNet9NetTCPSSL", "Int32"]
+- ["C10PerfectNet9NetTCPSSL", "Int8"]
+- !private ["C10PerfectNet9NetTCPSSL", "NetEvent"]
+- ["C10PerfectNet9NetTCPSSL", "NetTCP"]
+- ["C10PerfectNet9NetTCPSSL", "NetTCPSSL"]
+- !private ["C10PerfectNet9NetTCPSSL", "OPENSSL_VERSION_NUMBER"]
+- !private ["C10PerfectNet9NetTCPSSL", "OPENSSL_VERSION_TEXT"]
+- !private ["C10PerfectNet9NetTCPSSL", "OpaquePointer"]
+- ["C10PerfectNet9NetTCPSSL", "OpenSSLVerifyMode"]
+- !private ["C10PerfectNet9NetTCPSSL", "PEM_read_bio_DHparams"]
+- !private ["C10PerfectNet9NetTCPSSL", "PEM_read_bio_PrivateKey"]
+- !private ["C10PerfectNet9NetTCPSSL", "PEM_read_bio_X509"]
+- ["C10PerfectNet9NetTCPSSL", "PerfectCrypto"]
+- ["C10PerfectNet9NetTCPSSL", "ReferenceBuffer"]
+- ["C10PerfectNet9NetTCPSSL", "SSL"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTRL_MODE"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTRL_OPTIONS"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTRL_SET_ECDH_AUTO"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTRL_SET_TMP_DH"]
+- ["C10PerfectNet9NetTCPSSL", "SSL_CTX"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_check_private_key"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_ctrl"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_free"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_get_client_CA_list"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_load_verify_locations"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_new"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_set_cipher_list"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_set_client_CA_list"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_set_default_passwd_cb"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_set_default_passwd_cb_userdata"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_set_default_verify_paths"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_set_verify"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_use_PrivateKey"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_use_PrivateKey_file"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_use_certificate"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_use_certificate_chain_file"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_CTX_use_certificate_file"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_ERROR_SYSCALL"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_ERROR_WANT_READ"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_ERROR_WANT_WRITE"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_FILETYPE_PEM"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_MODE_AUTO_RETRY"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_OP_ALL"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_accept"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_connect"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_free"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_get_cipher_list"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_get_error"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_get_peer_certificate"]
+- ["C10PerfectNet9NetTCPSSL", "SSL_library_init"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_load_client_CA_file"]
+- ["C10PerfectNet9NetTCPSSL", "SSL_load_error_strings"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_new"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_read"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_set_accept_state"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_set_cipher_list"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_set_connect_state"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_set_fd"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_shutdown"]
+- !private ["C10PerfectNet9NetTCPSSL", "SSL_write"]
+- ["C10PerfectNet9NetTCPSSL", "String"]
+- ["C10PerfectNet9NetTCPSSL", "TLSMethod"]
+- !private ["C10PerfectNet9NetTCPSSL", "TLSv1_1_method"]
+- !private ["C10PerfectNet9NetTCPSSL", "TLSv1_2_method"]
+- !private ["C10PerfectNet9NetTCPSSL", "TLSv1_method"]
+- ["C10PerfectNet9NetTCPSSL", "UInt"]
+- ["C10PerfectNet9NetTCPSSL", "UInt8"]
+- !private ["C10PerfectNet9NetTCPSSL", "Unmanaged"]
+- ["C10PerfectNet9NetTCPSSL", "UnsafeMutablePointer"]
+- ["C10PerfectNet9NetTCPSSL", "UnsafeMutableRawPointer"]
+- !private ["C10PerfectNet9NetTCPSSL", "UnsafeRawPointer"]
+- ["C10PerfectNet9NetTCPSSL", "VerifyCACallbackFunc"]
+- ["C10PerfectNet9NetTCPSSL", "X509"]
+- !private ["C10PerfectNet9NetTCPSSL", "X509_free"]
+- !private ["C10PerfectNet9NetTCPSSL", "X509_get_pubkey"]
+- ["C10PerfectNet9NetTCPSSL", "accept"]
+- ["C10PerfectNet9NetTCPSSL", "beginSSL"]
+- ["C10PerfectNet9NetTCPSSL", "checkPrivateKey"]
+- ["C10PerfectNet9NetTCPSSL", "cipherList"]
+- ["C10PerfectNet9NetTCPSSL", "close"]
+- ["C10PerfectNet9NetTCPSSL", "deinit"]
+- ["C10PerfectNet9NetTCPSSL", "endSSL"]
+- ["C10PerfectNet9NetTCPSSL", "errorCode"]
+- ["C10PerfectNet9NetTCPSSL", "errorStr"]
+- !private ["C10PerfectNet9NetTCPSSL", "fd"]
+- ["C10PerfectNet9NetTCPSSL", "finishAccept"]
+- ["C10PerfectNet9NetTCPSSL", "forEachAccept"]
+- !private ["C10PerfectNet9NetTCPSSL", "free"]
+- !private ["C10PerfectNet9NetTCPSSL", "i2d_PUBKEY"]
+- ["C10PerfectNet9NetTCPSSL", "init"]
+- ["C10PerfectNet9NetTCPSSL", "initOnce"]
+- ["C10PerfectNet9NetTCPSSL", "initSocket"]
+- ["C10PerfectNet9NetTCPSSL", "initializedCallback"]
+- !private ["C10PerfectNet9NetTCPSSL", "invalidSocket"]
+- ["C10PerfectNet9NetTCPSSL", "isEAgain"]
+- ["C10PerfectNet9NetTCPSSL", "keyFilePassword"]
+- ["C10PerfectNet9NetTCPSSL", "makeFromFd"]
+- !private ["C10PerfectNet9NetTCPSSL", "memmove"]
+- ["C10PerfectNet9NetTCPSSL", "opensslVersionNumber"]
+- ["C10PerfectNet9NetTCPSSL", "opensslVersionText"]
+- ["C10PerfectNet9NetTCPSSL", "passwordCallback"]
+- !private ["C10PerfectNet9NetTCPSSL", "passwordCallbackFunc"]
+- ["C10PerfectNet9NetTCPSSL", "peerCertificate"]
+- !private ["C10PerfectNet9NetTCPSSL", "print"]
+- !private ["C10PerfectNet9NetTCPSSL", "readBytesFully"]
+- ["C10PerfectNet9NetTCPSSL", "readBytesFullyIncomplete"]
+- ["C10PerfectNet9NetTCPSSL", "reasonErrorStr"]
+- ["C10PerfectNet9NetTCPSSL", "recv"]
+- ["C10PerfectNet9NetTCPSSL", "send"]
+- ["C10PerfectNet9NetTCPSSL", "setAcceptState"]
+- ["C10PerfectNet9NetTCPSSL", "setClientCA"]
+- ["C10PerfectNet9NetTCPSSL", "setConnectState"]
+- ["C10PerfectNet9NetTCPSSL", "setDefaultVerifyPaths"]
+- ["C10PerfectNet9NetTCPSSL", "setTmpDH"]
+- ["C10PerfectNet9NetTCPSSL", "setVerifyLocations"]
+- !private ["C10PerfectNet9NetTCPSSL", "sharedSSLCtx"]
+- ["C10PerfectNet9NetTCPSSL", "shutdown"]
+- !private ["C10PerfectNet9NetTCPSSL", "ssl"]
+- !private ["C10PerfectNet9NetTCPSSL", "sslCtx"]
+- ["C10PerfectNet9NetTCPSSL", "sslErrorCode"]
+- ["C10PerfectNet9NetTCPSSL", "subscribeCAVerify"]
+- ["C10PerfectNet9NetTCPSSL", "tlsMethod"]
+- ["C10PerfectNet9NetTCPSSL", "useCertificateChain"]
+- ["C10PerfectNet9NetTCPSSL", "useCertificateChainFile"]
+- ["C10PerfectNet9NetTCPSSL", "useCertificateFile"]
+- ["C10PerfectNet9NetTCPSSL", "usePrivateKey"]
+- ["C10PerfectNet9NetTCPSSL", "usePrivateKeyFile"]
+- ["C10PerfectNet9NetTCPSSL", "usingSSL"]
+- !private ["C10PerfectNet9NetTCPSSL", "write"]
+- ["C10PerfectNet9NetTCPSSL", "writeIncomplete"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "Element"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "Int32"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "OpenSSLVerifyMode"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "RawValue"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "SSL_VERIFY_CLIENT_ONCE"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "SSL_VERIFY_FAIL_IF_NO_PEER_CERT"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "SSL_VERIFY_NONE"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "SSL_VERIFY_PEER"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "contains"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "deinit"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "formIntersection"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "formSymmetricDifference"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "formUnion"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "init"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "insert"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "intersection"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "isDisjoint"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "isEmpty"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "isSubset"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "isSuperset"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "rawValue"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "remove"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "sslVerifyClientOnce"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "sslVerifyFailIfNoPeerCert"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "sslVerifyNone"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "sslVerifyPeer"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "sslVerifyPeerClientOnce"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "sslVerifyPeerWithFailIfNoPeerCert"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "sslVerifyPeerWithFailIfNoPeerCertClientOnce"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "subtract"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "subtracting"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "symmetricDifference"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "union"]
+- ["V10PerfectNet17OpenSSLVerifyMode", "update"]
+- ["Ps9OptionSet", "OpenSSLVerifyMode"]
+- ["Ps9OptionSet", "SSL_VERIFY_CLIENT_ONCE"]
+- ["Ps9OptionSet", "SSL_VERIFY_FAIL_IF_NO_PEER_CERT"]
+- ["Ps9OptionSet", "SSL_VERIFY_NONE"]
+- ["Ps9OptionSet", "SSL_VERIFY_PEER"]
+- ["Ps9OptionSet", "contains"]
+- ["Ps9OptionSet", "formIntersection"]
+- ["Ps9OptionSet", "formSymmetricDifference"]
+- ["Ps9OptionSet", "formUnion"]
+- ["Ps9OptionSet", "init"]
+- ["Ps9OptionSet", "insert"]
+- ["Ps9OptionSet", "intersection"]
+- ["Ps9OptionSet", "isDisjoint"]
+- ["Ps9OptionSet", "isEmpty"]
+- ["Ps9OptionSet", "isSubset"]
+- ["Ps9OptionSet", "isSuperset"]
+- ["Ps9OptionSet", "rawValue"]
+- ["Ps9OptionSet", "remove"]
+- ["Ps9OptionSet", "sslVerifyClientOnce"]
+- ["Ps9OptionSet", "sslVerifyFailIfNoPeerCert"]
+- ["Ps9OptionSet", "sslVerifyPeer"]
+- ["Ps9OptionSet", "subtract"]
+- ["Ps9OptionSet", "subtracting"]
+- ["Ps9OptionSet", "symmetricDifference"]
+- ["Ps9OptionSet", "union"]
+- ["Ps9OptionSet", "update"]
+- ["Ps9OptionSet", ""]
+- !private ["Sq", "advanced"]
+- ["O13PerfectCrypto13PerfectCrypto", "isInitialized"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "joined"]
+- !private ["Ps22RandomAccessCollection", "reserveCapacity"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "joined"]
+- !private ["Ps26RangeReplaceableCollection", "reserveCapacity"]
+- ["Ps16RawRepresentable", "OpenSSLVerifyMode"]
+- ["Ps16RawRepresentable", "SSL_VERIFY_CLIENT_ONCE"]
+- ["Ps16RawRepresentable", "SSL_VERIFY_FAIL_IF_NO_PEER_CERT"]
+- ["Ps16RawRepresentable", "SSL_VERIFY_NONE"]
+- ["Ps16RawRepresentable", "SSL_VERIFY_PEER"]
+- ["Ps16RawRepresentable", "contains"]
+- ["Ps16RawRepresentable", "formIntersection"]
+- ["Ps16RawRepresentable", "formSymmetricDifference"]
+- ["Ps16RawRepresentable", "formUnion"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "insert"]
+- ["Ps16RawRepresentable", "intersection"]
+- ["Ps16RawRepresentable", "isDisjoint"]
+- ["Ps16RawRepresentable", "isEmpty"]
+- ["Ps16RawRepresentable", "isSubset"]
+- ["Ps16RawRepresentable", "isSuperset"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "remove"]
+- ["Ps16RawRepresentable", "sslVerifyClientOnce"]
+- ["Ps16RawRepresentable", "sslVerifyFailIfNoPeerCert"]
+- ["Ps16RawRepresentable", "sslVerifyPeer"]
+- ["Ps16RawRepresentable", "subtract"]
+- ["Ps16RawRepresentable", "subtracting"]
+- ["Ps16RawRepresentable", "symmetricDifference"]
+- ["Ps16RawRepresentable", "union"]
+- ["Ps16RawRepresentable", "update"]
+- ["Ps16RawRepresentable", ""]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "joined"]
+- !private ["Ps8Sequence", "reserveCapacity"]
+- ["Ps10SetAlgebra", "OpenSSLVerifyMode"]
+- ["Ps10SetAlgebra", "SSL_VERIFY_CLIENT_ONCE"]
+- ["Ps10SetAlgebra", "SSL_VERIFY_FAIL_IF_NO_PEER_CERT"]
+- ["Ps10SetAlgebra", "SSL_VERIFY_NONE"]
+- ["Ps10SetAlgebra", "SSL_VERIFY_PEER"]
+- ["Ps10SetAlgebra", "contains"]
+- ["Ps10SetAlgebra", "formIntersection"]
+- ["Ps10SetAlgebra", "formSymmetricDifference"]
+- ["Ps10SetAlgebra", "formUnion"]
+- ["Ps10SetAlgebra", "init"]
+- ["Ps10SetAlgebra", "insert"]
+- ["Ps10SetAlgebra", "intersection"]
+- ["Ps10SetAlgebra", "isDisjoint"]
+- ["Ps10SetAlgebra", "isEmpty"]
+- ["Ps10SetAlgebra", "isSubset"]
+- ["Ps10SetAlgebra", "isSuperset"]
+- ["Ps10SetAlgebra", "rawValue"]
+- ["Ps10SetAlgebra", "remove"]
+- ["Ps10SetAlgebra", "sslVerifyClientOnce"]
+- ["Ps10SetAlgebra", "sslVerifyFailIfNoPeerCert"]
+- ["Ps10SetAlgebra", "sslVerifyPeer"]
+- ["Ps10SetAlgebra", "subtract"]
+- ["Ps10SetAlgebra", "subtracting"]
+- ["Ps10SetAlgebra", "symmetricDifference"]
+- ["Ps10SetAlgebra", "union"]
+- ["Ps10SetAlgebra", "update"]
+- ["Ps10SetAlgebra", ""]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["V10PerfectNet20SocketFileDescriptor", "fd"]
+- !private ["Ps10Strideable", "advanced"]
+- !private ["Ps10Strideable", "allocate"]
+- !private ["Ps10Strideable", "deallocate"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pointee"]
+- !private ["Ps10Strideable", "subscript"]
+- ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- !private ["SS", "utf8"]
+- ["O10PerfectNet9TLSMethod", "=="]
+- ["O10PerfectNet9TLSMethod", "_toAnyHashable"]
+- ["O10PerfectNet9TLSMethod", "deinit"]
+- ["O10PerfectNet9TLSMethod", "hashValue"]
+- ["O10PerfectNet9TLSMethod", "tlsV1"]
+- ["O10PerfectNet9TLSMethod", "tlsV1_1"]
+- ["O10PerfectNet9TLSMethod", "tlsV1_2"]
+- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "isEmpty"]
+- !private ["Ps16TextOutputStream", "utf8"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "isEmpty"]
+- !private ["Ps20TextOutputStreamable", "utf8"]
+- !private ["Su", "init"]
+- !private ["VSS8UTF8View", "count"]
+- !private ["Vs9Unmanaged", "fromOpaque"]
+- !private ["Vs9Unmanaged", "passUnretained"]
+- !private ["Vs9Unmanaged", "takeUnretainedValue"]
+- !private ["Vs9Unmanaged", "toOpaque"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Sp", "init"]
+- !private ["Sp", "pointee"]
+- !private ["Sp", "subscript"]
+- !private ["Sv", "init"]
+- !private ["SV", "advanced"]
+- !private ["SV", "init"]
+- !private ["Ps15UnsignedInteger", "init"]
+- ["CC10PerfectNet9NetTCPSSL4X509", "COpenSSL"]
+- !private ["CC10PerfectNet9NetTCPSSL4X509", "EVP_PKEY_free"]
+- !private ["CC10PerfectNet9NetTCPSSL4X509", "Int"]
+- !private ["CC10PerfectNet9NetTCPSSL4X509", "OpaquePointer"]
+- ["CC10PerfectNet9NetTCPSSL4X509", "UInt8"]
+- ["CC10PerfectNet9NetTCPSSL4X509", "UnsafeMutablePointer"]
+- !private ["CC10PerfectNet9NetTCPSSL4X509", "X509_free"]
+- !private ["CC10PerfectNet9NetTCPSSL4X509", "X509_get_pubkey"]
+- ["CC10PerfectNet9NetTCPSSL4X509", "deinit"]
+- !private ["CC10PerfectNet9NetTCPSSL4X509", "free"]
+- !private ["CC10PerfectNet9NetTCPSSL4X509", "i2d_PUBKEY"]
+- ["CC10PerfectNet9NetTCPSSL4X509", "init"]
+- !private ["CC10PerfectNet9NetTCPSSL4X509", "ptr"]
+- ["CC10PerfectNet9NetTCPSSL4X509", "publicKeyBytes"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps14_ArrayProtocol", "joined"]
+- !private ["Ps14_ArrayProtocol", "reserveCapacity"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "joined"]
+- !private ["Ps23_BidirectionalIndexable", "reserveCapacity"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "joined"]
+- !private ["Ps24_DestructorSafeContainer", "reserveCapacity"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "isEmpty"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "utf8"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "isEmpty"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "utf8"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "isEmpty"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "utf8"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "isEmpty"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "utf8"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "isEmpty"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "utf8"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "isEmpty"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "utf8"]
+- ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "advanced"]
+- !private ["Ps9_Hashable", "allocate"]
+- !private ["Ps9_Hashable", "deallocate"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isEmpty"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps9_Hashable", "subscript"]
+- ["Ps9_Hashable", "tlsV1"]
+- ["Ps9_Hashable", "tlsV1_1"]
+- ["Ps9_Hashable", "tlsV1_2"]
+- !private ["Ps9_Hashable", "utf8"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "joined"]
+- !private ["Ps10_Indexable", "reserveCapacity"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "joined"]
+- !private ["Ps14_IndexableBase", "reserveCapacity"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps17_MutableIndexable", "joined"]
+- !private ["Ps17_MutableIndexable", "reserveCapacity"]
+- ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "advanced"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "isEmpty"]
+- !private ["Ps21_ObjectiveCBridgeable", "joined"]
+- !private ["Ps21_ObjectiveCBridgeable", "reserveCapacity"]
+- !private ["Ps21_ObjectiveCBridgeable", "utf8"]
+- !private ["Ps8_Pointer", "advanced"]
+- !private ["Ps8_Pointer", "allocate"]
+- !private ["Ps8_Pointer", "deallocate"]
+- !private ["Ps8_Pointer", "init"]
+- !private ["Ps8_Pointer", "pointee"]
+- !private ["Ps8_Pointer", "subscript"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "joined"]
+- !private ["Ps22_RandomAccessIndexable", "reserveCapacity"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "joined"]
+- !private ["Ps26_RangeReplaceableIndexable", "reserveCapacity"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "advanced"]
+- !private ["Ps11_Strideable", "allocate"]
+- !private ["Ps11_Strideable", "deallocate"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "pointee"]
+- !private ["Ps11_Strideable", "subscript"]
+- !private ["VSC8stack_st", "num"]
+- !private ["VSC18stack_st_X509_NAME", "stack"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "OC10PerfectNet8NetEvent6Filter"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "P10PerfectLib15JSONConvertible"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "C10PerfectNet3Net"
+- !private "C10PerfectNet8NetEvent"
+- "C10PerfectNet6NetTCP"
+- "C10PerfectNet9NetTCPSSL"
+- "V10PerfectNet17OpenSSLVerifyMode"
+- "Ps9OptionSet"
+- !private "Sq"
+- "O13PerfectCrypto13PerfectCrypto"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "V10PerfectNet20SocketFileDescriptor"
+- !private "Ps10Strideable"
+- "SS"
+- "O10PerfectNet9TLSMethod"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "VSS8UTF8View"
+- !private "Vs9Unmanaged"
+- !private "Sp"
+- !private "Sv"
+- !private "SV"
+- !private "Ps15UnsignedInteger"
+- "CC10PerfectNet9NetTCPSSL4X509"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "VSC8stack_st"
+- !private "VSC18stack_st_X509_NAME"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectLib.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectCrypto.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+interface-hash: "fc927ffa69da27322a447356afa05c20"

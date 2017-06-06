@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "8e944a5b0a5a8fde5e55b49136149b2f"
+build_time: [549950498, 846939000]
+inputs:
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/Sources/main.swift": [549002234, 0]

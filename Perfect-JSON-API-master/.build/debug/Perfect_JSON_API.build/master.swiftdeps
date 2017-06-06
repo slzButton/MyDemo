@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "39bd380f596e5c6518cdf8e68d789216"
+build_time: [550026801, 401936000]
+inputs:
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/Sources/main.swift": [535691928, 0]
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/Sources/people.swift": [535691928, 0]
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/Sources/person.swift": [535691928, 0]

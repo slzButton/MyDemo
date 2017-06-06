@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "93c43d199a425746046ae852009e3c1d"
+build_time: [549950495, 776342000]
+inputs:
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/Net.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetAddress.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetEvent.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetNamedPipe.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCP.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCPSSL.swift": [549950479, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetUDP.swift": [549950479, 0]

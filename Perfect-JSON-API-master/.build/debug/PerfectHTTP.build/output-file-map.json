@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/master.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPFilter.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPFilter.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPFilter.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPFilter~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPFilter.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPHeaders.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPHeaders.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPHeaders.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPHeaders~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPHeaders.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPMethod.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPMethod.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPMethod.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPMethod~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPMethod.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPRequest.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPRequest.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPRequest.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPRequest.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/HTTPResponse.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPResponse.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPResponse.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/HTTPResponse.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/MimeReader.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/MimeReader.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/MimeReader.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/MimeReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/MimeReader.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/MimeType.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/MimeType.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/MimeType.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/MimeType~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/MimeType.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/Routing.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/Routing.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/Routing.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/Routing~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/Routing.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/StaticFileHandler.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/StaticFileHandler.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/StaticFileHandler.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/StaticFileHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectHTTP.build/StaticFileHandler.swiftdeps"
+  }
+}

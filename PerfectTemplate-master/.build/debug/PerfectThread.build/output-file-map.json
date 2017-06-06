@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/master.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Promise.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/Promise.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/Promise.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/Promise~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/Promise.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Threading.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/Threading.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/Threading.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/Threading~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/Threading.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/ThreadQueue.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/ThreadQueue.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/ThreadQueue.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/ThreadQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/PerfectTemplate-master/.build/debug/PerfectThread.build/ThreadQueue.swiftdeps"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/master.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/Net.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/Net.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/Net.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/Net~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/Net.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetEvent.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetEvent.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetEvent.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetEvent~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetEvent.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetNamedPipe.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetNamedPipe.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetNamedPipe.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetNamedPipe~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetNamedPipe.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCP.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetTCP.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetTCP.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetTCP~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetTCP.swiftdeps"
+  },
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCPSSL.swift": {
+    "dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetTCPSSL.d",
+    "object": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetTCPSSL.swift.o",
+    "swiftmodule": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetTCPSSL~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/debug/PerfectNet.build/NetTCPSSL.swiftdeps"
+  }
+}

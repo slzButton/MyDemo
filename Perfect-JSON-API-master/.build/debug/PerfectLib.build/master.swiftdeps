@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "1d4cd1681b8d6e93d2958f7f617dca30"
+build_time: [550026794, 68509000]
+inputs:
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Bytes.swift": [550026783, 0]
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Dir.swift": [550026783, 0]
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/File.swift": [550026783, 0]
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/JSONConvertible.swift": [550026783, 0]
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Log.swift": [550026783, 0]
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectError.swift": [550026783, 0]
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectServer.swift": [550026783, 0]
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SwiftCompatibility.swift": [550026783, 0]
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SysProcess.swift": [550026783, 0]
+  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Utilities.swift": [550026783, 0]
