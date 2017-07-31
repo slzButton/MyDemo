@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "f60d49c3895c069449db34429c4f3fb7"
+build_time: [550846021, 246929000]
+inputs:
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/Net.swift": [550846002, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetAddress.swift": [550846002, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetEvent.swift": [550846002, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetNamedPipe.swift": [550846002, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCP.swift": [550846002, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCPSSL.swift": [550846002, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetUDP.swift": [550846002, 0]

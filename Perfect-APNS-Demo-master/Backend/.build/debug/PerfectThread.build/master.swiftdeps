@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "eb81bc025a6d1fdb647ca7d8593b6b01"
+build_time: [550846015, 970728000]
+inputs:
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Promise.swift": [550846002, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Threading.swift": [550846002, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/ThreadQueue.swift": [550846002, 0]

@@ -1,0 +1,1134 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OpenSSLInternal"
+- "internal_RAND_bytes"
+provides-nominal:
+- "V13PerfectCrypto15OpenSSLInternal"
+provides-member:
+- ["V13PerfectCrypto15OpenSSLInternal", ""]
+- ["V13PerfectCrypto11CryptoError", ""]
+- ["O13PerfectCrypto8Encoding", ""]
+- ["O13PerfectCrypto6Digest", ""]
+- ["O13PerfectCrypto6Cipher", ""]
+- ["V13PerfectCrypto11CryptoError", "throwOpenSSLError"]
+- ["O13PerfectCrypto8Encoding", "encodeBytes"]
+- ["O13PerfectCrypto8Encoding", "decodeBytes"]
+- ["O13PerfectCrypto6Digest", "bio"]
+- ["O13PerfectCrypto6Digest", "evp"]
+- ["O13PerfectCrypto6Digest", "length"]
+- ["O13PerfectCrypto6Digest", "sign"]
+- ["O13PerfectCrypto6Digest", "verify"]
+- ["O13PerfectCrypto6Cipher", "evp"]
+- ["O13PerfectCrypto6Cipher", "blockSize"]
+- ["O13PerfectCrypto6Cipher", "keyLength"]
+- ["O13PerfectCrypto6Cipher", "ivLength"]
+- ["O13PerfectCrypto6Cipher", "encryptLength"]
+- ["O13PerfectCrypto6Cipher", "decryptLength"]
+- ["O13PerfectCrypto6Cipher", "encrypt"]
+- ["O13PerfectCrypto6Cipher", "decrypt"]
+provides-dynamic-lookup:
+depends-top-level:
+- "!="
+- !private "%"
+- "&"
+- !private "&&"
+- !private "*"
+- !private "*="
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "-="
+- "..<"
+- !private "/"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private ">"
+- !private ">="
+- !private ">>"
+- !private "??"
+- !private "AssignmentPrecedence"
+- "BIO"
+- !private "BIO_C_SET_MD"
+- !private "BIO_ctrl"
+- !private "BIO_f_md"
+- !private "BIO_new"
+- !private "Base64Filter"
+- "Bool"
+- "BooleanLiteralType"
+- "CRYPTO_LOCK"
+- !private "CRYPTO_memcmp"
+- "CRYPTO_num_locks"
+- "CRYPTO_set_id_callback"
+- "CRYPTO_set_locking_callback"
+- "CastingPrecedence"
+- "Cipher"
+- "CryptoError"
+- "Digest"
+- !private "ERR_error_string_n"
+- !private "ERR_get_error"
+- "ERR_load_BIO_strings"
+- "ERR_load_crypto_strings"
+- "EVP_CIPHER"
+- !private "EVP_CIPHER_CTX_free"
+- !private "EVP_CIPHER_CTX_new"
+- !private "EVP_DecryptFinal"
+- !private "EVP_DecryptInit_ex"
+- !private "EVP_DecryptUpdate"
+- !private "EVP_DigestSignFinal"
+- !private "EVP_DigestSignInit"
+- !private "EVP_DigestUpdate"
+- !private "EVP_DigestVerifyFinal"
+- !private "EVP_DigestVerifyInit"
+- !private "EVP_EncryptFinal"
+- !private "EVP_EncryptInit_ex"
+- !private "EVP_EncryptUpdate"
+- "EVP_MD"
+- !private "EVP_MD_CTX_create"
+- !private "EVP_MD_CTX_destroy"
+- !private "EVP_aes_128_cbc"
+- !private "EVP_aes_128_cbc_hmac_sha1"
+- !private "EVP_aes_128_cbc_hmac_sha256"
+- !private "EVP_aes_128_ccm"
+- !private "EVP_aes_128_cfb1"
+- !private "EVP_aes_128_cfb128"
+- !private "EVP_aes_128_cfb8"
+- !private "EVP_aes_128_ctr"
+- !private "EVP_aes_128_ecb"
+- !private "EVP_aes_128_gcm"
+- !private "EVP_aes_128_ofb"
+- !private "EVP_aes_128_wrap"
+- !private "EVP_aes_128_xts"
+- !private "EVP_aes_192_cbc"
+- !private "EVP_aes_192_ccm"
+- !private "EVP_aes_192_cfb1"
+- !private "EVP_aes_192_cfb128"
+- !private "EVP_aes_192_cfb8"
+- !private "EVP_aes_192_ctr"
+- !private "EVP_aes_192_ecb"
+- !private "EVP_aes_192_gcm"
+- !private "EVP_aes_192_ofb"
+- !private "EVP_aes_192_wrap"
+- !private "EVP_aes_256_cbc"
+- !private "EVP_aes_256_cbc_hmac_sha1"
+- !private "EVP_aes_256_cbc_hmac_sha256"
+- !private "EVP_aes_256_ccm"
+- !private "EVP_aes_256_cfb1"
+- !private "EVP_aes_256_cfb128"
+- !private "EVP_aes_256_cfb8"
+- !private "EVP_aes_256_ctr"
+- !private "EVP_aes_256_ecb"
+- !private "EVP_aes_256_gcm"
+- !private "EVP_aes_256_ofb"
+- !private "EVP_aes_256_wrap"
+- !private "EVP_aes_256_xts"
+- !private "EVP_bf_cbc"
+- !private "EVP_bf_cfb64"
+- !private "EVP_bf_ecb"
+- !private "EVP_bf_ofb"
+- !private "EVP_camellia_128_cbc"
+- !private "EVP_camellia_128_cfb1"
+- !private "EVP_camellia_128_cfb128"
+- !private "EVP_camellia_128_cfb8"
+- !private "EVP_camellia_128_ecb"
+- !private "EVP_camellia_128_ofb"
+- !private "EVP_camellia_192_cbc"
+- !private "EVP_camellia_192_cfb1"
+- !private "EVP_camellia_192_cfb128"
+- !private "EVP_camellia_192_cfb8"
+- !private "EVP_camellia_192_ecb"
+- !private "EVP_camellia_192_ofb"
+- !private "EVP_camellia_256_cbc"
+- !private "EVP_camellia_256_cfb1"
+- !private "EVP_camellia_256_cfb128"
+- !private "EVP_camellia_256_cfb8"
+- !private "EVP_camellia_256_ecb"
+- !private "EVP_camellia_256_ofb"
+- !private "EVP_cast5_cbc"
+- !private "EVP_cast5_cfb64"
+- !private "EVP_cast5_ecb"
+- !private "EVP_cast5_ofb"
+- !private "EVP_des_cbc"
+- !private "EVP_des_cfb1"
+- !private "EVP_des_cfb64"
+- !private "EVP_des_cfb8"
+- !private "EVP_des_ecb"
+- !private "EVP_des_ede"
+- !private "EVP_des_ede3"
+- !private "EVP_des_ede3_cbc"
+- !private "EVP_des_ede3_cfb1"
+- !private "EVP_des_ede3_cfb8"
+- !private "EVP_des_ede3_ecb"
+- !private "EVP_des_ede3_ofb"
+- !private "EVP_des_ede3_wrap"
+- !private "EVP_des_ede_cbc"
+- !private "EVP_des_ede_cfb64"
+- !private "EVP_des_ede_ecb"
+- !private "EVP_des_ede_ofb"
+- !private "EVP_des_ofb"
+- !private "EVP_desx_cbc"
+- !private "EVP_dss"
+- !private "EVP_dss1"
+- !private "EVP_ecdsa"
+- !private "EVP_get_cipherbyname"
+- !private "EVP_get_digestbyname"
+- !private "EVP_md4"
+- !private "EVP_md5"
+- !private "EVP_rc2_40_cbc"
+- !private "EVP_rc2_64_cbc"
+- !private "EVP_rc2_cbc"
+- !private "EVP_rc2_cfb64"
+- !private "EVP_rc2_ecb"
+- !private "EVP_rc2_ofb"
+- !private "EVP_rc4"
+- !private "EVP_rc4_40"
+- !private "EVP_rc4_hmac_md5"
+- !private "EVP_ripemd160"
+- !private "EVP_seed_cbc"
+- !private "EVP_seed_cfb128"
+- !private "EVP_seed_ecb"
+- !private "EVP_seed_ofb"
+- !private "EVP_sha"
+- !private "EVP_sha1"
+- !private "EVP_sha224"
+- !private "EVP_sha256"
+- !private "EVP_sha384"
+- !private "EVP_sha512"
+- !private "EVP_whirlpool"
+- "Encoding"
+- "FloatLiteralType"
+- !private "HMACKey"
+- "Int"
+- "Int32"
+- "Int8"
+- "IntegerLiteralType"
+- "Key"
+- !private "MemoryIO"
+- "Never"
+- "OPENSSL_add_all_algorithms_conf"
+- "OpenSSLInternal"
+- !private "RAND_bytes"
+- !private "String"
+- !private "StringLiteralType"
+- !private "TernaryPrecedence"
+- "Threading"
+- "UInt"
+- "UInt8"
+- !private "UnsafeMutablePointer"
+- "UnsafeMutableRawBufferPointer"
+- !private "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "UnsafeRawBufferPointer"
+- !private "dash"
+- !private "equal"
+- !private "fslash"
+- "internal_RAND_bytes"
+- !private "memcpy"
+- "openSSLLocks"
+- !private "plus"
+- "pthread_self"
+- !private "stride"
+- !private "uscore"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "chain"]
+- !private ["Ps9AnyObject", "flush"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "lock"]
+- !private ["Ps9AnyObject", "memory"]
+- !private ["Ps9AnyObject", "pkey"]
+- !private ["Ps9AnyObject", "read"]
+- !private ["Ps9AnyObject", "readPending"]
+- ["Ps9AnyObject", "unlock"]
+- !private ["Ps9AnyObject", "write"]
+- ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "subscript"]
+- !private ["C13PerfectCrypto12Base64Filter", "chain"]
+- !private ["C13PerfectCrypto12Base64Filter", "init"]
+- !private ["Ps23BidirectionalCollection", "allocate"]
+- ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "baseAddress"]
+- !private ["Ps23BidirectionalCollection", "copyBytes"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "deallocate"]
+- !private ["Ps23BidirectionalCollection", "endIndex"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "map"]
+- !private ["Ps23BidirectionalCollection", "sign"]
+- !private ["Ps23BidirectionalCollection", "startIndex"]
+- ["Ps23BidirectionalCollection", "subscript"]
+- ["Ps17BitwiseOperations", "init"]
+- ["Sb", "_getBuiltinLogicValue"]
+- !private ["P13PerfectCrypto6ByteIO", "flush"]
+- !private ["P13PerfectCrypto6ByteIO", "init"]
+- !private ["P13PerfectCrypto6ByteIO", "memory"]
+- !private ["P13PerfectCrypto6ByteIO", "read"]
+- !private ["P13PerfectCrypto6ByteIO", "readPending"]
+- !private ["P13PerfectCrypto6ByteIO", "write"]
+- !private ["C13PerfectCrypto10ByteIOBase", "chain"]
+- !private ["C13PerfectCrypto10ByteIOBase", "flush"]
+- !private ["C13PerfectCrypto10ByteIOBase", "memory"]
+- !private ["C13PerfectCrypto10ByteIOBase", "read"]
+- !private ["C13PerfectCrypto10ByteIOBase", "readPending"]
+- !private ["C13PerfectCrypto10ByteIOBase", "write"]
+- !private ["P13PerfectCrypto8ByteSink", "flush"]
+- !private ["P13PerfectCrypto8ByteSink", "init"]
+- !private ["P13PerfectCrypto8ByteSink", "memory"]
+- !private ["P13PerfectCrypto8ByteSink", "read"]
+- !private ["P13PerfectCrypto8ByteSink", "readPending"]
+- !private ["P13PerfectCrypto8ByteSink", "write"]
+- !private ["P13PerfectCrypto10ByteSource", "flush"]
+- !private ["P13PerfectCrypto10ByteSource", "init"]
+- !private ["P13PerfectCrypto10ByteSource", "memory"]
+- !private ["P13PerfectCrypto10ByteSource", "read"]
+- !private ["P13PerfectCrypto10ByteSource", "readPending"]
+- !private ["P13PerfectCrypto10ByteSource", "write"]
+- !private ["Ps7CVarArg", "advanced"]
+- !private ["Ps7CVarArg", "allocate"]
+- ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "deallocate"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "pointee"]
+- ["Ps7CVarArg", "subscript"]
+- ["O13PerfectCrypto6Cipher", "EVP_CIPHER"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_CIPHER_CTX_free"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_CIPHER_CTX_new"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_DecryptFinal"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_DecryptInit_ex"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_DecryptUpdate"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_EncryptFinal"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_EncryptInit_ex"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_EncryptUpdate"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_cbc_hmac_sha1"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_cbc_hmac_sha256"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_ccm"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_cfb1"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_cfb128"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_cfb8"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_ctr"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_gcm"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_wrap"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_128_xts"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_192_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_192_ccm"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_192_cfb1"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_192_cfb128"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_192_cfb8"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_192_ctr"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_192_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_192_gcm"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_192_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_192_wrap"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_cbc_hmac_sha1"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_cbc_hmac_sha256"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_ccm"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_cfb1"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_cfb128"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_cfb8"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_ctr"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_gcm"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_wrap"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_aes_256_xts"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_bf_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_bf_cfb64"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_bf_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_bf_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_128_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_128_cfb1"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_128_cfb128"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_128_cfb8"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_128_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_128_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_192_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_192_cfb1"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_192_cfb128"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_192_cfb8"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_192_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_192_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_256_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_256_cfb1"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_256_cfb128"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_256_cfb8"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_256_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_camellia_256_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_cast5_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_cast5_cfb64"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_cast5_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_cast5_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_cfb1"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_cfb64"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_cfb8"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede3"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede3_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede3_cfb1"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede3_cfb8"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede3_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede3_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede3_wrap"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede_cfb64"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ede_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_des_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_desx_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_get_cipherbyname"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_rc2_40_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_rc2_64_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_rc2_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_rc2_cfb64"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_rc2_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_rc2_ofb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_rc4"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_rc4_40"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_rc4_hmac_md5"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_seed_cbc"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_seed_cfb128"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_seed_ecb"]
+- !private ["O13PerfectCrypto6Cipher", "EVP_seed_ofb"]
+- ["O13PerfectCrypto6Cipher", "Int"]
+- !private ["O13PerfectCrypto6Cipher", "Int32"]
+- !private ["O13PerfectCrypto6Cipher", "UInt8"]
+- ["O13PerfectCrypto6Cipher", "UnsafeMutableRawBufferPointer"]
+- ["O13PerfectCrypto6Cipher", "UnsafePointer"]
+- ["O13PerfectCrypto6Cipher", "UnsafeRawBufferPointer"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cbc"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cbc_hmac_sha1"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cbc_hmac_sha256"]
+- ["O13PerfectCrypto6Cipher", "aes_128_ccm"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cfb1"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cfb128"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cfb8"]
+- ["O13PerfectCrypto6Cipher", "aes_128_ctr"]
+- ["O13PerfectCrypto6Cipher", "aes_128_ecb"]
+- ["O13PerfectCrypto6Cipher", "aes_128_gcm"]
+- ["O13PerfectCrypto6Cipher", "aes_128_ofb"]
+- ["O13PerfectCrypto6Cipher", "aes_128_wrap"]
+- ["O13PerfectCrypto6Cipher", "aes_128_xts"]
+- ["O13PerfectCrypto6Cipher", "aes_192_cbc"]
+- ["O13PerfectCrypto6Cipher", "aes_192_ccm"]
+- ["O13PerfectCrypto6Cipher", "aes_192_cfb1"]
+- ["O13PerfectCrypto6Cipher", "aes_192_cfb128"]
+- ["O13PerfectCrypto6Cipher", "aes_192_cfb8"]
+- ["O13PerfectCrypto6Cipher", "aes_192_ctr"]
+- ["O13PerfectCrypto6Cipher", "aes_192_ecb"]
+- ["O13PerfectCrypto6Cipher", "aes_192_gcm"]
+- ["O13PerfectCrypto6Cipher", "aes_192_ofb"]
+- ["O13PerfectCrypto6Cipher", "aes_192_wrap"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cbc"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cbc_hmac_sha1"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cbc_hmac_sha256"]
+- ["O13PerfectCrypto6Cipher", "aes_256_ccm"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cfb1"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cfb128"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cfb8"]
+- ["O13PerfectCrypto6Cipher", "aes_256_ctr"]
+- ["O13PerfectCrypto6Cipher", "aes_256_ecb"]
+- ["O13PerfectCrypto6Cipher", "aes_256_gcm"]
+- ["O13PerfectCrypto6Cipher", "aes_256_ofb"]
+- ["O13PerfectCrypto6Cipher", "aes_256_wrap"]
+- ["O13PerfectCrypto6Cipher", "aes_256_xts"]
+- ["O13PerfectCrypto6Cipher", "bf_cbc"]
+- ["O13PerfectCrypto6Cipher", "bf_cfb64"]
+- ["O13PerfectCrypto6Cipher", "bf_ecb"]
+- ["O13PerfectCrypto6Cipher", "bf_ofb"]
+- ["O13PerfectCrypto6Cipher", "blockSize"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_cbc"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_cfb1"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_cfb128"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_cfb8"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_ecb"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_ofb"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_cbc"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_cfb1"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_cfb128"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_cfb8"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_ecb"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_ofb"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_cbc"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_cfb1"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_cfb128"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_cfb8"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_ecb"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_ofb"]
+- ["O13PerfectCrypto6Cipher", "cast5_cbc"]
+- ["O13PerfectCrypto6Cipher", "cast5_cfb64"]
+- ["O13PerfectCrypto6Cipher", "cast5_ecb"]
+- ["O13PerfectCrypto6Cipher", "cast5_ofb"]
+- ["O13PerfectCrypto6Cipher", "custom"]
+- ["O13PerfectCrypto6Cipher", "decrypt"]
+- ["O13PerfectCrypto6Cipher", "decryptLength"]
+- ["O13PerfectCrypto6Cipher", "des_cbc"]
+- ["O13PerfectCrypto6Cipher", "des_cfb1"]
+- ["O13PerfectCrypto6Cipher", "des_cfb64"]
+- ["O13PerfectCrypto6Cipher", "des_cfb8"]
+- ["O13PerfectCrypto6Cipher", "des_ecb"]
+- ["O13PerfectCrypto6Cipher", "des_ede"]
+- ["O13PerfectCrypto6Cipher", "des_ede3"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_cbc"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_cfb1"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_cfb8"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_ecb"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_ofb"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_wrap"]
+- ["O13PerfectCrypto6Cipher", "des_ede_cbc"]
+- ["O13PerfectCrypto6Cipher", "des_ede_cfb64"]
+- ["O13PerfectCrypto6Cipher", "des_ede_ecb"]
+- ["O13PerfectCrypto6Cipher", "des_ede_ofb"]
+- ["O13PerfectCrypto6Cipher", "des_ofb"]
+- ["O13PerfectCrypto6Cipher", "desx_cbc"]
+- ["O13PerfectCrypto6Cipher", "encrypt"]
+- ["O13PerfectCrypto6Cipher", "encryptLength"]
+- ["O13PerfectCrypto6Cipher", "evp"]
+- ["O13PerfectCrypto6Cipher", "ivLength"]
+- ["O13PerfectCrypto6Cipher", "keyLength"]
+- !private ["O13PerfectCrypto6Cipher", "memcpy"]
+- ["O13PerfectCrypto6Cipher", "rc2_40_cbc"]
+- ["O13PerfectCrypto6Cipher", "rc2_64_cbc"]
+- ["O13PerfectCrypto6Cipher", "rc2_cbc"]
+- ["O13PerfectCrypto6Cipher", "rc2_cfb64"]
+- ["O13PerfectCrypto6Cipher", "rc2_ecb"]
+- ["O13PerfectCrypto6Cipher", "rc2_ofb"]
+- ["O13PerfectCrypto6Cipher", "rc4"]
+- ["O13PerfectCrypto6Cipher", "rc4_40"]
+- ["O13PerfectCrypto6Cipher", "rc4_hmac_md5"]
+- ["O13PerfectCrypto6Cipher", "seed_cbc"]
+- ["O13PerfectCrypto6Cipher", "seed_cfb128"]
+- ["O13PerfectCrypto6Cipher", "seed_ecb"]
+- ["O13PerfectCrypto6Cipher", "seed_ofb"]
+- !private ["Ps10Collection", "allocate"]
+- ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "baseAddress"]
+- !private ["Ps10Collection", "copyBytes"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "deallocate"]
+- !private ["Ps10Collection", "endIndex"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "map"]
+- !private ["Ps10Collection", "sign"]
+- !private ["Ps10Collection", "startIndex"]
+- ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "advanced"]
+- !private ["Ps10Comparable", "allocate"]
+- !private ["Ps10Comparable", "assumingMemoryBound"]
+- !private ["Ps10Comparable", "deallocate"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "pointee"]
+- !private ["V13PerfectCrypto11CryptoError", "CryptoError"]
+- !private ["V13PerfectCrypto11CryptoError", "ERR_error_string_n"]
+- !private ["V13PerfectCrypto11CryptoError", "ERR_get_error"]
+- !private ["V13PerfectCrypto11CryptoError", "Int"]
+- !private ["V13PerfectCrypto11CryptoError", "Int8"]
+- ["V13PerfectCrypto11CryptoError", "Never"]
+- !private ["V13PerfectCrypto11CryptoError", "String"]
+- !private ["V13PerfectCrypto11CryptoError", "UnsafeMutablePointer"]
+- !private ["V13PerfectCrypto11CryptoError", "deinit"]
+- !private ["V13PerfectCrypto11CryptoError", "init"]
+- ["V13PerfectCrypto11CryptoError", "throwOpenSSLError"]
+- !private ["Ps28CustomDebugStringConvertible", "advanced"]
+- !private ["Ps28CustomDebugStringConvertible", "allocate"]
+- ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "assumingMemoryBound"]
+- !private ["Ps28CustomDebugStringConvertible", "baseAddress"]
+- !private ["Ps28CustomDebugStringConvertible", "copyBytes"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "deallocate"]
+- !private ["Ps28CustomDebugStringConvertible", "endIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "map"]
+- !private ["Ps28CustomDebugStringConvertible", "pointee"]
+- !private ["Ps28CustomDebugStringConvertible", "sign"]
+- !private ["Ps28CustomDebugStringConvertible", "startIndex"]
+- ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "advanced"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "allocate"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "assumingMemoryBound"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "deallocate"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "pointee"]
+- ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "advanced"]
+- !private ["Ps17CustomReflectable", "allocate"]
+- ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "assumingMemoryBound"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "deallocate"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "pointee"]
+- ["Ps17CustomReflectable", "subscript"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "chain"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "flush"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "memory"]
+- !private ["Ps23CustomStringConvertible", "read"]
+- !private ["Ps23CustomStringConvertible", "readPending"]
+- ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "write"]
+- ["O13PerfectCrypto6Digest", "BIO"]
+- !private ["O13PerfectCrypto6Digest", "BIO_C_SET_MD"]
+- !private ["O13PerfectCrypto6Digest", "BIO_ctrl"]
+- !private ["O13PerfectCrypto6Digest", "BIO_f_md"]
+- !private ["O13PerfectCrypto6Digest", "BIO_new"]
+- ["O13PerfectCrypto6Digest", "Bool"]
+- !private ["O13PerfectCrypto6Digest", "CRYPTO_memcmp"]
+- !private ["O13PerfectCrypto6Digest", "EVP_DigestSignFinal"]
+- !private ["O13PerfectCrypto6Digest", "EVP_DigestSignInit"]
+- !private ["O13PerfectCrypto6Digest", "EVP_DigestUpdate"]
+- !private ["O13PerfectCrypto6Digest", "EVP_DigestVerifyFinal"]
+- !private ["O13PerfectCrypto6Digest", "EVP_DigestVerifyInit"]
+- ["O13PerfectCrypto6Digest", "EVP_MD"]
+- !private ["O13PerfectCrypto6Digest", "EVP_MD_CTX_create"]
+- !private ["O13PerfectCrypto6Digest", "EVP_MD_CTX_destroy"]
+- !private ["O13PerfectCrypto6Digest", "EVP_dss"]
+- !private ["O13PerfectCrypto6Digest", "EVP_dss1"]
+- !private ["O13PerfectCrypto6Digest", "EVP_ecdsa"]
+- !private ["O13PerfectCrypto6Digest", "EVP_get_digestbyname"]
+- !private ["O13PerfectCrypto6Digest", "EVP_md4"]
+- !private ["O13PerfectCrypto6Digest", "EVP_md5"]
+- !private ["O13PerfectCrypto6Digest", "EVP_ripemd160"]
+- !private ["O13PerfectCrypto6Digest", "EVP_sha"]
+- !private ["O13PerfectCrypto6Digest", "EVP_sha1"]
+- !private ["O13PerfectCrypto6Digest", "EVP_sha224"]
+- !private ["O13PerfectCrypto6Digest", "EVP_sha256"]
+- !private ["O13PerfectCrypto6Digest", "EVP_sha384"]
+- !private ["O13PerfectCrypto6Digest", "EVP_sha512"]
+- !private ["O13PerfectCrypto6Digest", "EVP_whirlpool"]
+- !private ["O13PerfectCrypto6Digest", "HMACKey"]
+- ["O13PerfectCrypto6Digest", "Int"]
+- ["O13PerfectCrypto6Digest", "Key"]
+- !private ["O13PerfectCrypto6Digest", "UInt8"]
+- ["O13PerfectCrypto6Digest", "UnsafeMutableRawBufferPointer"]
+- !private ["O13PerfectCrypto6Digest", "UnsafeMutableRawPointer"]
+- ["O13PerfectCrypto6Digest", "UnsafePointer"]
+- ["O13PerfectCrypto6Digest", "UnsafeRawBufferPointer"]
+- ["O13PerfectCrypto6Digest", "bio"]
+- ["O13PerfectCrypto6Digest", "custom"]
+- ["O13PerfectCrypto6Digest", "dss"]
+- ["O13PerfectCrypto6Digest", "dss1"]
+- ["O13PerfectCrypto6Digest", "ecdsa"]
+- ["O13PerfectCrypto6Digest", "evp"]
+- ["O13PerfectCrypto6Digest", "length"]
+- ["O13PerfectCrypto6Digest", "md4"]
+- ["O13PerfectCrypto6Digest", "md5"]
+- ["O13PerfectCrypto6Digest", "ripemd160"]
+- ["O13PerfectCrypto6Digest", "sha"]
+- ["O13PerfectCrypto6Digest", "sha1"]
+- ["O13PerfectCrypto6Digest", "sha224"]
+- ["O13PerfectCrypto6Digest", "sha256"]
+- ["O13PerfectCrypto6Digest", "sha384"]
+- ["O13PerfectCrypto6Digest", "sha512"]
+- ["O13PerfectCrypto6Digest", "sign"]
+- ["O13PerfectCrypto6Digest", "verify"]
+- ["O13PerfectCrypto6Digest", "whirlpool"]
+- !private ["O13PerfectCrypto8Encoding", "Base64Filter"]
+- !private ["O13PerfectCrypto8Encoding", "MemoryIO"]
+- !private ["O13PerfectCrypto8Encoding", "UInt8"]
+- ["O13PerfectCrypto8Encoding", "UnsafeMutableRawBufferPointer"]
+- ["O13PerfectCrypto8Encoding", "UnsafeRawBufferPointer"]
+- ["O13PerfectCrypto8Encoding", "base64"]
+- ["O13PerfectCrypto8Encoding", "base64url"]
+- !private ["O13PerfectCrypto8Encoding", "byteFromHexDigits"]
+- !private ["O13PerfectCrypto8Encoding", "dash"]
+- ["O13PerfectCrypto8Encoding", "decodeBytes"]
+- ["O13PerfectCrypto8Encoding", "encodeBytes"]
+- !private ["O13PerfectCrypto8Encoding", "equal"]
+- !private ["O13PerfectCrypto8Encoding", "fromBytesBase64"]
+- !private ["O13PerfectCrypto8Encoding", "fromBytesBase64URL"]
+- !private ["O13PerfectCrypto8Encoding", "fromBytesHex"]
+- !private ["O13PerfectCrypto8Encoding", "fslash"]
+- ["O13PerfectCrypto8Encoding", "hex"]
+- !private ["O13PerfectCrypto8Encoding", "plus"]
+- !private ["O13PerfectCrypto8Encoding", "stride"]
+- !private ["O13PerfectCrypto8Encoding", "toBytesBase64"]
+- !private ["O13PerfectCrypto8Encoding", "toBytesBase64URL"]
+- !private ["O13PerfectCrypto8Encoding", "toBytesHex"]
+- !private ["O13PerfectCrypto8Encoding", "uscore"]
+- !private ["Ps9Equatable", "Base64Filter"]
+- !private ["Ps9Equatable", "MemoryIO"]
+- !private ["Ps9Equatable", "UInt8"]
+- !private ["Ps9Equatable", "UnsafeMutableRawBufferPointer"]
+- !private ["Ps9Equatable", "UnsafeRawBufferPointer"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "advanced"]
+- !private ["Ps9Equatable", "allocate"]
+- !private ["Ps9Equatable", "assumingMemoryBound"]
+- ["Ps9Equatable", "base64"]
+- ["Ps9Equatable", "base64url"]
+- !private ["Ps9Equatable", "dash"]
+- !private ["Ps9Equatable", "deallocate"]
+- !private ["Ps9Equatable", "equal"]
+- !private ["Ps9Equatable", "fromBytesBase64"]
+- !private ["Ps9Equatable", "fromBytesBase64URL"]
+- !private ["Ps9Equatable", "fromBytesHex"]
+- !private ["Ps9Equatable", "fslash"]
+- ["Ps9Equatable", "hex"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "plus"]
+- !private ["Ps9Equatable", "pointee"]
+- !private ["Ps9Equatable", "stride"]
+- !private ["Ps9Equatable", "toBytesBase64"]
+- !private ["Ps9Equatable", "toBytesBase64URL"]
+- !private ["Ps9Equatable", "toBytesHex"]
+- !private ["Ps9Equatable", "uscore"]
+- !private ["Ps5Error", "CryptoError"]
+- !private ["Ps5Error", "ERR_error_string_n"]
+- !private ["Ps5Error", "ERR_get_error"]
+- !private ["Ps5Error", "Int"]
+- !private ["Ps5Error", "String"]
+- !private ["Ps5Error", "UnsafeMutablePointer"]
+- !private ["Ps5Error", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Base64Filter"]
+- !private ["Ps8Hashable", "MemoryIO"]
+- !private ["Ps8Hashable", "UInt8"]
+- !private ["Ps8Hashable", "UnsafeMutableRawBufferPointer"]
+- !private ["Ps8Hashable", "UnsafeRawBufferPointer"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "advanced"]
+- !private ["Ps8Hashable", "allocate"]
+- !private ["Ps8Hashable", "assumingMemoryBound"]
+- ["Ps8Hashable", "base64"]
+- ["Ps8Hashable", "base64url"]
+- !private ["Ps8Hashable", "dash"]
+- !private ["Ps8Hashable", "deallocate"]
+- !private ["Ps8Hashable", "equal"]
+- !private ["Ps8Hashable", "fromBytesBase64"]
+- !private ["Ps8Hashable", "fromBytesBase64URL"]
+- !private ["Ps8Hashable", "fromBytesHex"]
+- !private ["Ps8Hashable", "fslash"]
+- ["Ps8Hashable", "hex"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "plus"]
+- !private ["Ps8Hashable", "pointee"]
+- !private ["Ps8Hashable", "stride"]
+- !private ["Ps8Hashable", "toBytesBase64"]
+- !private ["Ps8Hashable", "toBytesBase64URL"]
+- !private ["Ps8Hashable", "toBytesHex"]
+- !private ["Ps8Hashable", "uscore"]
+- ["Si", "init"]
+- !private ["Vs5Int32", "init"]
+- ["Ps7Integer", "init"]
+- ["Ps17IntegerArithmetic", "init"]
+- ["P10PerfectLib15JSONConvertible", "_getBuiltinLogicValue"]
+- ["P10PerfectLib15JSONConvertible", "append"]
+- !private ["P10PerfectLib15JSONConvertible", "count"]
+- ["P10PerfectLib15JSONConvertible", "init"]
+- ["P10PerfectLib15JSONConvertible", "subscript"]
+- !private ["C13PerfectCrypto3Key", "pkey"]
+- ["CV13PerfectThread9Threading4Lock", "init"]
+- ["CV13PerfectThread9Threading4Lock", "lock"]
+- ["CV13PerfectThread9Threading4Lock", "unlock"]
+- ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["C13PerfectCrypto8MemoryIO", "deinit"]
+- !private ["C13PerfectCrypto8MemoryIO", "flush"]
+- !private ["C13PerfectCrypto8MemoryIO", "init"]
+- !private ["C13PerfectCrypto8MemoryIO", "memory"]
+- !private ["C13PerfectCrypto8MemoryIO", "read"]
+- !private ["C13PerfectCrypto8MemoryIO", "readPending"]
+- !private ["C13PerfectCrypto8MemoryIO", "write"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "allocate"]
+- ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "baseAddress"]
+- !private ["Ps17MutableCollection", "copyBytes"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "deallocate"]
+- !private ["Ps17MutableCollection", "init"]
+- ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["P13PerfectCrypto5Octal", "init"]
+- ["V13PerfectCrypto15OpenSSLInternal", "Bool"]
+- ["V13PerfectCrypto15OpenSSLInternal", "CRYPTO_LOCK"]
+- ["V13PerfectCrypto15OpenSSLInternal", "CRYPTO_num_locks"]
+- ["V13PerfectCrypto15OpenSSLInternal", "CRYPTO_set_id_callback"]
+- ["V13PerfectCrypto15OpenSSLInternal", "CRYPTO_set_locking_callback"]
+- ["V13PerfectCrypto15OpenSSLInternal", "ERR_load_BIO_strings"]
+- ["V13PerfectCrypto15OpenSSLInternal", "ERR_load_crypto_strings"]
+- ["V13PerfectCrypto15OpenSSLInternal", "Int"]
+- ["V13PerfectCrypto15OpenSSLInternal", "Int32"]
+- ["V13PerfectCrypto15OpenSSLInternal", "Int8"]
+- ["V13PerfectCrypto15OpenSSLInternal", "OPENSSL_add_all_algorithms_conf"]
+- ["V13PerfectCrypto15OpenSSLInternal", "Threading"]
+- ["V13PerfectCrypto15OpenSSLInternal", "UInt"]
+- ["V13PerfectCrypto15OpenSSLInternal", "UnsafePointer"]
+- ["V13PerfectCrypto15OpenSSLInternal", "init"]
+- ["V13PerfectCrypto15OpenSSLInternal", "isInitialized"]
+- ["V13PerfectCrypto15OpenSSLInternal", "openSSLLocks"]
+- ["V13PerfectCrypto15OpenSSLInternal", "pthread_self"]
+- !private ["Ps22RandomAccessCollection", "allocate"]
+- ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "baseAddress"]
+- !private ["Ps22RandomAccessCollection", "copyBytes"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "deallocate"]
+- !private ["Ps22RandomAccessCollection", "endIndex"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "map"]
+- !private ["Ps22RandomAccessCollection", "sign"]
+- !private ["Ps22RandomAccessCollection", "startIndex"]
+- ["Ps22RandomAccessCollection", "subscript"]
+- ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps8Sequence", "allocate"]
+- ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "baseAddress"]
+- !private ["Ps8Sequence", "copyBytes"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "deallocate"]
+- !private ["Ps8Sequence", "endIndex"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "map"]
+- !private ["Ps8Sequence", "sign"]
+- !private ["Ps8Sequence", "startIndex"]
+- ["Ps8Sequence", "subscript"]
+- ["Ps13SignedInteger", "init"]
+- ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "advanced"]
+- !private ["Ps10Strideable", "allocate"]
+- !private ["Ps10Strideable", "assumingMemoryBound"]
+- !private ["Ps10Strideable", "deallocate"]
+- ["Ps10Strideable", "init"]
+- !private ["Ps10Strideable", "pointee"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["V13PerfectThread9Threading", "Lock"]
+- ["Su", "init"]
+- ["Vs5UInt8", "init"]
+- !private ["Sp", "advanced"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Vs29UnsafeMutableRawBufferPointer", "allocate"]
+- !private ["Vs29UnsafeMutableRawBufferPointer", "baseAddress"]
+- !private ["Vs29UnsafeMutableRawBufferPointer", "copyBytes"]
+- !private ["Vs29UnsafeMutableRawBufferPointer", "count"]
+- !private ["Vs29UnsafeMutableRawBufferPointer", "deallocate"]
+- !private ["Vs29UnsafeMutableRawBufferPointer", "init"]
+- !private ["Vs29UnsafeMutableRawBufferPointer", "subscript"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["Sv", "init"]
+- !private ["SP", "init"]
+- !private ["SP", "pointee"]
+- !private ["Vs22UnsafeRawBufferPointer", "baseAddress"]
+- !private ["Vs22UnsafeRawBufferPointer", "count"]
+- !private ["Vs22UnsafeRawBufferPointer", "endIndex"]
+- !private ["Vs22UnsafeRawBufferPointer", "init"]
+- !private ["Vs22UnsafeRawBufferPointer", "map"]
+- !private ["Vs22UnsafeRawBufferPointer", "sign"]
+- !private ["Vs22UnsafeRawBufferPointer", "startIndex"]
+- !private ["Vs22UnsafeRawBufferPointer", "subscript"]
+- !private ["SV", "assumingMemoryBound"]
+- ["Ps15UnsignedInteger", "init"]
+- ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "count"]
+- ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "allocate"]
+- ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "baseAddress"]
+- !private ["Ps23_BidirectionalIndexable", "copyBytes"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "deallocate"]
+- !private ["Ps23_BidirectionalIndexable", "endIndex"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps23_BidirectionalIndexable", "map"]
+- !private ["Ps23_BidirectionalIndexable", "sign"]
+- !private ["Ps23_BidirectionalIndexable", "startIndex"]
+- ["Ps23_BidirectionalIndexable", "subscript"]
+- ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- ["Ps24_DestructorSafeContainer", "subscript"]
+- ["Ps28_DisallowMixedSignArithmetic", "init"]
+- ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Base64Filter"]
+- !private ["Ps9_Hashable", "MemoryIO"]
+- !private ["Ps9_Hashable", "UInt8"]
+- !private ["Ps9_Hashable", "UnsafeMutableRawBufferPointer"]
+- !private ["Ps9_Hashable", "UnsafeRawBufferPointer"]
+- ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "advanced"]
+- !private ["Ps9_Hashable", "allocate"]
+- !private ["Ps9_Hashable", "assumingMemoryBound"]
+- ["Ps9_Hashable", "base64"]
+- ["Ps9_Hashable", "base64url"]
+- !private ["Ps9_Hashable", "dash"]
+- !private ["Ps9_Hashable", "deallocate"]
+- !private ["Ps9_Hashable", "equal"]
+- !private ["Ps9_Hashable", "fromBytesBase64"]
+- !private ["Ps9_Hashable", "fromBytesBase64URL"]
+- !private ["Ps9_Hashable", "fromBytesHex"]
+- !private ["Ps9_Hashable", "fslash"]
+- ["Ps9_Hashable", "hex"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "plus"]
+- !private ["Ps9_Hashable", "pointee"]
+- !private ["Ps9_Hashable", "stride"]
+- !private ["Ps9_Hashable", "toBytesBase64"]
+- !private ["Ps9_Hashable", "toBytesBase64URL"]
+- !private ["Ps9_Hashable", "toBytesHex"]
+- !private ["Ps9_Hashable", "uscore"]
+- ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "allocate"]
+- ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "baseAddress"]
+- !private ["Ps10_Indexable", "copyBytes"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "deallocate"]
+- !private ["Ps10_Indexable", "endIndex"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps10_Indexable", "map"]
+- !private ["Ps10_Indexable", "sign"]
+- !private ["Ps10_Indexable", "startIndex"]
+- ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "allocate"]
+- ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "baseAddress"]
+- !private ["Ps14_IndexableBase", "copyBytes"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "deallocate"]
+- !private ["Ps14_IndexableBase", "endIndex"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps14_IndexableBase", "map"]
+- !private ["Ps14_IndexableBase", "sign"]
+- !private ["Ps14_IndexableBase", "startIndex"]
+- ["Ps14_IndexableBase", "subscript"]
+- ["Ps8_Integer", "init"]
+- ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "allocate"]
+- ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "baseAddress"]
+- !private ["Ps17_MutableIndexable", "copyBytes"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "deallocate"]
+- !private ["Ps17_MutableIndexable", "init"]
+- ["Ps17_MutableIndexable", "subscript"]
+- ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps8_Pointer", "advanced"]
+- !private ["Ps8_Pointer", "allocate"]
+- !private ["Ps8_Pointer", "assumingMemoryBound"]
+- !private ["Ps8_Pointer", "deallocate"]
+- !private ["Ps8_Pointer", "init"]
+- !private ["Ps8_Pointer", "pointee"]
+- !private ["Ps22_RandomAccessIndexable", "allocate"]
+- ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "baseAddress"]
+- !private ["Ps22_RandomAccessIndexable", "copyBytes"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "deallocate"]
+- !private ["Ps22_RandomAccessIndexable", "endIndex"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "map"]
+- !private ["Ps22_RandomAccessIndexable", "sign"]
+- !private ["Ps22_RandomAccessIndexable", "startIndex"]
+- ["Ps22_RandomAccessIndexable", "subscript"]
+- ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- ["Ps26_RangeReplaceableIndexable", "subscript"]
+- ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "advanced"]
+- !private ["Ps11_Strideable", "allocate"]
+- !private ["Ps11_Strideable", "assumingMemoryBound"]
+- !private ["Ps11_Strideable", "deallocate"]
+- ["Ps11_Strideable", "init"]
+- !private ["Ps11_Strideable", "pointee"]
+- ["Ps14_StringElement", "init"]
+- !private ["VSC9env_md_st", "md_size"]
+- !private ["VSC13evp_cipher_st", "block_size"]
+- !private ["VSC13evp_cipher_st", "iv_len"]
+- !private ["VSC13evp_cipher_st", "key_len"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "C13PerfectCrypto12Base64Filter"
+- "Ps23BidirectionalCollection"
+- "Ps17BitwiseOperations"
+- "Sb"
+- !private "P13PerfectCrypto6ByteIO"
+- !private "C13PerfectCrypto10ByteIOBase"
+- !private "P13PerfectCrypto8ByteSink"
+- !private "P13PerfectCrypto10ByteSource"
+- "Ps7CVarArg"
+- "O13PerfectCrypto6Cipher"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "V13PerfectCrypto11CryptoError"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "O13PerfectCrypto6Digest"
+- "O13PerfectCrypto8Encoding"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Si"
+- !private "Vs5Int32"
+- "Ps7Integer"
+- "Ps17IntegerArithmetic"
+- "P10PerfectLib15JSONConvertible"
+- !private "C13PerfectCrypto3Key"
+- "CV13PerfectThread9Threading4Lock"
+- "Ps25LosslessStringConvertible"
+- !private "C13PerfectCrypto8MemoryIO"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "P13PerfectCrypto5Octal"
+- "V13PerfectCrypto15OpenSSLInternal"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "Ps8Sequence"
+- "Ps13SignedInteger"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "V13PerfectThread9Threading"
+- "Su"
+- "Vs5UInt8"
+- !private "Sp"
+- !private "Vs29UnsafeMutableRawBufferPointer"
+- !private "Sv"
+- !private "SP"
+- !private "Vs22UnsafeRawBufferPointer"
+- !private "SV"
+- "Ps15UnsignedInteger"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps24_DestructorSafeContainer"
+- "Ps28_DisallowMixedSignArithmetic"
+- "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps14_Incrementable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps8_Integer"
+- "Ps18_IntegerArithmetic"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+- "Ps14_SignedInteger"
+- "Ps11_Strideable"
+- "Ps14_StringElement"
+- !private "VSC9env_md_st"
+- !private "VSC13evp_cipher_st"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectLib.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+interface-hash: "8b5f31ddb5b6060c1bf423c2e24294f2"

@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectNotifications.build/master.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Notifications.git-316435836557330814/Sources/JWTokenMaker.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectNotifications.build/JWTokenMaker.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectNotifications.build/JWTokenMaker.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectNotifications.build/JWTokenMaker~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectNotifications.build/JWTokenMaker.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Notifications.git-316435836557330814/Sources/NotificationPusher.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectNotifications.build/NotificationPusher.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectNotifications.build/NotificationPusher.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectNotifications.build/NotificationPusher~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectNotifications.build/NotificationPusher.swiftdeps"
+  }
+}

@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "221cc9a92de351d42bdd83d45aaa0c10"
+build_time: [550846024, 849714000]
+inputs:
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/arguments.swift": [550812035, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/DataService.swift": [550824238, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/Device.swift": [550812035, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/Handlers.swift": [550812035, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/main.swift": [550821306, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/Notifier.swift": [550812035, 0]

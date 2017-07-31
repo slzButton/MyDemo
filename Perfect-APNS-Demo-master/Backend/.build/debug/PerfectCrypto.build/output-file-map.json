@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/master.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/Algorithms.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Algorithms.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Algorithms.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Algorithms~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Algorithms.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/ByteIO.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/ByteIO.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/ByteIO.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/ByteIO~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/ByteIO.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/Extensions.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Extensions.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Extensions.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Extensions.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/JWT.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/JWT.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/JWT.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/JWT~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/JWT.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/Keys.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Keys.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Keys.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Keys~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/Keys.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/OpenSSLInternal.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/OpenSSLInternal.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/OpenSSLInternal.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/OpenSSLInternal~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/OpenSSLInternal.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/PerfectCrypto.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/PerfectCrypto.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/PerfectCrypto~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectCrypto.build/PerfectCrypto.swiftdeps"
+  }
+}

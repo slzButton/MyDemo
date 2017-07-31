@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/master.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/arguments.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/arguments.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/arguments.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/arguments~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/arguments.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/DataService.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/DataService.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/DataService.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/DataService~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/DataService.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/Device.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Device.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Device.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Device~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Device.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/Handlers.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Handlers.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Handlers.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Handlers~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Handlers.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/main.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/main.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/main.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/main.swiftdeps"
+  },
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/Sources/Notifier.swift": {
+    "dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Notifier.d",
+    "object": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Notifier.swift.o",
+    "swiftmodule": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Notifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/Perfect_APNS.build/Notifier.swiftdeps"
+  }
+}

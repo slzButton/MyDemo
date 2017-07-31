@@ -1,0 +1,263 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Encoding"
+- "Digest"
+- "Cipher"
+- "=="
+provides-nominal:
+- "O13PerfectCrypto8Encoding"
+- "O13PerfectCrypto6Digest"
+- "O13PerfectCrypto6Cipher"
+provides-member:
+- ["O13PerfectCrypto8Encoding", ""]
+- ["O13PerfectCrypto6Digest", ""]
+- ["O13PerfectCrypto6Cipher", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Cipher"
+- "Digest"
+- "Encoding"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+depends-member:
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["O13PerfectCrypto6Cipher", "String"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cbc"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cbc_hmac_sha1"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cbc_hmac_sha256"]
+- ["O13PerfectCrypto6Cipher", "aes_128_ccm"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cfb1"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cfb128"]
+- ["O13PerfectCrypto6Cipher", "aes_128_cfb8"]
+- ["O13PerfectCrypto6Cipher", "aes_128_ctr"]
+- ["O13PerfectCrypto6Cipher", "aes_128_ecb"]
+- ["O13PerfectCrypto6Cipher", "aes_128_gcm"]
+- ["O13PerfectCrypto6Cipher", "aes_128_ofb"]
+- ["O13PerfectCrypto6Cipher", "aes_128_wrap"]
+- ["O13PerfectCrypto6Cipher", "aes_128_xts"]
+- ["O13PerfectCrypto6Cipher", "aes_192_cbc"]
+- ["O13PerfectCrypto6Cipher", "aes_192_ccm"]
+- ["O13PerfectCrypto6Cipher", "aes_192_cfb1"]
+- ["O13PerfectCrypto6Cipher", "aes_192_cfb128"]
+- ["O13PerfectCrypto6Cipher", "aes_192_cfb8"]
+- ["O13PerfectCrypto6Cipher", "aes_192_ctr"]
+- ["O13PerfectCrypto6Cipher", "aes_192_ecb"]
+- ["O13PerfectCrypto6Cipher", "aes_192_gcm"]
+- ["O13PerfectCrypto6Cipher", "aes_192_ofb"]
+- ["O13PerfectCrypto6Cipher", "aes_192_wrap"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cbc"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cbc_hmac_sha1"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cbc_hmac_sha256"]
+- ["O13PerfectCrypto6Cipher", "aes_256_ccm"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cfb1"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cfb128"]
+- ["O13PerfectCrypto6Cipher", "aes_256_cfb8"]
+- ["O13PerfectCrypto6Cipher", "aes_256_ctr"]
+- ["O13PerfectCrypto6Cipher", "aes_256_ecb"]
+- ["O13PerfectCrypto6Cipher", "aes_256_gcm"]
+- ["O13PerfectCrypto6Cipher", "aes_256_ofb"]
+- ["O13PerfectCrypto6Cipher", "aes_256_wrap"]
+- ["O13PerfectCrypto6Cipher", "aes_256_xts"]
+- ["O13PerfectCrypto6Cipher", "bf_cbc"]
+- ["O13PerfectCrypto6Cipher", "bf_cfb64"]
+- ["O13PerfectCrypto6Cipher", "bf_ecb"]
+- ["O13PerfectCrypto6Cipher", "bf_ofb"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_cbc"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_cfb1"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_cfb128"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_cfb8"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_ecb"]
+- ["O13PerfectCrypto6Cipher", "camellia_128_ofb"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_cbc"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_cfb1"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_cfb128"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_cfb8"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_ecb"]
+- ["O13PerfectCrypto6Cipher", "camellia_192_ofb"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_cbc"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_cfb1"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_cfb128"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_cfb8"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_ecb"]
+- ["O13PerfectCrypto6Cipher", "camellia_256_ofb"]
+- ["O13PerfectCrypto6Cipher", "cast5_cbc"]
+- ["O13PerfectCrypto6Cipher", "cast5_cfb64"]
+- ["O13PerfectCrypto6Cipher", "cast5_ecb"]
+- ["O13PerfectCrypto6Cipher", "cast5_ofb"]
+- ["O13PerfectCrypto6Cipher", "custom"]
+- ["O13PerfectCrypto6Cipher", "des_cbc"]
+- ["O13PerfectCrypto6Cipher", "des_cfb1"]
+- ["O13PerfectCrypto6Cipher", "des_cfb64"]
+- ["O13PerfectCrypto6Cipher", "des_cfb8"]
+- ["O13PerfectCrypto6Cipher", "des_ecb"]
+- ["O13PerfectCrypto6Cipher", "des_ede"]
+- ["O13PerfectCrypto6Cipher", "des_ede3"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_cbc"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_cfb1"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_cfb8"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_ecb"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_ofb"]
+- ["O13PerfectCrypto6Cipher", "des_ede3_wrap"]
+- ["O13PerfectCrypto6Cipher", "des_ede_cbc"]
+- ["O13PerfectCrypto6Cipher", "des_ede_cfb64"]
+- ["O13PerfectCrypto6Cipher", "des_ede_ecb"]
+- ["O13PerfectCrypto6Cipher", "des_ede_ofb"]
+- ["O13PerfectCrypto6Cipher", "des_ofb"]
+- ["O13PerfectCrypto6Cipher", "desx_cbc"]
+- ["O13PerfectCrypto6Cipher", "rc2_40_cbc"]
+- ["O13PerfectCrypto6Cipher", "rc2_64_cbc"]
+- ["O13PerfectCrypto6Cipher", "rc2_cbc"]
+- ["O13PerfectCrypto6Cipher", "rc2_cfb64"]
+- ["O13PerfectCrypto6Cipher", "rc2_ecb"]
+- ["O13PerfectCrypto6Cipher", "rc2_ofb"]
+- ["O13PerfectCrypto6Cipher", "rc4"]
+- ["O13PerfectCrypto6Cipher", "rc4_40"]
+- ["O13PerfectCrypto6Cipher", "rc4_hmac_md5"]
+- ["O13PerfectCrypto6Cipher", "seed_cbc"]
+- ["O13PerfectCrypto6Cipher", "seed_cfb128"]
+- ["O13PerfectCrypto6Cipher", "seed_ecb"]
+- ["O13PerfectCrypto6Cipher", "seed_ofb"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["O13PerfectCrypto6Digest", "String"]
+- ["O13PerfectCrypto6Digest", "custom"]
+- ["O13PerfectCrypto6Digest", "dss"]
+- ["O13PerfectCrypto6Digest", "dss1"]
+- ["O13PerfectCrypto6Digest", "ecdsa"]
+- ["O13PerfectCrypto6Digest", "md4"]
+- ["O13PerfectCrypto6Digest", "md5"]
+- ["O13PerfectCrypto6Digest", "ripemd160"]
+- ["O13PerfectCrypto6Digest", "sha"]
+- ["O13PerfectCrypto6Digest", "sha1"]
+- ["O13PerfectCrypto6Digest", "sha224"]
+- ["O13PerfectCrypto6Digest", "sha256"]
+- ["O13PerfectCrypto6Digest", "sha384"]
+- ["O13PerfectCrypto6Digest", "sha512"]
+- ["O13PerfectCrypto6Digest", "whirlpool"]
+- ["O13PerfectCrypto8Encoding", "=="]
+- ["O13PerfectCrypto8Encoding", "_toAnyHashable"]
+- ["O13PerfectCrypto8Encoding", "base64"]
+- ["O13PerfectCrypto8Encoding", "base64url"]
+- ["O13PerfectCrypto8Encoding", "deinit"]
+- ["O13PerfectCrypto8Encoding", "hashValue"]
+- ["O13PerfectCrypto8Encoding", "hex"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["P10PerfectLib15JSONConvertible", "hashValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- "O13PerfectCrypto6Cipher"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "O13PerfectCrypto6Digest"
+- "O13PerfectCrypto8Encoding"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "P10PerfectLib15JSONConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectLib.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+interface-hash: "0ba7ffcbb8572e7bd801af09009c86b1"

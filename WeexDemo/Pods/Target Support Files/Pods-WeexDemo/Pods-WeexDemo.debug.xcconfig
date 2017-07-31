@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) '$(PODS_ROOT)/WeexSDK' "${PODS_ROOT}/ATSDK-Weex" "${PODS_ROOT}/GCanvas" "${PODS_ROOT}/WXDevtool" "${PODS_ROOT}/WeexPluginLoader" "${PODS_ROOT}/WeexSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ATSDK-Weex" "${PODS_ROOT}/Headers/Public/GCanvas" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SocketRocket" "${PODS_ROOT}/Headers/Public/WXDevtool" "${PODS_ROOT}/Headers/Public/WeexGcanvas" "${PODS_ROOT}/Headers/Public/WeexPluginLoader" "${PODS_ROOT}/Headers/Public/WeexSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage" "$PODS_CONFIGURATION_BUILD_DIR/SocketRocket" "$PODS_CONFIGURATION_BUILD_DIR/WeexGcanvas"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ATSDK-Weex" -isystem "${PODS_ROOT}/Headers/Public/GCanvas" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/SocketRocket" -isystem "${PODS_ROOT}/Headers/Public/WXDevtool" -isystem "${PODS_ROOT}/Headers/Public/WeexGcanvas" -isystem "${PODS_ROOT}/Headers/Public/WeexPluginLoader" -isystem "${PODS_ROOT}/Headers/Public/WeexSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"SDWebImage" -l"SocketRocket" -l"WeexGcanvas" -l"icucore" -l"stdc++" -framework "ATSDK" -framework "AVFoundation" -framework "AVKit" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreData" -framework "CoreMedia" -framework "Foundation" -framework "GCanvas" -framework "GLKit" -framework "ImageIO" -framework "JavaScriptCore" -framework "MediaPlayer" -framework "MobileCoreServices" -framework "Security" -framework "TBWXDevTool" -framework "UIKit" -framework "WeexPluginLoader" -framework "WeexSDK"
+OTHER_LINK_FLAG = $(inherited) -ObjC
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

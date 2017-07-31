@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "dd6f37d663565ee18b61d43731e5aab0"
+build_time: [550846024, 357939000]
+inputs:
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Notifications.git-316435836557330814/Sources/JWTokenMaker.swift": [550846002, 0]
+  "/Users/cltx/Desktop/MyGit/MyDemo/Perfect-APNS-Demo-master/Backend/.build/checkouts/Perfect-Notifications.git-316435836557330814/Sources/NotificationPusher.swift": [550846002, 0]
