@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSString *script;
+@property (nonatomic, strong) NSString *url;
+
+@property (nonatomic, strong) NSString *source;
+
 
 @end
 

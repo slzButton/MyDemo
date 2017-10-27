@@ -1,0 +1,16 @@
+PODS:
+  - HHServices (2.0)
+
+DEPENDENCIES:
+  - HHServices (from `./../../`)
+
+EXTERNAL SOURCES:
+  HHServices:
+    :path: "./../../"
+
+SPEC CHECKSUMS:
+  HHServices: ed5a239317fac28a733ab32bf03e8befe9b56656
+
+PODFILE CHECKSUM: 21dd32499f698a8183b45812aac310b1a9266ea6
+
+COCOAPODS: 1.1.1

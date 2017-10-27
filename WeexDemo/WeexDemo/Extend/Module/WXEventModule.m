@@ -18,7 +18,7 @@
  */
 
 #import "WXEventModule.h"
-#import "WXDemoViewController.h"
+#import "ViewController.h"
 #import <WeexSDK/WXBaseViewController.h>
 
 @implementation WXEventModule
@@ -39,8 +39,8 @@ WX_EXPORT_METHOD(@selector(fireNativeGlobalEvent:callback:))
         newURL = [NSURL URLWithString:url relativeToURL:weexInstance.scriptURL].absoluteString;
     }
     
-    UIViewController *controller = [[WXDemoViewController alloc] init];
-    ((WXDemoViewController *)controller).url = [NSURL URLWithString:newURL];
+    UIViewController *controller = [[ViewController alloc] init];
+    ((ViewController *)controller).url = newURL;
     
     [[weexInstance.viewController navigationController] pushViewController:controller animated:YES];
 }
@@ -54,8 +54,7 @@ WX_EXPORT_METHOD(@selector(fireNativeGlobalEvent:callback:))
 {
     [weexInstance fireGlobalEvent:event params:@{@"eventParam":@"eventValue"}];
     if (callback) {
-        NSDictionary * result = @{@"ok": @true};
-        callback(result);
+        callback(@"刘志豪是世界上最帅的people,锡安你懂得");
     }
 }
 

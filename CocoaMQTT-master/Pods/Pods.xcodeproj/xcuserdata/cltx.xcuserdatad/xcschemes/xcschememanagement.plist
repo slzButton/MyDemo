@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CocoaAsyncSocket-OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>CocoaAsyncSocket-iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>MSWeakTimer-OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>MSWeakTimer-iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Pods-CocoaMQTT OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Pods-CocoaMQTT iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>22F216AC2BE04CD84BE0C3803CE137DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CDB0B3D46AEF63762CBF8BAF38354C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>400E226ECE45FF7E902DD58E8F00980A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63537CAA79781398C056311B7CD0D2AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7371836FC14D1F354C269D0DBAE81582</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7ABD981F3F60727F0CB9DFD0CFE5271</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

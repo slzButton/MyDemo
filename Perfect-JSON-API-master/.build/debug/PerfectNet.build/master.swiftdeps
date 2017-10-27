@@ -1,9 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "09288b2e377ec31d8d4cd6f9bb0ddb4d"
-build_time: [550026798, 57866000]
-inputs:
-  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/Net.swift": [550026782, 0]
-  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetEvent.swift": [550026782, 0]
-  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetNamedPipe.swift": [550026782, 0]
-  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCP.swift": [550026782, 0]
-  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCPSSL.swift": [550026782, 0]

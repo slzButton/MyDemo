@@ -44,7 +44,7 @@
   struct mg_context *ctx;
 }
 
-@property (readwrite)          struct mg_context *ctx;
+@property (readwrite)           struct mg_context *ctx;
 
 - (void)startMongooseDaemon:(NSString *)ports;
 - (void)stopMongooseDaemon;

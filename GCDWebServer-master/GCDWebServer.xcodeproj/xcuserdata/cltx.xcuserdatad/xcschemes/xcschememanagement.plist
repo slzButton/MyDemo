@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Build All.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>GCDWebServer (Mac).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>GCDWebServer (iOS).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>GCDWebServer (tvOS).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>GCDWebServers (Mac).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>GCDWebServers (iOS).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>GCDWebServers (tvOS).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8DD76FA90486AB0100D96B5E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEE28CD01AE004D800F4023C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEE28CEE1AE0051F00F4023C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E24039241BA09207000B7089</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E274F876187E77D8009E0582</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2DDD18A1BE69404002CE867</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2DDD1C61BE698A8002CE867</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2DDD1F51BE69EE4002CE867</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

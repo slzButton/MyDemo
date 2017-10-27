@@ -1,7 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "8b7be44885f113d07ffee5cfd9e710f5"
-build_time: [550026794, 66526000]
-inputs:
-  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Promise.swift": [550026782, 0]
-  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Threading.swift": [550026782, 0]
-  "/Users/cltx/Downloads/Perfect-JSON-API-master/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/ThreadQueue.swift": [550026782, 0]
