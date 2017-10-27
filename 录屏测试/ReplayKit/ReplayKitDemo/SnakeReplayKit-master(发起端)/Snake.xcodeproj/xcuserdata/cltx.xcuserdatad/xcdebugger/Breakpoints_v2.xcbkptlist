@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Snake/ViewController.m"
+            timestampString = "530619963.712166"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "-finishClick:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ViewController finishClick:]"
+                  moduleName = "Snake"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cltx/Desktop/%E5%BD%95%E5%B1%8F%E6%B5%8B%E8%AF%95/SnakeReplayKit-master(%E5%8F%91%E8%B5%B7%E7%AB%AF)/Snake/ViewController.m"
+                  timestampString = "530619963.779907"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__30-[ViewController finishClick:]_block_invoke"
+                  moduleName = "Snake"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cltx/Desktop/%E5%BD%95%E5%B1%8F%E6%B5%8B%E8%AF%95/SnakeReplayKit-master(%E5%8F%91%E8%B5%B7%E7%AB%AF)/Snake/ViewController.m"
+                  timestampString = "530619963.7814"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
