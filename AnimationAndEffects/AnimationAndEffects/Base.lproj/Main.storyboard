@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dI0-Nz-QZA">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimationAndEffects" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="10001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afu-ap-6gf">
+                                <rect key="frame" x="33" y="103" width="78" height="30"/>
+                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="QuickExample">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="104" width="163" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="WyX-QN-Gmb" kind="show" id="h0T-ZS-dDV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAO-IA-h79">
+                                <rect key="frame" x="33" y="103" width="78" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="基本动画">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="189" width="163" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="kqr-W1-1TQ" kind="show" id="QL2-eQ-Ru4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7cA-I2-pWZ">
+                                <rect key="frame" x="33" y="103" width="78" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="关键帧动画">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="243" width="163" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="kog-C8-dRW" kind="show" id="UC8-hv-5bg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ST-oL-YpL">
+                                <rect key="frame" x="33" y="103" width="78" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="转场效果">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="296" width="163" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="B50-Ke-Oab" kind="show" id="u8B-tF-HfO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zm-WL-BEP">
+                                <rect key="frame" x="33" y="103" width="78" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="UIKit 力学效果">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="353" width="163" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="TEU-D6-F06" kind="show" id="mN5-yN-0tI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHb-hE-JVo">
+                                <rect key="frame" x="33" y="103" width="78" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Motion Effects">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="413" width="163" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Yo8-Et-T5j" kind="show" id="3bz-D9-0tb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKW-Pj-sdg">
+                                <rect key="frame" x="33" y="103" width="78" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Controller转场效果">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="217" y="296" width="163" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Ief-QR-kQG" kind="show" id="g3A-eO-LwE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IS0-47-k28">
+                                <rect key="frame" x="33" y="103" width="78" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="隐式动画">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="149" width="163" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="fbm-PB-KzV" kind="show" id="fjh-5f-4vF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="IAO-IA-h79"/>
+                                <exclude reference="7cA-I2-pWZ"/>
+                                <exclude reference="6ST-oL-YpL"/>
+                                <exclude reference="0zm-WL-BEP"/>
+                                <exclude reference="FHb-hE-JVo"/>
+                                <exclude reference="iKW-Pj-sdg"/>
+                                <exclude reference="IS0-47-k28"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="IAO-IA-h79"/>
+                                <include reference="7cA-I2-pWZ"/>
+                                <include reference="6ST-oL-YpL"/>
+                                <include reference="0zm-WL-BEP"/>
+                                <include reference="FHb-hE-JVo"/>
+                                <include reference="iKW-Pj-sdg"/>
+                                <include reference="IS0-47-k28"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="3bW-Ca-CoS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-654" y="825.75"/>
+        </scene>
+        <!--Controller Transitioning Demo View Controller-->
+        <scene sceneID="BA3-sX-KUy">
+            <objects>
+                <viewController id="Ief-QR-kQG" customClass="ControllerTransitioningDemoViewController" customModule="AnimationAndEffects" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cnR-l8-LyW"/>
+                        <viewControllerLayoutGuide type="bottom" id="6NE-Yr-QnI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9ol-MR-Lu3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BVJ-Lo-ThR">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="push转场"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="123" width="60" height="60"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Transitioning1:" destination="Ief-QR-kQG" eventType="touchUpInside" id="rBH-SG-HpR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shY-w8-Neq">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="push转场"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="236" y="128" width="60" height="60"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Transitioning1:" destination="Ief-QR-kQG" eventType="touchUpInside" id="6kq-RL-ys3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujf-6q-8yp">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="push转场"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="24" y="478" width="60" height="60"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Transitioning1:" destination="Ief-QR-kQG" eventType="touchUpInside" id="RMJ-Fr-pif"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2n3-u2-NKD">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="push转场"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="207" y="478" width="60" height="60"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Transitioning1:" destination="Ief-QR-kQG" eventType="touchUpInside" id="Ips-FG-GKI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jev-9h-k8O">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="模态Controller转场"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="27" y="230" width="128" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="Transitioning2:" destination="Ief-QR-kQG" eventType="touchUpInside" id="Qzg-XH-NYF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="BVJ-Lo-ThR"/>
+                                <exclude reference="shY-w8-Neq"/>
+                                <exclude reference="ujf-6q-8yp"/>
+                                <exclude reference="2n3-u2-NKD"/>
+                                <exclude reference="Jev-9h-k8O"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="BVJ-Lo-ThR"/>
+                                <include reference="shY-w8-Neq"/>
+                                <include reference="ujf-6q-8yp"/>
+                                <include reference="2n3-u2-NKD"/>
+                                <include reference="Jev-9h-k8O"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jw8-D6-gdQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1030.5" y="1927.5"/>
+        </scene>
+        <!--Motion Effects View Controller-->
+        <scene sceneID="100-EK-Sl4">
+            <objects>
+                <viewController id="Yo8-Et-T5j" customClass="MotionEffectsViewController" customModule="AnimationAndEffects" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Nb0-Yt-PsX"/>
+                        <viewControllerLayoutGuide type="bottom" id="dpo-97-DBT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UfJ-2q-V7t">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fMF-rE-rfw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127.5" y="1190.25"/>
+        </scene>
+        <!--Implicit Animation View Controller-->
+        <scene sceneID="4vD-a7-c4a">
+            <objects>
+                <viewController id="fbm-PB-KzV" customClass="ImplicitAnimationViewController" customModule="AnimationAndEffects" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J5W-bu-ASv"/>
+                        <viewControllerLayoutGuide type="bottom" id="ABV-Ua-gdc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Va-a9-hnr">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dF2-xI-Psp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1501.5" y="-87"/>
+        </scene>
+        <!--Quick Example View Controller-->
+        <scene sceneID="ND6-tb-dax">
+            <objects>
+                <viewController id="WyX-QN-Gmb" customClass="QuickExampleViewController" customModule="AnimationAndEffects" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tjf-6f-Ziy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Eai-ss-yNs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OeE-rC-Esi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xfq-TC-pTd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-816" y="-87"/>
+        </scene>
+        <!--Basic Animation View Controller-->
+        <scene sceneID="Mc0-eN-mGU">
+            <objects>
+                <viewController id="kqr-W1-1TQ" customClass="BasicAnimationViewController" customModule="AnimationAndEffects" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sr6-08-ug2"/>
+                        <viewControllerLayoutGuide type="bottom" id="VwI-Gv-fzJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T8y-KZ-kAg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PXR-DE-fYc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-75" y="-83.25"/>
+        </scene>
+        <!--UIKit动力行为-->
+        <scene sceneID="OBK-N1-gC6">
+            <objects>
+                <viewController id="TEU-D6-F06" customClass="UIKitDynamicsViewController" customModule="AnimationAndEffects" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yGk-0f-yXS"/>
+                        <viewControllerLayoutGuide type="bottom" id="saS-VN-Iqa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tSN-3z-x4x">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="UIKit动力行为" id="FIX-qg-6gS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="Uh9-o7-zd5">
+                            <connections>
+                                <action selector="Refersh:" destination="TEU-D6-F06" id="JeX-9j-BDw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IzO-mu-e2r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1512" y="616.5"/>
+        </scene>
+        <!--Transfer Animation View Controller-->
+        <scene sceneID="Bib-wl-7Ym">
+            <objects>
+                <viewController id="B50-Ke-Oab" customClass="TransferAnimationViewController" customModule="AnimationAndEffects" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yoZ-Cl-Ktf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xdk-kr-cG7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nyt-YD-Fha">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7PK-Vx-7Q6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1489.5" y="-58.5"/>
+        </scene>
+        <!--Key Frame Animation View Controller-->
+        <scene sceneID="yXd-N4-aMp">
+            <objects>
+                <viewController id="kog-C8-dRW" customClass="KeyFrameAnimationViewController" customModule="AnimationAndEffects" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IZU-SZ-Zo8"/>
+                        <viewControllerLayoutGuide type="bottom" id="k3q-su-c2x"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ezb-Hy-tPx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h7Z-3Y-Tha" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="681" y="-83.25"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3gt-Yi-NMD">
+            <objects>
+                <navigationController id="dI0-Nz-QZA" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dh9-F4-e2G">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6A4-ft-6mZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AJD-rB-uJG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1572" y="811.5"/>
+        </scene>
+    </scenes>
+</document>
