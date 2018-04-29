@@ -58,27 +58,51 @@
     [self.view addSubview:_centerButton];
     
     
-    _centerButton.sd_layout
-    .centerXEqualToView(self.view)
-    .topSpaceToView(self.view, 10)
-    .widthRatioToView(self.view, 0.5)
-    .heightIs(120);
-    
-
+//    _centerButton.sd_layout
+//    .centerXEqualToView(self.view)
+//    .topSpaceToView(self.view, 10)
+//    .widthRatioToView(self.view, 0.5)
+//    .heightIs(120);
+//
+//
+//
+//    // 设置button的图片的约束
+//    _centerButton.imageView.sd_layout
+//    .widthRatioToView(_centerButton, 0.8)
+//    .topSpaceToView(_centerButton, 10)
+//    .centerXEqualToView(_centerButton)
+//    .heightRatioToView(_centerButton, 0.6);
+//
+//    // 设置button的label的约束
+//    _centerButton.titleLabel.sd_layout
+//    .topSpaceToView(_centerButton.imageView, 10)
+//    .leftEqualToView(_centerButton.imageView)
+//    .rightEqualToView(_centerButton.imageView)
+//    .bottomSpaceToView(_centerButton, 10);
     
     // 设置button的图片的约束
     _centerButton.imageView.sd_layout
-    .widthRatioToView(_centerButton, 0.8)
-    .topSpaceToView(_centerButton, 10)
-    .centerXEqualToView(_centerButton)
-    .heightRatioToView(_centerButton, 0.6);
+    .widthIs(25.0)
+    .rightEqualToView(_centerButton)
+    .centerYEqualToView(_centerButton)
+    .heightEqualToWidth();
+    
+    
+    _centerButton.sd_layout
+    .centerXEqualToView(self.view)
+    .centerXEqualToView(self.view);
+    [_centerButton setupAutoSizeWithHorizontalPadding:10 buttonHeight:25];
+    
+    
     
     // 设置button的label的约束
     _centerButton.titleLabel.sd_layout
-    .topSpaceToView(_centerButton.imageView, 10)
-    .leftEqualToView(_centerButton.imageView)
-    .rightEqualToView(_centerButton.imageView)
-    .bottomSpaceToView(_centerButton, 10);
+//    .topSpaceToView(_centerButton.imageView, 10)
+//    .leftEqualToView(_centerButton.imageView)
+    .rightSpaceToView(_centerButton.imageView, 6.0);
+//    .centerXEqualToView(_centerButton);
+    
+    
 }
 
 // 设置一排固定间距自动宽度子view
@@ -90,7 +114,7 @@
     
     
     NSMutableArray *temp = [NSMutableArray new];
-    for (int i = 0; i < count; i++) {
+    for (int i = 0; i < 3; i++) {
         UIView *view = [UIView new];
         view.backgroundColor = [UIColor orangeColor];
         [_autoWidthViewsContainer addSubview:view];
@@ -104,7 +128,7 @@
     .topSpaceToView(_centerButton, 10);
     
     // 此步设置之后_autoWidthViewsContainer的高度可以根据子view自适应
-    [_autoWidthViewsContainer setupAutoWidthFlowItems:[temp copy] withPerRowItemsCount:4 verticalMargin:margin horizontalMargin:margin verticalEdgeInset:5 horizontalEdgeInset:10];
+    [_autoWidthViewsContainer setupAutoWidthFlowItems:[temp copy] withPerRowItemsCount:3 verticalMargin:margin horizontalMargin:margin verticalEdgeInset:5 horizontalEdgeInset:10];
     
 }
 

@@ -48,6 +48,8 @@
     [info setTextAlignment:NSTextAlignmentCenter];
     [self.view addSubview:info];
     
+    
+    
 }
 
 -(void)centralManagerDidUpdateState:(CBCentralManager *)central{

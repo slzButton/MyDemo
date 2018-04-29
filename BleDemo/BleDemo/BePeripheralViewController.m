@@ -15,7 +15,6 @@ static NSString *const notiyCharacteristicUUID =  @"FFF1";
 static NSString *const readwriteCharacteristicUUID =  @"FFF2";
 static NSString *const ServiceUUID2 =  @"FFE0";
 static NSString *const readCharacteristicUUID =  @"FFE1";
-static NSString * const LocalNameKey =  @"myPeripheral";
 
 @implementation BePeripheralViewController{
     CBPeripheralManager *peripheralManager;
@@ -109,7 +108,7 @@ static NSString * const LocalNameKey =  @"myPeripheral";
             //在这里判断蓝牙设别的状态  当开启了则可调用  setUp方法(自定义)
         case CBPeripheralManagerStatePoweredOn:
             NSLog(@"powered on");
-            [info setText:[NSString stringWithFormat:@"设备名%@已经打开，可以使用center进行连接",LocalNameKey]];
+            [info setText:[NSString stringWithFormat:@"设备名%@已经打开，可以使用center进行连接",[[UIDevice currentDevice] name]]];
             [self setUp];
             break;
         case CBPeripheralManagerStatePoweredOff:
@@ -134,7 +133,7 @@ static NSString * const LocalNameKey =  @"myPeripheral";
         //(void)peripheralManagerDidStartAdvertising:(CBPeripheralManager *)peripheral error:(NSError *)error
         [peripheralManager startAdvertising:@{
                                               CBAdvertisementDataServiceUUIDsKey : @[[CBUUID UUIDWithString:ServiceUUID1],[CBUUID UUIDWithString:ServiceUUID2]],
-                                              CBAdvertisementDataLocalNameKey : LocalNameKey
+                                              CBAdvertisementDataLocalNameKey : [[UIDevice currentDevice] name]
                                              }
          ];
         

@@ -767,7 +767,13 @@ Class cellContVClass()
 {
     NSAssert(self.ownLayoutModel, @"请在布局完成之后再做此步设置！");
     if (lineCount > 0) {
-        self.sd_layout.maxHeightIs(self.font.lineHeight * lineCount + 0.1);
+        if (self.isAttributedContent) {
+            NSDictionary *attrs = [self.attributedText attributesAtIndex:0 effectiveRange:nil];
+            NSMutableParagraphStyle *paragraphStyle = attrs[NSParagraphStyleAttributeName];
+            self.sd_layout.maxHeightIs((self.font.lineHeight) * lineCount + paragraphStyle.lineSpacing * (lineCount - 1) + 0.1);
+        } else {
+            self.sd_layout.maxHeightIs(self.font.lineHeight * lineCount + 0.1);
+        }
     } else {
         self.sd_layout.maxHeightIs(MAXFLOAT);
     }
@@ -1324,6 +1330,9 @@ Class cellContVClass()
                     label.height_sd = rect.size.height + 0.1;
                 } else {
                     [label sizeToFit];
+                    if (label.sd_maxWidth && label.width_sd > [label.sd_maxWidth floatValue]) {
+                        label.width_sd = [label.sd_maxWidth floatValue];
+                    }
                 }
             } else {
                 label.height_sd = 0;

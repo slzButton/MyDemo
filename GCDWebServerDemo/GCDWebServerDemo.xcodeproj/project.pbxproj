@@ -309,8 +309,8 @@
 				TargetAttributes = {
 					A463ADEF1E135DB300AA7164 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 8PBPW792K7;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = PR3484TW5B;
+						ProvisioningStyle = Manual;
 					};
 					A463AE081E135DB400AA7164 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -675,12 +675,15 @@
 			baseConfigurationReference = ED51F13F9F1C767136D53B11 /* Pods-GCDWebServerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8PBPW792K7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PR3484TW5B;
 				INFOPLIST_FILE = GCDWebServerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = slzbutton.MyDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cltx.mobile.LinOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e86ff65f-84ca-4920-822e-2903f2d26609";
+				PROVISIONING_PROFILE_SPECIFIER = LinOS_Development;
 			};
 			name = Debug;
 		};
@@ -689,12 +692,14 @@
 			baseConfigurationReference = 5932C0BE8D6F7782FFADDFAE /* Pods-GCDWebServerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8PBPW792K7;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GCDWebServerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = slzbutton.MyDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cltx.mobile.LinOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

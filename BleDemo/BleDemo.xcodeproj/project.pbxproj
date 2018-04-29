@@ -178,6 +178,7 @@
 				TargetAttributes = {
 					F096ED9C1B7C73530015991B = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = GP6QAX9N32;
 						ProvisioningStyle = Manual;
 					};
 					F096EDB51B7C73530015991B = {
@@ -362,12 +363,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = PR3484TW5B;
 				INFOPLIST_FILE = BleDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cltx.mobile.xs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "a75b12c3-4429-4958-86a7-ac0b64f46900";
+				PROVISIONING_PROFILE_SPECIFIER = bqxs_Development;
 			};
 			name = Debug;
 		};
@@ -376,13 +379,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GP6QAX9N32;
 				INFOPLIST_FILE = BleDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.cltx.mobile.xs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "995cdac5-3623-4bd7-b02d-6b34f69f9dbd";
+				PROVISIONING_PROFILE_SPECIFIER = bqxsBusiness;
 			};
 			name = Release;
 		};

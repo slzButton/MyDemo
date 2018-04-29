@@ -98,13 +98,13 @@
     autoWidthlabel.backgroundColor = [[UIColor orangeColor] colorWithAlphaComponent:0.5];
     _autoWidthLabel = autoWidthlabel;
     autoWidthlabel.font = [UIFont systemFontOfSize:12];
-    autoWidthlabel.text = @"宽度自适应(距离父view右边距10)";
+    autoWidthlabel.text = @"1";
     
     [self.view addSubview:autoWidthlabel];
     
     autoWidthlabel.sd_layout
     .rightSpaceToView(self.view, 10)
-    .heightIs(20)
+    .autoHeightRatio(0)
     .bottomSpaceToView(self.view, 50);
     
     [autoWidthlabel setSingleLineAutoResizeWithMaxWidth:180];
@@ -133,6 +133,7 @@
 - (void)setupAutoSizeButton
 {
     UIButton *btn = [UIButton new];
+    [btn addTarget:self action:@selector(text) forControlEvents:UIControlEventTouchUpInside];
     btn.backgroundColor = [UIColor redColor];
     [btn setTitle:@"button根据文字自适应" forState:UIControlStateNormal];
     [self.view addSubview:btn];
@@ -145,7 +146,9 @@
     [btn setupAutoSizeWithHorizontalPadding:10 buttonHeight:25];
 }
 
-
+-(void)text{
+    _autoWidthLabel.text = @"button根据文字自适应button根据文字自适应button根据文字自适应";
+}
 @end
 
 

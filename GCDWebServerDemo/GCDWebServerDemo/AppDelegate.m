@@ -185,6 +185,7 @@ static inline NSString * AFContentTypeForPathExtension(NSString *extension) {
     
     // Start server on port 8080
     [self.webServer startWithOptions:@{GCDWebServerOption_Port:@(8080),GCDWebServerOption_AutomaticallySuspendInBackground:@(NO)} error:nil];
+//    [self.webServer startWithPort:8080 bonjourName:@"webserver"];
     NSLog(@"webServer Visit %@ in your web browser", self.webServer.serverURL);
     
     self.locationManager=[[CLLocationManager alloc]init];
